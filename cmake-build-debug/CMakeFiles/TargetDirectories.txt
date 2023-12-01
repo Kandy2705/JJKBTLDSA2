@@ -1,0 +1,3 @@
+C:/Users/ACER/Desktop/GojoNhaHang/cmake-build-debug/CMakeFiles/GojoNhaHang.dir
+C:/Users/ACER/Desktop/GojoNhaHang/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/ACER/Desktop/GojoNhaHang/cmake-build-debug/CMakeFiles/rebuild_cache.dir
