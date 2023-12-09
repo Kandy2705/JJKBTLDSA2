@@ -1,6 +1,4 @@
-
 #include "main.h"
-
 
 int MAXSIZE = 0;
 
@@ -9,8 +7,7 @@ class nhahangGojo;
 class nhahangSukuna;
 class HuffTree;
 
-
-//* nhà hàng của sư phụ GOJO
+// nhà hàng GOJO
 class nhahangGojo{
 public:
 	class Tree_BST;
@@ -34,8 +31,7 @@ public:
 
 	void print_LIMITLESS(int number)
 	{
-		//* tới khu number kêu nhân viên liệt kê tất cả khách hàng ra
-		if(number <= 0 || number > MAXSIZE) return; //! quá kí tự
+		if(number <= 0 || number > MAXSIZE) return;
 		khu_vuc[number].print();
 	}
 public:
@@ -133,7 +129,6 @@ public:
             return a[sokhachkv(node) - 1][sokhachkv(node -> left)]*DFS(node -> right)*DFS(node -> left);
         }
 
-		//* nhân viên sẽ liệt kê ra các khách hàng gián điệp để dễ dàng đuổi
 		void remove(){
 			if(this->size() == 0 || this->size() == 1) return;
 			unsigned long long canxoa = DFS(vaodaukhuvuc) % MAXSIZE;
@@ -145,24 +140,20 @@ public:
 				canxoa--;
 			}
 		}
-	//^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-	//^hàm in ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-		//* hàm này theo trung thứ tự (in-order) thôi không gì khó hết
 		string print_recursive(Node* node)
 		{
-			if(node == nullptr) return "NULL"; //! trường hợp dừng print
+			if(node == nullptr) return "NULL";
 
 			string left = print_recursive(node->left);
 			solution << node->result << " ";
 			string right = print_recursive(node->right);
 
 
-			if(node->left == nullptr && node->right == nullptr) return to_string(node->result); //! tr
+			if(node->left == nullptr && node->right == nullptr) return to_string(node->result);
 			return to_string(node->result)+"("+left +","+right+")";
 		}
 		void print(){
-			//! trường hợp rỗng bỏ qua
 			if(this->size() == 0){
 				solution << "EMPTY" ;
 				return;
@@ -194,15 +185,14 @@ public:
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-//* nhà hàng su cờ na
+// nhà hàng sukuna
 class nhahangSukuna{
     class Node;
 private:
-    vector<Node* > luutrukhuvuc;  //! nơi lưu trữ các khu vực
-    list<Node* > LRU; 		  //!  Least Recently Used này là cơ chế khu vực nào có khác vào nhà hàng lâu nhất
+    vector<Node* > luutrukhuvuc;
+    list<Node* > LRU;
 private:
 
-    //* hàm gợi ý của anh thôi dùng hay không thì tùy các bạn nha -> nên suy nghĩ khác
     int vitri(Node* index){
         int i = 0;
         for (list<Node*>::iterator it = LRU.begin(); it != LRU.end(); ++it) {
@@ -213,10 +203,6 @@ private:
         }
         return i;
     }
-//    bool Compere(int index1, int index2)
-//    {
-//
-//    }
 
     void ReHeap_down(int index)
     {
@@ -247,10 +233,6 @@ private:
 
     void ReHeap_up(int index)
     {
-        //TODO: với giá trị xét là luutrukhuvuc[index].size()
-        //TODO: này là min heap nên luutrukhuvuc[index].size() nào bé hơn thì ở trên
-        //TODO: nếu 2 thằng bằng nhau thì chọn ra khu nào có khác vào gần nhất
-        //TODO: này xử lí tương tự reheap_down
         int cha = (index - 1) / 2;
         if(index == 0 || (luutrukhuvuc[index] -> size() > luutrukhuvuc[cha] -> size()) ||
            (luutrukhuvuc[index] -> size() == luutrukhuvuc[cha] -> size() && vitri(luutrukhuvuc[index]) < vitri(luutrukhuvuc[cha]))) {
@@ -260,14 +242,12 @@ private:
         ReHeap_up(cha);
     }
 
-    //* nếu node chưa tồn tại trong LRU thì thêm vô nếu tồn tại thì dịch nó lên đầu danh sách
     void moveTop(Node* node)
     {
         LRU.remove(node);
         LRU.push_front(node);
     }
 
-    //* xóa một node ra khỏi danh sách liên kết không gần gọi delete nha vì đã dùng bên dưới hàm xóa
     void removeNode(Node* node)
     {
         //TODO:
@@ -279,7 +259,6 @@ public:
     void insertluutrukhuvuc(int result)
     {
         int ID = result % MAXSIZE + 1;
-        //*bước 1: kiểm tra xem heap có đang quản lí khu ID hay không nếu chưa quản lí thì phải thêm ở bước sau
         int index = -1;
         //TODO TODO TODO TODO TODO bước 1
         for(int i = 0; i < luutrukhuvuc.size(); i++){
@@ -289,7 +268,6 @@ public:
             }
         }
 
-        //*bước 2: xem thử có khu này trong heap chưa để thêm vô
         if(index == -1){
             luutrukhuvuc.push_back(new Node(ID));
             index = luutrukhuvuc.size() - 1;
@@ -297,7 +275,6 @@ public:
             this->moveTop(luutrukhuvuc[index]);
             this->ReHeap_up(index);
         }
-            //*bước 3: thêm khách hàng mới vào khu khách hàng muốn thêm vào và tiến hàn reheap down bàn này xuống vì có số khách đông hơn
         else
         {
             luutrukhuvuc[index]->insert(result);
@@ -310,30 +287,25 @@ public:
     {
         if(luutrukhuvuc.size() <= 0) return;
 
-        //* đuổi num khách hàng tại num khu vực
         int numberRemove = number;
         while(luutrukhuvuc.size() != 0 && number != 0){
-            //* lấy ra khu đang ở đầu đầu heap xóa number khách hàng đầu linklist
             solution << "remove customers in the area ID = " << luutrukhuvuc[0]->ID << ": ";
             luutrukhuvuc[0]->remove(numberRemove);
             solution << "\n";
 
-            //* trường hợp xóa hết thì xóa nó trong heap sau đó reheap down khu xuống vì đang ở đầu hàng
             if(luutrukhuvuc[0]->size() == 0)
             {
                 swap(luutrukhuvuc[0], luutrukhuvuc[luutrukhuvuc.size() - 1]);
-                //! xóa nó khỏi danh sách liên kết
                 this->removeNode(luutrukhuvuc[luutrukhuvuc.size() - 1]);
                 delete luutrukhuvuc[luutrukhuvuc.size() - 1];
 
-                //! xóa trong heap nữa
                 luutrukhuvuc.pop_back();
             }
             this->ReHeap_down(0);
             number --;
         }
     }
-//^hàm in ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
     void print_pre_order(int index, int number)
     {
         if(index >= this->luutrukhuvuc.size()) return;
@@ -369,30 +341,24 @@ public:
 
         print_pre_order(0, number);
     }
-//^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 private:
     class Node{
     private:
-        int ID;					//! ID của bàn đó
-        list<int> head; 		//! lưu danh sách các result của khách hàng
+        int ID;
+        list<int> head;
         friend class nhahangSukuna;
     public:
         Node(int ID) : ID(ID) {}
         int size() const { return head.size(); }
-        //* thêm vô đầu danh sách
         void insert(int result){head.push_front(result);}
-        //* xóa ở cuối với số lượng là number cơ chế FIFO vô sớm thì cút sớm
         void remove(int number)
         {
-            //TODO: xóa number khác hàng ở cuối danh sách tương ứng với vô sớm nhất
-            //^ gợi ý dùng hàm của linklist có sẵn
-            //* thêm solution << head.back() << " "; để in ra
             for(int i = 0; i < number && !head.empty(); ++i){
                 solution << head.back() << " ";
                 head.pop_back();
             }
         }
-        //* print ra number khách hàng mới đến gần nhất theo cơ chế LIFO các khách hàng gần nhất
         void print(int number)
         {
             solution << "customers in the area ID = " << ID << ": ";
@@ -402,9 +368,7 @@ private:
             }
             solution << "\n";
         }
-
     };
-
 };
 
 class HuffTree{
@@ -429,13 +393,8 @@ public:
             return kieuchu(static_cast<int>(a.first)) == true ? true : false;
         }
     }
-//* đầu vào là 1 chuỗi -> đầu ra chuỗi name đã được mã hóa Caesar và trả về danh sách freq có thứ tự giảm dần
     vector<pair<char, int>> string_Processing(string& name)
     {
-        //* bước 1: liệt kê tuần suất xuất hiện của các kí tự riêng biệt trong tên của khách hàng (phân biệt hoa và thường)
-        //* tạo thành một danh sách theo vị trí của các kí tự vào trước và vào sau
-        //! VD : name = "aDdbaaabbb" -> kết quả bước này: freq_prev = [{a, 4}, {D,1}, {d,1}, {b,4}]
-        //TODO
         int tmp[123] = {0};
         vector<pair<char, int>>ketqua;
 
@@ -447,11 +406,6 @@ public:
                 ketqua.emplace_back(static_cast<char>(i),tmp[i]);
             }
         }
-
-        //* bước 2: mã hóa Caesar chuỗi name thành chuỗi mới và mã hóa luôn freq_prev
-        //! VD : name = "aDdbaaabbb", freq_prev = [{a, 4}, {D,1}, {d,1}, {b,4}]
-        //! kq : name = "eEefeeefff", freq_prev = [{e,4}, {E,1}, {e,1}, {f,4}]
-        //TODO
         vector<pair<char, int>>temp = ketqua;
         for(int i = 0; i < ketqua.size(); i++){
             for(int j = ketqua[i].second; j > 0 ; j--){
@@ -474,10 +428,6 @@ public:
                 }
             }
         }
-        //* bước 3: công dồn freq_prev với các kí tự giống nhau sau khi mã hóa
-        //^ chú ý cộng dồn lên phái đầu ví dụ dưới 'e' có 2 chỗ nên ta chọn đầu vector để giữ lại
-        //! vd freq_prev = [{e,4}, {E,1}, {e,1}, {f,4}] -> kq:  freq = [{e,5}, {E,1}, {f,4}]
-        //TODO
         vector<pair<char, int>> freq;
         for (int i = 0; i < ketqua.size(); ++i) {
             if (ketqua[i].second > 0) {
@@ -491,9 +441,6 @@ public:
                 freq.emplace_back(ketqua[i].first, tong);
             }
         }
-        //* bước 4: sort chuỗi freq mới tìm được phía trên theo chiều giảm dần
-        //^ chú ý nếu tuần suất hiện bằng nhau thì kí tự nào lớn hơn thì lớn hơn, kí tự hoa lớn hơn kí tự thường
-        //TODO
         if (freq.size() > 1){
             sort(freq.begin(), freq.end(),cachxep);
         }
@@ -546,7 +493,6 @@ public:
     }
     Node* balanceNode(Node* node, int& count)
     {
-        //TODO
         if (node == NULL) return NULL;
         int balance = taobalance(node);
         //LL
@@ -587,8 +533,6 @@ public:
     }
     Node* buildHuff(vector<pair<char, int>> freq)
     {
-        //* bước 1 : chuyển freq thành build theo thứ tự 0 -> n
-        //TODO: này không làm được đăng kí môn đi nha
         vector<Node*> build;
         for(int i = 0; i < freq.size(); i++){
             build.emplace_back(new Node(freq[i].second,freq[i].first));
@@ -596,18 +540,13 @@ public:
 
         while(build.size() > 1)
         {
-            //TODO: lấy ra node nhỏ nhất thứ nhất và nhỏ nhất thứ 2 (phần tử cuối vector)
             int count = 0;
             Node*nhoI = build.back();
             build.pop_back();
             Node*nhoII = build.back();
             build.pop_back();
-            //TODO: tạo ra node nới có con bên trái là node nhỏ nhất và bên phải là node nhỏ nhất thứ 2 -> cập nhật weight, height của node mới
             Node*newNode = new Node(nhoI->weight + nhoII->weight,'\0',nhoI,nhoII);
-            //^ chú ý : cập nhật height, weight
 //        Node* newNode = nullptr;
-            //TODO: đưa node mới vào trong vector -> đảm bảo vector luôn giảm dần như ban đầu
-            //^ chú ý nếu bằng nhau thì xem như node mới luôn lớn hơn các node bằng giá trị weight -> ý là xếp nó gần head hơn
             newNode = balanceTree(newNode,count);
             if (build.size() != 0){
                 int vitri = build.size();
@@ -631,8 +570,6 @@ public:
 
         return build[0];
     }
-    //* TIẾN HÀNH đệ quy để lấy ra ra kết quả encoding
-    //^ chú ý: cứ node bên trái thì mã hóa là '0', node bên phải mã hóa là '1'.
     void encodingHuffman_rec(vector<string>& encoding, Node* node, string s = "")
     {
         //TODO
@@ -643,7 +580,6 @@ public:
         encodingHuffman_rec(encoding,node -> left, s + '0');
         encodingHuffman_rec(encoding,node -> right, s + '1');
     }
-    //* đầu vào là 1 cây và name đã được mã hóa Caesar -> đầu ra là result kết quả cần tìm.
     int encodingHuffman(Node * root,string nameCaesar)
     {
         if(root->left == nullptr && root->right == nullptr) return 0;
@@ -675,8 +611,6 @@ public:
     int encode(string name){
 
         if(name.length() < 3) return -1;
-
-        //* bước 1 xử lí chuỗi thu được list để tới phần sau
         vector<pair<char, int>> freq = this->string_Processing(name);
         solution << "freq     : {";
         for (int i = 0; i <freq.size();i++){
@@ -684,14 +618,11 @@ public:
             else  solution << "{" <<"'"<< freq[i].first <<"'" << "," << freq[i].second << "},";
         }
         solution << "}"<<endl;
-        //* bước 2 xây dựng cây huff
         root = this->buildHuff(freq);
 
         if(root->left == nullptr && root->right == nullptr) return 0; //! trường hợp chỉ có 1 node
         this->print();
 
-
-        //* bước 3 mã hóa.
         solution << "name   = " << name << endl;
         int result = this->encodingHuffman(root ,name);
         solution << "result = " << result << endl;
@@ -717,8 +648,6 @@ public:
 
     void print()
     {
-        //* print theo chiều rộng anh có hướng dẫn rồi queue
-        //* khi in chuyển từ cout << "char-freq/n" thành solution << "char-freq/n" cho anh dễ test
         solution << "root : ";
         rec_print(root);
         solution << '\n';
@@ -749,19 +678,18 @@ public:
 
     void LAPSE(string name)
     {
-        //* mã hóa HuffTree kết quả là 10 kí tự nhị phân cuối chuyển sang thập phân
         int result = New_customers_arrive.encode(name);
         return;
     }
 
-    //* xử lí nhà hàng gojo
+    // xử lí nhà hàng gojo
     void KOKUSEN(){}
     void LIMITLESS(int num){}
 
-    //* xử lí nhà hàng Sukuna
+    // xử lí nhà hàng Sukuna
     void KEITEIKEN(int num){}
     void CLEAVE(int num){}
 
-    //* xử lý HuffTree
+    // xử lý HuffTree
     void HAND(){New_customers_arrive.print();}
 };
