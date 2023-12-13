@@ -1,944 +1,1273 @@
-LAPSE: LINE 1
-list : {4:2} -> {1:1} -> 
-LAPSE: LINE 2
-list : {7:1} -> {5:1} -> {4:1} -> 
-LAPSE: LINE 3
-list : {7:1} -> {5:1} -> {3:1} -> 
-LAPSE: LINE 4
-list : {4:2} -> {9:1} -> 
-LAPSE: LINE 5
-list : {7:1} -> {5:1} -> {4:1} -> 
-LAPSE: LINE 6
-list : {4:2} -> {7:1} -> 
-LAPSE: LINE 7
-list : {9:1} -> {4:1} -> {2:1} -> 
-LAPSE: LINE 8
-LAPSE: LINE 9
-list : {4:2} -> {2:1} -> 
-LAPSE: LINE 10
-LAPSE: LINE 11
-LAPSE: LINE 12
-LAPSE: LINE 13
-list : {9:1} -> {4:1} -> {1:1} -> 
-LAPSE: LINE 14
-list : {9:1} -> {4:1} -> {2:1} -> 
-LAPSE: LINE 15
-list : {4:2} -> {5:1} -> 
-LAPSE: LINE 16
-LAPSE: LINE 17
-list : {4:1} -> {3:1} -> {2:1} -> 
-LAPSE: LINE 18
-list : {4:3} -> 
-LAPSE: LINE 19
-LAPSE: LINE 20
-list : {7:1} -> {6:1} -> {2:1} -> 
-LAPSE: LINE 21
-list : {7:1} -> {4:1} -> {3:1} -> 
-LAPSE: LINE 22
-list : {5:1} -> {2:1} -> {1:1} -> 
-LAPSE: LINE 23
-list : {::1} -> {2:1} -> {1:1} -> 
-LAPSE: LINE 24
-list : {9:1} -> {5:1} -> {1:1} -> 
-LAPSE: LINE 25
-list : {5:1} -> {4:1} -> {2:1} -> 
-LAPSE: LINE 26
-list : {5:1} -> {4:1} -> {3:1} -> 
-LAPSE: LINE 27
-list : {9:1} -> {7:1} -> {3:1} -> 
-LAPSE: LINE 28
-list : {8:1} -> {5:1} -> {3:1} -> 
-LAPSE: LINE 29
-list : {8:2} -> {2:1} -> 
-LAPSE: LINE 30
-list : {9:1} -> {2:1} -> {1:1} -> 
-LAPSE: LINE 31
-list : {9:1} -> {6:1} -> {2:1} -> 
-LAPSE: LINE 32
-list : {::2} -> {3:1} -> 
-LAPSE: LINE 33
-list : {6:2} -> {::1} -> 
-LAPSE: LINE 34
-list : {9:1} -> {5:1} -> {1:1} -> 
-LAPSE: LINE 35
-list : {3:1} -> {2:1} -> {1:1} -> 
-LAPSE: LINE 36
-LAPSE: LINE 37
-list : {4:2} -> {9:1} -> 
-LAPSE: LINE 38
-list : {::1} -> {9:1} -> {5:1} -> 
-LAPSE: LINE 39
-list : {8:1} -> {4:1} -> {3:1} -> 
-LAPSE: LINE 40
-list : {5:3} -> 
-LAPSE: LINE 41
-list : {4:2} -> {5:1} -> 
-LAPSE: LINE 42
-list : {::1} -> {9:1} -> {2:1} -> 
-LAPSE: LINE 43
-list : {6:2} -> {3:1} -> 
-LAPSE: LINE 44
-LAPSE: LINE 45
-list : {4:2} -> {5:1} -> 
-LAPSE: LINE 46
-LAPSE: LINE 47
-LAPSE: LINE 48
-list : {3:2} -> {1:1} -> 
-LAPSE: LINE 49
-LAPSE: LINE 50
-list : {9:1} -> {5:1} -> {4:1} -> 
-LAPSE: LINE 51
-list : {9:1} -> {2:1} -> {1:1} -> 
-LAPSE: LINE 52
-list : {8:1} -> {5:1} -> {3:1} -> 
-LAPSE: LINE 53
-list : {5:1} -> {4:1} -> {2:1} -> 
-LAPSE: LINE 54
-LAPSE: LINE 55
-list : {5:1} -> {3:1} -> {2:1} -> 
-LAPSE: LINE 56
-LAPSE: LINE 57
-list : {9:1} -> {2:1} -> {1:1} -> 
-LAPSE: LINE 58
-list : {9:1} -> {5:1} -> {2:1} -> 
-LAPSE: LINE 59
-list : {5:1} -> {3:1} -> {1:1} -> 
-LAPSE: LINE 60
-list : {8:1} -> {7:1} -> {2:1} -> 
-LAPSE: LINE 61
-list : {4:1} -> {3:1} -> {1:1} -> 
-LAPSE: LINE 62
-list : {4:1} -> {3:1} -> {1:1} -> 
-LAPSE: LINE 63
-list : {9:1} -> {7:1} -> {3:1} -> 
-LAPSE: LINE 64
-LAPSE: LINE 65
-list : {4:2} -> {2:1} -> 
-LAPSE: LINE 66
-list : {9:1} -> {5:1} -> {3:1} -> 
-LAPSE: LINE 67
-list : {9:1} -> {4:1} -> {3:1} -> 
-LAPSE: LINE 68
-list : {8:1} -> {4:1} -> {3:1} -> 
-LAPSE: LINE 69
-LAPSE: LINE 70
-list : {7:1} -> {4:1} -> {1:1} -> 
-LAPSE: LINE 71
-list : {2:2} -> {3:1} -> 
-LAPSE: LINE 72
-list : {6:1} -> {4:1} -> {1:1} -> 
-LAPSE: LINE 73
-list : {4:1} -> {2:1} -> {1:1} -> 
-LAPSE: LINE 74
-list : {7:1} -> {2:1} -> {1:1} -> 
-LAPSE: LINE 75
-LAPSE: LINE 76
-list : {2:2} -> {5:1} -> 
-LAPSE: LINE 77
-list : {6:1} -> {3:1} -> {2:1} -> 
-LAPSE: LINE 78
-list : {9:1} -> {4:1} -> {3:1} -> 
-LAPSE: LINE 79
-list : {9:1} -> {5:1} -> {4:1} -> 
-LAPSE: LINE 80
-list : {9:1} -> {5:1} -> {1:1} -> 
-LAPSE: LINE 81
-list : {9:1} -> {2:1} -> {1:1} -> 
-LAPSE: LINE 82
-LAPSE: LINE 83
-list : {4:1} -> {3:1} -> {1:1} -> 
-LAPSE: LINE 84
-list : {9:1} -> {5:1} -> {4:1} -> 
-LAPSE: LINE 85
-list : {9:1} -> {5:1} -> {3:1} -> 
-LAPSE: LINE 86
-LAPSE: LINE 87
-LAPSE: LINE 88
-list : {9:1} -> {8:1} -> {3:1} -> 
-LAPSE: LINE 89
-list : {::2} -> {2:1} -> 
-LAPSE: LINE 90
-list : {4:1} -> {2:1} -> {1:1} -> 
-LAPSE: LINE 91
-list : {9:1} -> {5:1} -> {3:1} -> 
-LAPSE: LINE 92
-LAPSE: LINE 93
-list : {5:1} -> {4:1} -> {1:1} -> 
-LAPSE: LINE 94
-list : {8:1} -> {4:1} -> {1:1} -> 
-LAPSE: LINE 95
-list : {9:1} -> {4:1} -> {1:1} -> 
-LAPSE: LINE 96
-LAPSE: LINE 97
-list : {6:3} -> 
-LAPSE: LINE 98
-list : {8:1} -> {5:1} -> {4:1} -> 
-LAPSE: LINE 99
-list : {9:1} -> {5:1} -> {2:1} -> 
-LAPSE: LINE 100
-list : {5:2} -> {1:1} -> 
-LAPSE: LINE 101
-list : {::1} -> {2:1} -> {1:1} -> 
-LAPSE: LINE 102
-list : {7:1} -> {4:1} -> {2:1} -> 
-LAPSE: LINE 103
-list : {9:1} -> {5:1} -> {3:1} -> 
-LAPSE: LINE 104
-LAPSE: LINE 105
-list : {6:1} -> {5:1} -> {1:1} -> 
-LAPSE: LINE 106
-list : {5:1} -> {3:1} -> {1:1} -> 
-LAPSE: LINE 107
-LAPSE: LINE 108
-list : {6:2} -> {9:1} -> 
-LAPSE: LINE 109
-LAPSE: LINE 110
-list : {9:1} -> {7:1} -> {2:1} -> 
-LAPSE: LINE 111
-list : {::1} -> {7:1} -> {5:1} -> 
-LAPSE: LINE 112
-list : {7:3} -> 
-LAPSE: LINE 113
-LAPSE: LINE 114
-list : {7:1} -> {4:1} -> {3:1} -> 
-LAPSE: LINE 115
-list : {7:1} -> {5:1} -> {3:1} -> 
-LAPSE: LINE 116
-LAPSE: LINE 117
-LAPSE: LINE 118
-LAPSE: LINE 119
-list : {6:2} -> {3:1} -> 
-LAPSE: LINE 120
-list : {::1} -> {5:1} -> {2:1} -> 
-LAPSE: LINE 121
-LAPSE: LINE 122
-list : {9:1} -> {7:1} -> {4:1} -> 
-LAPSE: LINE 123
-list : {9:1} -> {5:1} -> {2:1} -> 
-LAPSE: LINE 124
-list : {4:2} -> {2:1} -> 
-LAPSE: LINE 125
-list : {9:1} -> {7:1} -> {3:1} -> 
-LAPSE: LINE 126
-list : {6:2} -> {1:1} -> 
-LAPSE: LINE 127
-list : {7:1} -> {5:1} -> {4:1} -> 
-LAPSE: LINE 128
-LAPSE: LINE 129
-list : {5:3} -> 
-LAPSE: LINE 130
-LAPSE: LINE 131
-list : {9:1} -> {8:1} -> {2:1} -> 
-LAPSE: LINE 132
-list : {4:3} -> 
-LAPSE: LINE 133
-LAPSE: LINE 134
-list : {6:2} -> {8:1} -> 
-CLEAVE 2 : LINE 135
-
-KEITEIKEN 2 : LINE 136
-
-CLEAVE 1 : LINE 137
-
-LAPSE: LINE 138
-list : {8:1} -> {3:1} -> {2:1} -> 
-LAPSE: LINE 139
-list : {8:1} -> {7:1} -> {5:1} -> 
-LAPSE: LINE 140
-LAPSE: LINE 141
-list : {5:1} -> {4:1} -> {2:1} -> 
-LAPSE: LINE 142
-list : {4:1} -> {3:1} -> {1:1} -> 
-LAPSE: LINE 143
-LAPSE: LINE 144
-LAPSE: LINE 145
-LAPSE: LINE 146
-list : {5:1} -> {4:1} -> {1:1} -> 
-LAPSE: LINE 147
-list : {5:1} -> {4:1} -> {1:1} -> 
-LAPSE: LINE 148
-list : {7:3} -> 
-LAPSE: LINE 149
-list : {9:1} -> {7:1} -> {5:1} -> 
-LAPSE: LINE 150
-list : {4:1} -> {3:1} -> {2:1} -> 
-LAPSE: LINE 151
-LAPSE: LINE 152
-list : {4:2} -> {5:1} -> 
-LAPSE: LINE 153
-list : {3:2} -> {7:1} -> 
-LAPSE: LINE 154
-LAPSE: LINE 155
-LAPSE: LINE 156
-LAPSE: LINE 157
-list : {9:1} -> {8:1} -> {4:1} -> 
-LAPSE: LINE 158
-list : {::1} -> {5:1} -> {4:1} -> 
-LAPSE: LINE 159
-list : {8:2} -> {3:1} -> 
-LAPSE: LINE 160
-list : {9:1} -> {3:1} -> {2:1} -> 
-LAPSE: LINE 161
-list : {7:1} -> {3:1} -> {2:1} -> 
-LAPSE: LINE 162
-list : {::1} -> {5:1} -> {3:1} -> 
-LAPSE: LINE 163
-LAPSE: LINE 164
-LAPSE: LINE 165
-list : {::1} -> {7:1} -> {5:1} -> 
-LAPSE: LINE 166
-list : {8:1} -> {5:1} -> {1:1} -> 
-LAPSE: LINE 167
-list : {2:2} -> {4:1} -> 
-LAPSE: LINE 168
-list : {4:2} -> {::1} -> 
-LAPSE: LINE 169
-list : {9:1} -> {7:1} -> {4:1} -> 
-LAPSE: LINE 170
-list : {5:1} -> {3:1} -> {2:1} -> 
-LAPSE: LINE 171
-LAPSE: LINE 172
-LAPSE: LINE 173
-list : {4:2} -> {6:1} -> 
-LAPSE: LINE 174
-list : {7:1} -> {3:1} -> {2:1} -> 
-LAPSE: LINE 175
-list : {4:2} -> {1:1} -> 
-LAPSE: LINE 176
-list : {4:2} -> {5:1} -> 
-LAPSE: LINE 177
-list : {::1} -> {7:1} -> {5:1} -> 
-LAPSE: LINE 178
-list : {7:3} -> 
-LAPSE: LINE 179
-list : {9:1} -> {8:1} -> {5:1} -> 
-LAPSE: LINE 180
-list : {4:2} -> {5:1} -> 
-LAPSE: LINE 181
-list : {7:1} -> {4:1} -> {2:1} -> 
-LAPSE: LINE 182
-list : {::2} -> {5:1} -> 
-LAPSE: LINE 183
-list : {3:1} -> {2:1} -> {1:1} -> 
-LAPSE: LINE 184
-list : {4:1} -> {3:1} -> {2:1} -> 
-LAPSE: LINE 185
-list : {4:2} -> {7:1} -> 
-LAPSE: LINE 186
-list : {8:2} -> {4:1} -> 
-LAPSE: LINE 187
-list : {5:1} -> {3:1} -> {1:1} -> 
-LAPSE: LINE 188
-list : {9:1} -> {5:1} -> {4:1} -> 
-LAPSE: LINE 189
-list : {8:1} -> {2:1} -> {1:1} -> 
-LAPSE: LINE 190
-LAPSE: LINE 191
-list : {9:1} -> {7:1} -> {4:1} -> 
-LAPSE: LINE 192
-list : {7:1} -> {3:1} -> {2:1} -> 
-LAPSE: LINE 193
-LAPSE: LINE 194
-list : {7:1} -> {4:1} -> {3:1} -> 
-LAPSE: LINE 195
-list : {8:1} -> {5:1} -> {1:1} -> 
-LAPSE: LINE 196
-list : {9:1} -> {8:1} -> {4:1} -> 
-CLEAVE 10 : LINE 197
-
-KEITEIKEN 50 : LINE 198
-
-CLEAVE 10 : LINE 199
-
-LAPSE: LINE 200
-list : {6:2} -> {4:1} -> 
-LAPSE: LINE 201
-list : {9:1} -> {5:1} -> {3:1} -> 
-LAPSE: LINE 202
-list : {4:2} -> {2:1} -> 
-LAPSE: LINE 203
-list : {5:1} -> {4:1} -> {2:1} -> 
-LAPSE: LINE 204
-list : {4:2} -> {1:1} -> 
-LAPSE: LINE 205
-list : {4:2} -> {2:1} -> 
-LAPSE: LINE 206
-list : {5:1} -> {4:1} -> {3:1} -> 
-LAPSE: LINE 207
-list : {::1} -> {5:1} -> {3:1} -> 
-LAPSE: LINE 208
-list : {9:1} -> {6:1} -> {2:1} -> 
-LAPSE: LINE 209
-list : {3:1} -> {2:1} -> {1:1} -> 
-LAPSE: LINE 210
-list : {4:1} -> {3:1} -> {2:1} -> 
-LAPSE: LINE 211
-list : {4:2} -> {8:1} -> 
-CLEAVE 2 : LINE 212
-
-KEITEIKEN 50 : LINE 213
-
-CLEAVE 10 : LINE 214
-
-LAPSE: LINE 215
-list : {9:1} -> {5:1} -> {4:1} -> 
-LAPSE: LINE 216
-LAPSE: LINE 217
-list : {4:2} -> {1:1} -> 
-LAPSE: LINE 218
-list : {7:1} -> {4:1} -> {3:1} -> 
-LAPSE: LINE 219
-list : {4:2} -> {5:1} -> 
-LAPSE: LINE 220
-list : {5:1} -> {4:1} -> {2:1} -> 
-LAPSE: LINE 221
-list : {7:1} -> {5:1} -> {4:1} -> 
-LAPSE: LINE 222
-list : {9:1} -> {4:1} -> {3:1} -> 
-LAPSE: LINE 223
-LAPSE: LINE 224
-LAPSE: LINE 225
-list : {4:1} -> {3:1} -> {1:1} -> 
-LAPSE: LINE 226
-list : {9:1} -> {2:1} -> {1:1} -> 
-LAPSE: LINE 227
-list : {::2} -> {4:1} -> 
-LAPSE: LINE 228
-list : {4:2} -> {2:1} -> 
-CLEAVE 10 : LINE 229
-
-KEITEIKEN 50 : LINE 230
-
-CLEAVE 10 : LINE 231
-
-LAPSE: LINE 232
-LAPSE: LINE 233
-LAPSE: LINE 234
-list : {5:1} -> {4:1} -> {1:1} -> 
-LAPSE: LINE 235
-list : {4:3} -> 
-LAPSE: LINE 236
-list : {8:1} -> {4:1} -> {3:1} -> 
-LAPSE: LINE 237
-list : {7:1} -> {3:1} -> {2:1} -> 
-LAPSE: LINE 238
-list : {7:1} -> {5:1} -> {1:1} -> 
-LAPSE: LINE 239
-list : {9:1} -> {5:1} -> {1:1} -> 
-LAPSE: LINE 240
-list : {9:1} -> {8:1} -> {5:1} -> 
-LAPSE: LINE 241
-list : {::2} -> {3:1} -> 
-LAPSE: LINE 242
-list : {3:2} -> {7:1} -> 
-LAPSE: LINE 243
-LAPSE: LINE 244
-list : {5:3} -> 
-LAPSE: LINE 245
-list : {7:1} -> {5:1} -> {4:1} -> 
-LAPSE: LINE 246
-list : {6:2} -> {9:1} -> 
-LAPSE: LINE 247
-list : {9:1} -> {5:1} -> {1:1} -> 
-LAPSE: LINE 248
-list : {7:1} -> {4:1} -> {2:1} -> 
-LAPSE: LINE 249
-LAPSE: LINE 250
-LAPSE: LINE 251
-list : {7:1} -> {6:1} -> {3:1} -> 
-LAPSE: LINE 252
-LAPSE: LINE 253
-list : {8:1} -> {5:1} -> {2:1} -> 
-LAPSE: LINE 254
-list : {9:1} -> {8:1} -> {5:1} -> 
-LAPSE: LINE 255
-list : {7:1} -> {5:1} -> {3:1} -> 
-LAPSE: LINE 256
-list : {9:1} -> {4:1} -> {1:1} -> 
-LAPSE: LINE 257
-LAPSE: LINE 258
-list : {5:2} -> {7:1} -> 
-LAPSE: LINE 259
-list : {5:1} -> {3:1} -> {1:1} -> 
-LAPSE: LINE 260
-list : {7:1} -> {4:1} -> {1:1} -> 
-LAPSE: LINE 261
-list : {9:1} -> {6:1} -> {5:1} -> 
-LAPSE: LINE 262
-LAPSE: LINE 263
-list : {6:1} -> {3:1} -> {1:1} -> 
-LAPSE: LINE 264
-LAPSE: LINE 265
-list : {7:1} -> {3:1} -> {2:1} -> 
-LAPSE: LINE 266
-LAPSE: LINE 267
-list : {7:1} -> {5:1} -> {4:1} -> 
-LAPSE: LINE 268
-LAPSE: LINE 269
-list : {9:1} -> {4:1} -> {1:1} -> 
-LAPSE: LINE 270
-list : {4:2} -> {5:1} -> 
-LAPSE: LINE 271
-list : {::1} -> {2:1} -> {1:1} -> 
-LAPSE: LINE 272
-LAPSE: LINE 273
-list : {4:2} -> {1:1} -> 
-CLEAVE 2 : LINE 274
-
-KEITEIKEN 50 : LINE 275
-
-CLEAVE 1 : LINE 276
-
-LAPSE: LINE 277
-list : {::1} -> {5:1} -> {1:1} -> 
-LAPSE: LINE 278
-list : {6:2} -> {7:1} -> 
-LAPSE: LINE 279
-list : {9:1} -> {8:1} -> {5:1} -> 
-LAPSE: LINE 280
-list : {3:2} -> {5:1} -> 
-LAPSE: LINE 281
-list : {7:1} -> {2:1} -> {1:1} -> 
-LAPSE: LINE 282
-list : {7:1} -> {6:1} -> {2:1} -> 
-LAPSE: LINE 283
-list : {6:2} -> {4:1} -> 
-LAPSE: LINE 284
-list : {8:1} -> {4:1} -> {1:1} -> 
-LAPSE: LINE 285
-list : {7:1} -> {4:1} -> {3:1} -> 
-LAPSE: LINE 286
-list : {8:1} -> {5:1} -> {3:1} -> 
-CLEAVE 10 : LINE 287
-
-KEITEIKEN 2 : LINE 288
-
-CLEAVE 10 : LINE 289
-
-LAPSE: LINE 290
-LAPSE: LINE 291
-list : {9:1} -> {3:1} -> {1:1} -> 
-LAPSE: LINE 292
-list : {::1} -> {7:1} -> {3:1} -> 
-LAPSE: LINE 293
-list : {6:2} -> {3:1} -> 
-LAPSE: LINE 294
-list : {5:2} -> {7:1} -> 
-LAPSE: LINE 295
-list : {7:1} -> {5:1} -> {3:1} -> 
-LAPSE: LINE 296
-list : {8:1} -> {4:1} -> {1:1} -> 
-LAPSE: LINE 297
-list : {3:2} -> {9:1} -> 
-LAPSE: LINE 298
-LAPSE: LINE 299
-list : {::2} -> {5:1} -> 
-LAPSE: LINE 300
-list : {6:2} -> {9:1} -> 
-LAPSE: LINE 301
-list : {9:1} -> {5:1} -> {3:1} -> 
-LAPSE: LINE 302
-list : {4:1} -> {2:1} -> {1:1} -> 
-LAPSE: LINE 303
-list : {9:1} -> {4:1} -> {2:1} -> 
-LAPSE: LINE 304
-list : {7:1} -> {5:1} -> {4:1} -> 
-LAPSE: LINE 305
-list : {7:1} -> {6:1} -> {3:1} -> 
-LAPSE: LINE 306
-list : {4:2} -> {5:1} -> 
-LAPSE: LINE 307
-list : {9:1} -> {7:1} -> {2:1} -> 
-LAPSE: LINE 308
-list : {7:1} -> {3:1} -> {2:1} -> 
-LAPSE: LINE 309
-list : {::2} -> {4:1} -> 
-LAPSE: LINE 310
-list : {9:1} -> {6:1} -> {2:1} -> 
-LAPSE: LINE 311
-list : {5:2} -> {9:1} -> 
-LAPSE: LINE 312
-list : {5:1} -> {3:1} -> {2:1} -> 
-LAPSE: LINE 313
-list : {3:1} -> {2:1} -> {1:1} -> 
-LAPSE: LINE 314
-list : {::1} -> {9:1} -> {5:1} -> 
-LAPSE: LINE 315
-list : {::1} -> {9:1} -> {2:1} -> 
-LAPSE: LINE 316
-list : {4:1} -> {3:1} -> {1:1} -> 
-LAPSE: LINE 317
-list : {8:1} -> {3:1} -> {1:1} -> 
-LAPSE: LINE 318
-list : {9:1} -> {5:1} -> {3:1} -> 
-LAPSE: LINE 319
-list : {4:1} -> {3:1} -> {1:1} -> 
-LAPSE: LINE 320
-list : {6:1} -> {5:1} -> {2:1} -> 
-LAPSE: LINE 321
-list : {7:1} -> {4:1} -> {1:1} -> 
-LAPSE: LINE 322
-list : {8:1} -> {5:1} -> {4:1} -> 
-LAPSE: LINE 323
-list : {5:1} -> {2:1} -> {1:1} -> 
-LAPSE: LINE 324
-list : {8:2} -> {5:1} -> 
-LAPSE: LINE 325
-list : {7:1} -> {4:1} -> {1:1} -> 
-LAPSE: LINE 326
-LAPSE: LINE 327
-list : {9:1} -> {5:1} -> {4:1} -> 
-CLEAVE 10 : LINE 328
-
-KEITEIKEN 50 : LINE 329
-
-CLEAVE 1 : LINE 330
-
-LAPSE: LINE 331
-list : {5:3} -> 
-LAPSE: LINE 332
-LAPSE: LINE 333
-list : {9:1} -> {4:1} -> {1:1} -> 
-LAPSE: LINE 334
-list : {9:1} -> {3:1} -> {1:1} -> 
-LAPSE: LINE 335
-list : {4:2} -> {1:1} -> 
-LAPSE: LINE 336
-list : {6:1} -> {4:1} -> {1:1} -> 
-LAPSE: LINE 337
-list : {6:2} -> {7:1} -> 
-LAPSE: LINE 338
-list : {8:1} -> {7:1} -> {5:1} -> 
-LAPSE: LINE 339
-list : {::1} -> {9:1} -> {3:1} -> 
-LAPSE: LINE 340
-LAPSE: LINE 341
-list : {7:1} -> {4:1} -> {3:1} -> 
-LAPSE: LINE 342
-list : {6:2} -> {3:1} -> 
-LAPSE: LINE 343
-list : {9:1} -> {2:1} -> {1:1} -> 
-LAPSE: LINE 344
-LAPSE: LINE 345
-list : {7:1} -> {3:1} -> {2:1} -> 
-LAPSE: LINE 346
-list : {9:1} -> {7:1} -> {2:1} -> 
-LAPSE: LINE 347
-list : {4:2} -> {9:1} -> 
-LAPSE: LINE 348
-list : {7:1} -> {5:1} -> {3:1} -> 
-LAPSE: LINE 349
-list : {::1} -> {3:1} -> {1:1} -> 
-LAPSE: LINE 350
-list : {5:1} -> {4:1} -> {3:1} -> 
-LAPSE: LINE 351
-list : {8:1} -> {4:1} -> {1:1} -> 
-LAPSE: LINE 352
-list : {4:1} -> {2:1} -> {1:1} -> 
-LAPSE: LINE 353
-list : {5:2} -> {3:1} -> 
-LAPSE: LINE 354
-list : {7:1} -> {5:1} -> {4:1} -> 
-LAPSE: LINE 355
-list : {6:2} -> {8:1} -> 
-LAPSE: LINE 356
-LAPSE: LINE 357
-LAPSE: LINE 358
-list : {7:1} -> {6:1} -> {4:1} -> 
-LAPSE: LINE 359
-LAPSE: LINE 360
-list : {6:2} -> {::1} -> 
-LAPSE: LINE 361
-list : {9:1} -> {4:1} -> {1:1} -> 
-LAPSE: LINE 362
-list : {6:2} -> {3:1} -> 
-LAPSE: LINE 363
-list : {5:1} -> {4:1} -> {1:1} -> 
-LAPSE: LINE 364
-list : {6:2} -> {4:1} -> 
-LAPSE: LINE 365
-list : {6:2} -> {::1} -> 
-LAPSE: LINE 366
-list : {5:1} -> {4:1} -> {1:1} -> 
-LAPSE: LINE 367
-list : {7:1} -> {5:1} -> {1:1} -> 
-LAPSE: LINE 368
-list : {6:1} -> {5:1} -> {3:1} -> 
-LAPSE: LINE 369
-list : {9:1} -> {7:1} -> {5:1} -> 
-LAPSE: LINE 370
-list : {9:1} -> {5:1} -> {3:1} -> 
-LAPSE: LINE 371
-list : {7:1} -> {6:1} -> {2:1} -> 
-LAPSE: LINE 372
-list : {8:1} -> {7:1} -> {4:1} -> 
-LAPSE: LINE 373
-list : {4:2} -> {2:1} -> 
-LAPSE: LINE 374
-list : {9:1} -> {3:1} -> {2:1} -> 
-LAPSE: LINE 375
-list : {6:2} -> {8:1} -> 
-LAPSE: LINE 376
-list : {5:2} -> {1:1} -> 
-LAPSE: LINE 377
-list : {7:1} -> {6:1} -> {3:1} -> 
-LAPSE: LINE 378
-list : {9:1} -> {8:1} -> {3:1} -> 
-LAPSE: LINE 379
-list : {4:1} -> {2:1} -> {1:1} -> 
-LAPSE: LINE 380
-list : {6:2} -> {9:1} -> 
-LAPSE: LINE 381
-LAPSE: LINE 382
-LAPSE: LINE 383
-list : {5:2} -> {7:1} -> 
-LAPSE: LINE 384
-list : {7:1} -> {2:1} -> {1:1} -> 
-LAPSE: LINE 385
-list : {7:1} -> {4:1} -> {3:1} -> 
-LAPSE: LINE 386
-list : {2:2} -> {3:1} -> 
-LAPSE: LINE 387
-list : {::1} -> {5:1} -> {3:1} -> 
-LAPSE: LINE 388
-list : {5:1} -> {3:1} -> {1:1} -> 
-LAPSE: LINE 389
-list : {7:1} -> {5:1} -> {4:1} -> 
-LAPSE: LINE 390
-list : {7:1} -> {5:1} -> {3:1} -> 
-LAPSE: LINE 391
-LAPSE: LINE 392
-LAPSE: LINE 393
-list : {5:1} -> {3:1} -> {2:1} -> 
-CLEAVE 2 : LINE 394
-
-KEITEIKEN 10 : LINE 395
-
-CLEAVE 10 : LINE 396
-
-LAPSE: LINE 397
-list : {5:1} -> {3:1} -> {2:1} -> 
-LAPSE: LINE 398
-list : {::1} -> {2:1} -> {1:1} -> 
-LAPSE: LINE 399
-list : {9:1} -> {4:1} -> {1:1} -> 
-LAPSE: LINE 400
-LAPSE: LINE 401
-LAPSE: LINE 402
-list : {8:1} -> {7:1} -> {5:1} -> 
-LAPSE: LINE 403
-LAPSE: LINE 404
-list : {4:2} -> {7:1} -> 
-LAPSE: LINE 405
-list : {7:1} -> {5:1} -> {3:1} -> 
-LAPSE: LINE 406
-LAPSE: LINE 407
-list : {9:1} -> {4:1} -> {3:1} -> 
-LAPSE: LINE 408
-LAPSE: LINE 409
-list : {7:1} -> {5:1} -> {3:1} -> 
-LAPSE: LINE 410
-list : {4:2} -> {2:1} -> 
-LAPSE: LINE 411
-list : {9:1} -> {6:1} -> {4:1} -> 
-LAPSE: LINE 412
-list : {5:1} -> {4:1} -> {3:1} -> 
-LAPSE: LINE 413
-list : {::1} -> {5:1} -> {3:1} -> 
-LAPSE: LINE 414
-list : {5:3} -> 
-LAPSE: LINE 415
-list : {9:1} -> {7:1} -> {3:1} -> 
-LAPSE: LINE 416
-list : {5:2} -> {3:1} -> 
-LAPSE: LINE 417
-list : {5:1} -> {4:1} -> {1:1} -> 
-LAPSE: LINE 418
-list : {7:1} -> {6:1} -> {3:1} -> 
-LAPSE: LINE 419
-LAPSE: LINE 420
-list : {8:1} -> {7:1} -> {3:1} -> 
-CLEAVE 2 : LINE 421
-
-KEITEIKEN 10 : LINE 422
-
-CLEAVE 10 : LINE 423
-
-LAPSE: LINE 424
-list : {7:1} -> {5:1} -> {3:1} -> 
-LAPSE: LINE 425
-list : {5:2} -> {7:1} -> 
-LAPSE: LINE 426
-list : {6:2} -> {3:1} -> 
-LAPSE: LINE 427
-list : {7:1} -> {2:1} -> {1:1} -> 
-LAPSE: LINE 428
-list : {9:1} -> {3:1} -> {2:1} -> 
-LAPSE: LINE 429
-list : {7:1} -> {2:1} -> {1:1} -> 
-LAPSE: LINE 430
-list : {9:1} -> {5:1} -> {1:1} -> 
-LAPSE: LINE 431
-LAPSE: LINE 432
-list : {7:1} -> {4:1} -> {3:1} -> 
-LAPSE: LINE 433
-list : {9:1} -> {4:1} -> {1:1} -> 
-LAPSE: LINE 434
-list : {9:1} -> {4:1} -> {3:1} -> 
-LAPSE: LINE 435
-list : {9:1} -> {8:1} -> {2:1} -> 
-LAPSE: LINE 436
-list : {5:2} -> {3:1} -> 
-LAPSE: LINE 437
-list : {2:2} -> {4:1} -> 
-LAPSE: LINE 438
-list : {9:1} -> {4:1} -> {3:1} -> 
-LAPSE: LINE 439
-list : {4:2} -> {6:1} -> 
-LAPSE: LINE 440
-list : {::1} -> {9:1} -> {4:1} -> 
-LAPSE: LINE 441
-list : {9:1} -> {4:1} -> {2:1} -> 
-LAPSE: LINE 442
-LAPSE: LINE 443
-list : {7:1} -> {4:1} -> {1:1} -> 
-LAPSE: LINE 444
-list : {7:1} -> {5:1} -> {3:1} -> 
-LAPSE: LINE 445
-list : {5:1} -> {4:1} -> {3:1} -> 
-LAPSE: LINE 446
-list : {::1} -> {5:1} -> {3:1} -> 
-LAPSE: LINE 447
-list : {6:1} -> {5:1} -> {1:1} -> 
-LAPSE: LINE 448
-list : {3:2} -> {9:1} -> 
-LAPSE: LINE 449
-LAPSE: LINE 450
-list : {6:2} -> {4:1} -> 
-LAPSE: LINE 451
-list : {7:1} -> {4:1} -> {3:1} -> 
-LAPSE: LINE 452
-list : {8:1} -> {4:1} -> {3:1} -> 
-LAPSE: LINE 453
-list : {::1} -> {9:1} -> {3:1} -> 
-LAPSE: LINE 454
-list : {9:1} -> {8:1} -> {4:1} -> 
-LAPSE: LINE 455
-list : {7:1} -> {5:1} -> {3:1} -> 
-LAPSE: LINE 456
-list : {2:2} -> {3:1} -> 
-LAPSE: LINE 457
-list : {6:2} -> {4:1} -> 
-LAPSE: LINE 458
-LAPSE: LINE 459
-list : {4:3} -> 
-LAPSE: LINE 460
-list : {4:2} -> {2:1} -> 
-LAPSE: LINE 461
-list : {6:1} -> {3:1} -> {1:1} -> 
-LAPSE: LINE 462
-list : {8:1} -> {7:1} -> {5:1} -> 
-LAPSE: LINE 463
-LAPSE: LINE 464
-list : {::1} -> {2:1} -> {1:1} -> 
-LAPSE: LINE 465
-LAPSE: LINE 466
-list : {::1} -> {9:1} -> {3:1} -> 
-LAPSE: LINE 467
-list : {7:1} -> {5:1} -> {1:1} -> 
-LAPSE: LINE 468
-LAPSE: LINE 469
-list : {::2} -> {3:1} -> 
-LAPSE: LINE 470
-list : {3:2} -> {5:1} -> 
-LAPSE: LINE 471
-LAPSE: LINE 472
-list : {3:3} -> 
-LAPSE: LINE 473
-list : {4:2} -> {9:1} -> 
-LAPSE: LINE 474
-LAPSE: LINE 475
-list : {7:1} -> {4:1} -> {2:1} -> 
-LAPSE: LINE 476
-LAPSE: LINE 477
-list : {::1} -> {3:1} -> {2:1} -> 
-LAPSE: LINE 478
-list : {8:2} -> {3:1} -> 
-LAPSE: LINE 479
-list : {6:2} -> {4:1} -> 
-LAPSE: LINE 480
-LAPSE: LINE 481
-list : {7:1} -> {5:1} -> {2:1} -> 
-LAPSE: LINE 482
-LAPSE: LINE 483
-LAPSE: LINE 484
-list : {9:1} -> {4:1} -> {3:1} -> 
-LAPSE: LINE 485
-list : {6:2} -> {8:1} -> 
-LAPSE: LINE 486
-list : {3:2} -> {7:1} -> 
-LAPSE: LINE 487
-list : {7:1} -> {5:1} -> {3:1} -> 
-LAPSE: LINE 488
-list : {6:1} -> {3:1} -> {1:1} -> 
-LAPSE: LINE 489
-list : {8:1} -> {5:1} -> {2:1} -> 
-LAPSE: LINE 490
-list : {4:1} -> {3:1} -> {2:1} -> 
-LAPSE: LINE 491
-list : {8:1} -> {3:1} -> {1:1} -> 
-LAPSE: LINE 492
-list : {5:1} -> {3:1} -> {1:1} -> 
-LAPSE: LINE 493
-list : {5:3} -> 
-LAPSE: LINE 494
-list : {8:1} -> {3:1} -> {1:1} -> 
-LAPSE: LINE 495
-list : {8:1} -> {5:1} -> {3:1} -> 
-LAPSE: LINE 496
-list : {6:2} -> {2:1} -> 
-LAPSE: LINE 497
-LAPSE: LINE 498
-LAPSE: LINE 499
-list : {4:3} -> 
-LAPSE: LINE 500
-list : {9:1} -> {2:1} -> {1:1} -> 
-LAPSE: LINE 501
-list : {3:2} -> {5:1} -> 
-LAPSE: LINE 502
-list : {4:1} -> {2:1} -> {1:1} -> 
-LAPSE: LINE 503
-list : {9:1} -> {7:1} -> {4:1} -> 
-LAPSE: LINE 504
-list : {5:1} -> {3:1} -> {2:1} -> 
-LAPSE: LINE 505
-list : {6:1} -> {3:1} -> {2:1} -> 
-LAPSE: LINE 506
-list : {::1} -> {5:1} -> {1:1} -> 
-LAPSE: LINE 507
-list : {4:2} -> {5:1} -> 
-LAPSE: LINE 508
-list : {9:1} -> {2:1} -> {1:1} -> 
-LAPSE: LINE 509
-list : {5:1} -> {4:1} -> {2:1} -> 
-LAPSE: LINE 510
-list : {7:1} -> {6:1} -> {4:1} -> 
-LAPSE: LINE 511
-list : {4:3} -> 
-LAPSE: LINE 512
-list : {::1} -> {5:1} -> {1:1} -> 
-LAPSE: LINE 513
-list : {9:1} -> {3:1} -> {1:1} -> 
-LAPSE: LINE 514
-list : {5:1} -> {3:1} -> {2:1} -> 
-LAPSE: LINE 515
-LAPSE: LINE 516
-list : {5:1} -> {4:1} -> {2:1} -> 
-LAPSE: LINE 517
-list : {5:1} -> {3:1} -> {2:1} -> 
-CLEAVE 100 : LINE 518
-
-KEITEIKEN 10 : LINE 519
-
-CLEAVE 100 : LINE 520
-
+MAXSIZE : 13
+LAPSE : LINE 1
+result = 31
+LIMITLESS : LINE 2
+Tree: EMPTY
+KOKUSEN : LINE 3
+LIMITLESS : LINE 4
+Tree: EMPTY
+LIMITLESS : LINE 5
+Tree: EMPTY
+KOKUSEN : LINE 6
+LIMITLESS : LINE 7
+Tree: EMPTY
+LAPSE : LINE 8
+result = 99
+LAPSE : LINE 9
+result = 15
+LAPSE : LINE 10
+result = 49
+LIMITLESS : LINE 11
+Tree: EMPTY
+LAPSE : LINE 12
+result = 95
+LAPSE : LINE 13
+result = 21
+LIMITLESS : LINE 14
+Tree: EMPTY
+LAPSE : LINE 15
+result = 71
+LAPSE : LINE 16
+result = 3
+LAPSE : LINE 17
+result = 23
+LAPSE : LINE 18
+result = 65
+LAPSE : LINE 19
+result = 43
+LAPSE : LINE 20
+result = 33
+LAPSE : LINE 21
+result = 65
+LIMITLESS : LINE 22
+Tree: 15
+KOKUSEN : LINE 23
+LIMITLESS : LINE 24
+Tree: EMPTY
+LAPSE : LINE 25
+result = 87
+LAPSE : LINE 26
+result = 25
+LAPSE : LINE 27
+result = 7
+LAPSE : LINE 28
+result = 35
+LAPSE : LINE 29
+result = 3
+LAPSE : LINE 30
+result = 99
+LAPSE : LINE 31
+result = 75
+LAPSE : LINE 32
+result = 9
+LAPSE : LINE 33
+result = 3
+LIMITLESS : LINE 34
+Tree: 21(NULL,99)
+KOKUSEN : LINE 35
+LIMITLESS : LINE 36
+Tree: 99
+LAPSE : LINE 37
+result = 59
+LAPSE : LINE 38
+result = 77
+LAPSE : LINE 39
+result = 95
+LAPSE : LINE 40
+result = 91
+LAPSE : LINE 41
+result = 3
+LIMITLESS : LINE 42
+Tree: EMPTY
+KOKUSEN : LINE 43
+LIMITLESS : LINE 44
+Tree: EMPTY
+LAPSE : LINE 45
+result = 79
+LAPSE : LINE 46
+result = 7
+LAPSE : LINE 47
+result = 23
+LIMITLESS : LINE 48
+Tree: 79
+KOKUSEN : LINE 49
+LIMITLESS : LINE 50
+Tree: EMPTY
+LIMITLESS : LINE 51
+Tree: EMPTY
+KOKUSEN : LINE 52
+LIMITLESS : LINE 53
+Tree: EMPTY
+LAPSE : LINE 54
+result = 5
+LAPSE : LINE 55
+result = 33
+LIMITLESS : LINE 56
+Tree: EMPTY
+KOKUSEN : LINE 57
+LIMITLESS : LINE 58
+Tree: EMPTY
+LAPSE : LINE 59
+result = 55
+LAPSE : LINE 60
+result = 81
+LIMITLESS : LINE 61
+Tree: 55(NULL,81)
+LAPSE : LINE 62
+result = 11
+LIMITLESS : LINE 63
+Tree: EMPTY
+LAPSE : LINE 64
+result = 95
+LAPSE : LINE 65
+result = 91
+LIMITLESS : LINE 66
+Tree: EMPTY
+KOKUSEN : LINE 67
+LIMITLESS : LINE 68
+Tree: EMPTY
+LAPSE : LINE 69
+result = 87
+LAPSE : LINE 70
+result = 35
+LAPSE : LINE 71
+result = 83
+LIMITLESS : LINE 72
+Tree: 83
+KOKUSEN : LINE 73
+LIMITLESS : LINE 74
+Tree: EMPTY
+LAPSE : LINE 75
+result = 35
+LIMITLESS : LINE 76
+Tree: EMPTY
+LAPSE : LINE 77
+result = 13
+LIMITLESS : LINE 78
+Tree: EMPTY
+KOKUSEN : LINE 79
+LIMITLESS : LINE 80
+Tree: EMPTY
+LAPSE : LINE 81
+result = 17
+LAPSE : LINE 82
+result = 69
+LAPSE : LINE 83
+result = 71
+LAPSE : LINE 84
+result = 17
+LAPSE : LINE 85
+result = 9
+LAPSE : LINE 86
+result = 35
+LAPSE : LINE 87
+result = 63
+LIMITLESS : LINE 88
+Tree: EMPTY
+KOKUSEN : LINE 89
+LIMITLESS : LINE 90
+Tree: EMPTY
+LIMITLESS : LINE 91
+Tree: 35
+LAPSE : LINE 92
+result = 79
+LIMITLESS : LINE 93
+Tree: EMPTY
+KOKUSEN : LINE 94
+LIMITLESS : LINE 95
+Tree: EMPTY
+LAPSE : LINE 96
+result = 57
+LIMITLESS : LINE 97
+Tree: EMPTY
+KOKUSEN : LINE 98
+LIMITLESS : LINE 99
+Tree: EMPTY
+LAPSE : LINE 100
+result = 25
+LAPSE : LINE 101
+result = 67
+LAPSE : LINE 102
+result = 3
+LAPSE : LINE 103
+result = 31
+LAPSE : LINE 104
+result = 11
+LIMITLESS : LINE 105
+Tree: EMPTY
+KOKUSEN : LINE 106
+LIMITLESS : LINE 107
+Tree: EMPTY
+LAPSE : LINE 108
+result = 99
+LIMITLESS : LINE 109
+Tree: 99
+KOKUSEN : LINE 110
+LIMITLESS : LINE 111
+Tree: EMPTY
+LAPSE : LINE 112
+result = 69
+LAPSE : LINE 113
+result = 53
+LAPSE : LINE 114
+result = 25
+LAPSE : LINE 115
+result = 81
+LAPSE : LINE 116
+result = 83
+LAPSE : LINE 117
+result = 69
+LAPSE : LINE 118
+result = 1
+LAPSE : LINE 119
+result = 87
+LAPSE : LINE 120
+result = 71
+LAPSE : LINE 121
+result = 17
+LAPSE : LINE 122
+result = 21
+LAPSE : LINE 123
+result = 85
+LIMITLESS : LINE 124
+Tree: 85
+KOKUSEN : LINE 125
+LIMITLESS : LINE 126
+Tree: EMPTY
+LAPSE : LINE 127
+result = 3
+LAPSE : LINE 128
+result = 47
+LIMITLESS : LINE 129
+Tree: EMPTY
+KOKUSEN : LINE 130
+LIMITLESS : LINE 131
+Tree: EMPTY
+LAPSE : LINE 132
+result = 13
+LAPSE : LINE 133
+result = 77
+LAPSE : LINE 134
+result = 5
+LAPSE : LINE 135
+result = 3
+LAPSE : LINE 136
+result = 77
+LAPSE : LINE 137
+result = 25
+LAPSE : LINE 138
+result = 3
+LAPSE : LINE 139
+result = 57
+LAPSE : LINE 140
+result = 33
+LAPSE : LINE 141
+result = 87
+LIMITLESS : LINE 142
+Tree: 3(NULL,3)
+KOKUSEN : LINE 143
+LIMITLESS : LINE 144
+Tree: 3
+LIMITLESS : LINE 145
+Tree: EMPTY
+KOKUSEN : LINE 146
+LIMITLESS : LINE 147
+Tree: EMPTY
+LAPSE : LINE 148
+result = 49
+LAPSE : LINE 149
+result = 17
+LAPSE : LINE 150
+result = 13
+LAPSE : LINE 151
+result = 63
+LAPSE : LINE 152
+result = 91
+LAPSE : LINE 153
+result = 53
+LAPSE : LINE 154
+result = 91
+LAPSE : LINE 155
+result = 9
+LAPSE : LINE 156
+result = 13
+LIMITLESS : LINE 157
+Tree: 13(NULL,91(13,91))
+KOKUSEN : LINE 158
+LIMITLESS : LINE 159
+Tree: 91(13,NULL)
+LIMITLESS : LINE 160
+Tree: 91(13,NULL)
+KOKUSEN : LINE 161
+LIMITLESS : LINE 162
+Tree: 13
+LAPSE : LINE 163
+result = 31
+LAPSE : LINE 164
+result = 31
+LAPSE : LINE 165
+result = 5
+LAPSE : LINE 166
+result = 51
+LIMITLESS : LINE 167
+Tree: EMPTY
+KOKUSEN : LINE 168
+LIMITLESS : LINE 169
+Tree: EMPTY
+LAPSE : LINE 170
+result = 7
+LAPSE : LINE 171
+result = 63
+LAPSE : LINE 172
+result = 41
+LAPSE : LINE 173
+result = 55
+LAPSE : LINE 174
+result = 37
+LIMITLESS : LINE 175
+Tree: 7
+KOKUSEN : LINE 176
+LIMITLESS : LINE 177
+Tree: EMPTY
+LAPSE : LINE 178
+result = 3
+LIMITLESS : LINE 179
+Tree: 37
+KOKUSEN : LINE 180
+LIMITLESS : LINE 181
+Tree: EMPTY
+LIMITLESS : LINE 182
+Tree: EMPTY
+KOKUSEN : LINE 183
+LIMITLESS : LINE 184
+Tree: EMPTY
+LAPSE : LINE 185
+result = 79
+LAPSE : LINE 186
+result = 79
+LAPSE : LINE 187
+result = 51
+LAPSE : LINE 188
+result = 23
+LAPSE : LINE 189
+result = 97
+LAPSE : LINE 190
+result = 81
+LAPSE : LINE 191
+result = 85
+LIMITLESS : LINE 192
+Tree: EMPTY
+KOKUSEN : LINE 193
+LIMITLESS : LINE 194
+Tree: EMPTY
+LAPSE : LINE 195
+result = 47
+LAPSE : LINE 196
+result = 21
+LAPSE : LINE 197
+result = 83
+LAPSE : LINE 198
+result = 61
+LAPSE : LINE 199
+result = 97
+LAPSE : LINE 200
+result = 85
+LAPSE : LINE 201
+result = 65
+LAPSE : LINE 202
+result = 61
+LIMITLESS : LINE 203
+Tree: 97
+KOKUSEN : LINE 204
+LIMITLESS : LINE 205
+Tree: EMPTY
+LAPSE : LINE 206
+result = 25
+LAPSE : LINE 207
+result = 79
+LAPSE : LINE 208
+result = 1
+LAPSE : LINE 209
+result = 67
+LAPSE : LINE 210
+result = 93
+LAPSE : LINE 211
+result = 87
+LAPSE : LINE 212
+result = 31
+LAPSE : LINE 213
+result = 51
+LAPSE : LINE 214
+result = 33
+LAPSE : LINE 215
+result = 99
+LAPSE : LINE 216
+result = 27
+LAPSE : LINE 217
+result = 89
+LAPSE : LINE 218
+result = 53
+LAPSE : LINE 219
+result = 73
+LAPSE : LINE 220
+result = 35
+LAPSE : LINE 221
+result = 87
+LIMITLESS : LINE 222
+Tree: 79(1(NULL,27(NULL,53)),NULL)
+LAPSE : LINE 223
+result = 73
+LIMITLESS : LINE 224
+Tree: EMPTY
+KOKUSEN : LINE 225
+LIMITLESS : LINE 226
+Tree: EMPTY
+LAPSE : LINE 227
+result = 67
+LAPSE : LINE 228
+result = 47
+LAPSE : LINE 229
+result = 9
+LAPSE : LINE 230
+result = 93
+LAPSE : LINE 231
+result = 21
+LIMITLESS : LINE 232
+Tree: 1(NULL,27(NULL,53))
+KOKUSEN : LINE 233
+LIMITLESS : LINE 234
+Tree: 27(NULL,53)
+LAPSE : LINE 235
+result = 5
+LIMITLESS : LINE 236
+Tree: 27(NULL,53)
+KOKUSEN : LINE 237
+LIMITLESS : LINE 238
+Tree: 53
+LAPSE : LINE 239
+result = 97
+LAPSE : LINE 240
+result = 59
+LAPSE : LINE 241
+result = 29
+LAPSE : LINE 242
+result = 15
+LAPSE : LINE 243
+result = 5
+LIMITLESS : LINE 244
+Tree: 21
+KOKUSEN : LINE 245
+LIMITLESS : LINE 246
+Tree: EMPTY
+LAPSE : LINE 247
+result = 83
+LAPSE : LINE 248
+result = 7
+LAPSE : LINE 249
+result = 81
+LAPSE : LINE 250
+result = 79
+LAPSE : LINE 251
+result = 47
+LAPSE : LINE 252
+result = 45
+LAPSE : LINE 253
+result = 49
+LIMITLESS : LINE 254
+Tree: 7
+KOKUSEN : LINE 255
+LIMITLESS : LINE 256
+Tree: EMPTY
+LAPSE : LINE 257
+result = 75
+LIMITLESS : LINE 258
+Tree: EMPTY
+KOKUSEN : LINE 259
+LIMITLESS : LINE 260
+Tree: EMPTY
+LAPSE : LINE 261
+result = 75
+LAPSE : LINE 262
+result = 7
+LIMITLESS : LINE 263
+Tree: EMPTY
+KOKUSEN : LINE 264
+LIMITLESS : LINE 265
+Tree: EMPTY
+LAPSE : LINE 266
+result = 33
+LAPSE : LINE 267
+result = 7
+LAPSE : LINE 268
+result = 85
+LAPSE : LINE 269
+result = 61
+LAPSE : LINE 270
+result = 9
+LAPSE : LINE 271
+result = 11
+LAPSE : LINE 272
+result = 29
+LIMITLESS : LINE 273
+Tree: 29
+LIMITLESS : LINE 274
+Tree: EMPTY
+KOKUSEN : LINE 275
+LIMITLESS : LINE 276
+Tree: EMPTY
+LAPSE : LINE 277
+result = 55
+LAPSE : LINE 278
+result = 95
+LAPSE : LINE 279
+result = 85
+LAPSE : LINE 280
+result = 93
+LAPSE : LINE 281
+result = 67
+LAPSE : LINE 282
+result = 25
+LAPSE : LINE 283
+result = 85
+LIMITLESS : LINE 284
+Tree: EMPTY
+LAPSE : LINE 285
+result = 17
+LAPSE : LINE 286
+result = 33
+LAPSE : LINE 287
+result = 69
+LAPSE : LINE 288
+result = 87
+LAPSE : LINE 289
+result = 41
+LAPSE : LINE 290
+result = 87
+LAPSE : LINE 291
+result = 1
+LIMITLESS : LINE 292
+Tree: EMPTY
+KOKUSEN : LINE 293
+LIMITLESS : LINE 294
+Tree: EMPTY
+LAPSE : LINE 295
+result = 79
+LIMITLESS : LINE 296
+Tree: EMPTY
+KOKUSEN : LINE 297
+LIMITLESS : LINE 298
+Tree: EMPTY
+LAPSE : LINE 299
+result = 69
+LAPSE : LINE 300
+result = 97
+LAPSE : LINE 301
+result = 49
+LAPSE : LINE 302
+result = 43
+LAPSE : LINE 303
+result = 57
+LAPSE : LINE 304
+result = 53
+LAPSE : LINE 305
+result = 41
+LIMITLESS : LINE 306
+Tree: 69(43,69)
+LAPSE : LINE 307
+result = 19
+LAPSE : LINE 308
+result = 95
+LAPSE : LINE 309
+result = 29
+LAPSE : LINE 310
+result = 51
+LAPSE : LINE 311
+result = 89
+LAPSE : LINE 312
+result = 69
+LAPSE : LINE 313
+result = 53
+LAPSE : LINE 314
+result = 15
+LIMITLESS : LINE 315
+Tree: 87
+KOKUSEN : LINE 316
+LIMITLESS : LINE 317
+Tree: EMPTY
+LAPSE : LINE 318
+result = 79
+LAPSE : LINE 319
+result = 51
+LAPSE : LINE 320
+result = 77
+LIMITLESS : LINE 321
+Tree: EMPTY
+KOKUSEN : LINE 322
+LIMITLESS : LINE 323
+Tree: EMPTY
+LAPSE : LINE 324
+result = 17
+LAPSE : LINE 325
+result = 41
+LAPSE : LINE 326
+result = 9
+LIMITLESS : LINE 327
+Tree: EMPTY
+LIMITLESS : LINE 328
+Tree: 9
+KOKUSEN : LINE 329
+LIMITLESS : LINE 330
+Tree: EMPTY
+LAPSE : LINE 331
+result = 29
+LAPSE : LINE 332
+result = 47
+LAPSE : LINE 333
+result = 81
+LIMITLESS : LINE 334
+Tree: EMPTY
+KOKUSEN : LINE 335
+LIMITLESS : LINE 336
+Tree: EMPTY
+LAPSE : LINE 337
+result = 13
+LAPSE : LINE 338
+result = 85
+LAPSE : LINE 339
+result = 5
+LAPSE : LINE 340
+result = 57
+LAPSE : LINE 341
+result = 27
+LIMITLESS : LINE 342
+Tree: EMPTY
+LAPSE : LINE 343
+result = 11
+LIMITLESS : LINE 344
+Tree: 27
+LAPSE : LINE 345
+result = 69
+LAPSE : LINE 346
+result = 79
+LAPSE : LINE 347
+result = 9
+LAPSE : LINE 348
+result = 37
+LAPSE : LINE 349
+result = 39
+LIMITLESS : LINE 350
+Tree: 27(NULL,79)
+LAPSE : LINE 351
+result = 13
+LAPSE : LINE 352
+result = 23
+LAPSE : LINE 353
+result = 85
+LAPSE : LINE 354
+result = 21
+LAPSE : LINE 355
+result = 97
+LAPSE : LINE 356
+result = 3
+LAPSE : LINE 357
+result = 99
+LAPSE : LINE 358
+result = 15
+LAPSE : LINE 359
+result = 33
+LAPSE : LINE 360
+result = 95
+LAPSE : LINE 361
+result = 59
+LAPSE : LINE 362
+result = 17
+LAPSE : LINE 363
+result = 99
+LAPSE : LINE 364
+result = 97
+LAPSE : LINE 365
+result = 39
+LAPSE : LINE 366
+result = 25
+LAPSE : LINE 367
+result = 7
+LAPSE : LINE 368
+result = 81
+LAPSE : LINE 369
+result = 21
+LIMITLESS : LINE 370
+Tree: 25
+KOKUSEN : LINE 371
+LIMITLESS : LINE 372
+Tree: EMPTY
+LAPSE : LINE 373
+result = 63
+LAPSE : LINE 374
+result = 93
+LIMITLESS : LINE 375
+Tree: 37(NULL,63)
+KOKUSEN : LINE 376
+LIMITLESS : LINE 377
+Tree: 63
+LAPSE : LINE 378
+result = 43
+LAPSE : LINE 379
+result = 13
+LAPSE : LINE 380
+result = 47
+LAPSE : LINE 381
+result = 61
+LAPSE : LINE 382
+result = 31
+LAPSE : LINE 383
+result = 71
+LAPSE : LINE 384
+result = 25
+LAPSE : LINE 385
+result = 81
+LAPSE : LINE 386
+result = 79
+LIMITLESS : LINE 387
+Tree: 39(13,NULL)
+KOKUSEN : LINE 388
+LIMITLESS : LINE 389
+Tree: 13
+LAPSE : LINE 390
+result = 61
+LIMITLESS : LINE 391
+Tree: EMPTY
+KOKUSEN : LINE 392
+LIMITLESS : LINE 393
+Tree: EMPTY
+LAPSE : LINE 394
+result = 53
+LAPSE : LINE 395
+result = 85
+LAPSE : LINE 396
+result = 31
+LAPSE : LINE 397
+result = 33
+LAPSE : LINE 398
+result = 5
+LIMITLESS : LINE 399
+Tree: EMPTY
+LIMITLESS : LINE 400
+Tree: 53
+KOKUSEN : LINE 401
+LIMITLESS : LINE 402
+Tree: EMPTY
+LAPSE : LINE 403
+result = 57
+LAPSE : LINE 404
+result = 63
+LIMITLESS : LINE 405
+Tree: 5(NULL,57)
+KOKUSEN : LINE 406
+LIMITLESS : LINE 407
+Tree: 57
+LAPSE : LINE 408
+result = 9
+LAPSE : LINE 409
+result = 7
+LAPSE : LINE 410
+result = 53
+LAPSE : LINE 411
+result = 53
+LAPSE : LINE 412
+result = 5
+LAPSE : LINE 413
+result = 83
+LIMITLESS : LINE 414
+Tree: EMPTY
+KOKUSEN : LINE 415
+LIMITLESS : LINE 416
+Tree: EMPTY
+LAPSE : LINE 417
+result = 85
+LAPSE : LINE 418
+result = 27
+LAPSE : LINE 419
+result = 63
+LAPSE : LINE 420
+result = 29
+LAPSE : LINE 421
+result = 69
+LAPSE : LINE 422
+result = 21
+LAPSE : LINE 423
+result = 47
+LIMITLESS : LINE 424
+Tree: EMPTY
+KOKUSEN : LINE 425
+LIMITLESS : LINE 426
+Tree: EMPTY
+LAPSE : LINE 427
+result = 95
+LAPSE : LINE 428
+result = 45
+LAPSE : LINE 429
+result = 75
+LAPSE : LINE 430
+result = 31
+LIMITLESS : LINE 431
+Tree: 95
+LAPSE : LINE 432
+result = 39
+LAPSE : LINE 433
+result = 49
+LAPSE : LINE 434
+result = 17
+LAPSE : LINE 435
+result = 45
+LIMITLESS : LINE 436
+Tree: 45(NULL,45)
+KOKUSEN : LINE 437
+LIMITLESS : LINE 438
+Tree: 45
+LAPSE : LINE 439
+result = 63
+LAPSE : LINE 440
+result = 21
+LAPSE : LINE 441
+result = 11
+LIMITLESS : LINE 442
+Tree: EMPTY
+LAPSE : LINE 443
+result = 61
+LAPSE : LINE 444
+result = 77
+LIMITLESS : LINE 445
+Tree: 49
+KOKUSEN : LINE 446
+LIMITLESS : LINE 447
+Tree: EMPTY
+LAPSE : LINE 448
+result = 85
+LAPSE : LINE 449
+result = 79
+LIMITLESS : LINE 450
+Tree: EMPTY
+LAPSE : LINE 451
+result = 27
+LIMITLESS : LINE 452
+Tree: EMPTY
+LAPSE : LINE 453
+result = 69
+LAPSE : LINE 454
+result = 27
+LAPSE : LINE 455
+result = 17
+LAPSE : LINE 456
+result = 87
+LAPSE : LINE 457
+result = 47
+LAPSE : LINE 458
+result = 29
+LAPSE : LINE 459
+result = 55
+LAPSE : LINE 460
+result = 85
+LAPSE : LINE 461
+result = 45
+LAPSE : LINE 462
+result = 29
+LAPSE : LINE 463
+result = 13
+LAPSE : LINE 464
+result = 19
+LAPSE : LINE 465
+result = 35
+LAPSE : LINE 466
+result = 49
+LAPSE : LINE 467
+result = 53
+LAPSE : LINE 468
+result = 79
+LAPSE : LINE 469
+result = 99
+LAPSE : LINE 470
+result = 97
+LAPSE : LINE 471
+result = 39
+LAPSE : LINE 472
+result = 71
+LAPSE : LINE 473
+result = 57
+LAPSE : LINE 474
+result = 13
+LIMITLESS : LINE 475
+Tree: 79(27(NULL,27(NULL,53)),79)
+KOKUSEN : LINE 476
+LIMITLESS : LINE 477
+Tree: 79
+LAPSE : LINE 478
+result = 69
+LAPSE : LINE 479
+result = 51
+LAPSE : LINE 480
+result = 9
+LAPSE : LINE 481
+result = 31
+LAPSE : LINE 482
+result = 59
+LAPSE : LINE 483
+result = 27
+LAPSE : LINE 484
+result = 89
+LAPSE : LINE 485
+result = 73
+LIMITLESS : LINE 486
+Tree: 17(NULL,69)
+KOKUSEN : LINE 487
+LIMITLESS : LINE 488
+Tree: 69
+LAPSE : LINE 489
+result = 49
+LIMITLESS : LINE 490
+Tree: EMPTY
+LIMITLESS : LINE 491
+Tree: EMPTY
+KOKUSEN : LINE 492
+LIMITLESS : LINE 493
+Tree: EMPTY
+LAPSE : LINE 494
+result = 21
+LAPSE : LINE 495
+result = 91
+LAPSE : LINE 496
+result = 89
+LAPSE : LINE 497
+result = 1
+LIMITLESS : LINE 498
+Tree: 89
+KOKUSEN : LINE 499
+LIMITLESS : LINE 500
+Tree: EMPTY
+LAPSE : LINE 501
+result = 15
+LIMITLESS : LINE 502
+Tree: EMPTY
+KOKUSEN : LINE 503
+LIMITLESS : LINE 504
+Tree: EMPTY
+LAPSE : LINE 505
+result = 83
+LIMITLESS : LINE 506
+Tree: EMPTY
+KOKUSEN : LINE 507
+LIMITLESS : LINE 508
+Tree: EMPTY
+LIMITLESS : LINE 509
+Tree: EMPTY
+KOKUSEN : LINE 510
+LIMITLESS : LINE 511
+Tree: EMPTY
+LAPSE : LINE 512
+result = 79
+LAPSE : LINE 513
+result = 87
+LAPSE : LINE 514
+result = 51
+LAPSE : LINE 515
+result = 63
+LIMITLESS : LINE 516
+Tree: EMPTY
+KOKUSEN : LINE 517
+LIMITLESS : LINE 518
+Tree: EMPTY
+LAPSE : LINE 519
+result = 69
+LAPSE : LINE 520
+result = 15
+LAPSE : LINE 521
+result = 95
+LAPSE : LINE 522
+result = 9
+LAPSE : LINE 523
+result = 63
+LAPSE : LINE 524
+result = 17
+LAPSE : LINE 525
+result = 57
+LAPSE : LINE 526
+result = 61
+LAPSE : LINE 527
+result = 9
+LAPSE : LINE 528
+result = 5
+LAPSE : LINE 529
+result = 55
+LAPSE : LINE 530
+result = 75
+LIMITLESS : LINE 531
+Tree: 57(5,NULL)
+KOKUSEN : LINE 532
+LIMITLESS : LINE 533
+Tree: 5
+LAPSE : LINE 534
+result = 11
+LAPSE : LINE 535
+result = 29
+LAPSE : LINE 536
+result = 79
+LAPSE : LINE 537
+result = 15
+LAPSE : LINE 538
+result = 57
+LAPSE : LINE 539
+result = 69
+LAPSE : LINE 540
+result = 21
+LAPSE : LINE 541
+result = 25
+LIMITLESS : LINE 542
+Tree: 29
+KOKUSEN : LINE 543
+LIMITLESS : LINE 544
+Tree: EMPTY
+LAPSE : LINE 545
+result = 45
+LIMITLESS : LINE 546
+Tree: 45
+KOKUSEN : LINE 547
+LIMITLESS : LINE 548
+Tree: EMPTY
+LAPSE : LINE 549
+result = 9
+LIMITLESS : LINE 550
+Tree: EMPTY
+KOKUSEN : LINE 551
+LIMITLESS : LINE 552
+Tree: EMPTY
+LAPSE : LINE 553
+result = 17
+LAPSE : LINE 554
+result = 59
+LAPSE : LINE 555
+result = 33
+LAPSE : LINE 556
+result = 45
+LAPSE : LINE 557
+result = 29
+LAPSE : LINE 558
+result = 35
+LAPSE : LINE 559
+result = 89
+LAPSE : LINE 560
+result = 91
+LAPSE : LINE 561
+result = 73
+LAPSE : LINE 562
+result = 45
+LAPSE : LINE 563
+result = 1
+LIMITLESS : LINE 564
+Tree: 17
+KOKUSEN : LINE 565
+LIMITLESS : LINE 566
+Tree: EMPTY
+LIMITLESS : LINE 567
+Tree: EMPTY
+KOKUSEN : LINE 568
+LIMITLESS : LINE 569
+Tree: EMPTY
+LAPSE : LINE 570
+result = 89
+LAPSE : LINE 571
+result = 21
+LAPSE : LINE 572
+result = 41
+LAPSE : LINE 573
+result = 47
+LAPSE : LINE 574
+result = 85
+LAPSE : LINE 575
+result = 85
+LAPSE : LINE 576
+result = 5
+LAPSE : LINE 577
+result = 69
+LAPSE : LINE 578
+result = 85
+LAPSE : LINE 579
+result = 79
+LAPSE : LINE 580
+result = 47
+LIMITLESS : LINE 581
+Tree: 89
+KOKUSEN : LINE 582
+LIMITLESS : LINE 583
+Tree: EMPTY
+LAPSE : LINE 584
+result = 17
+LIMITLESS : LINE 585
+Tree: EMPTY
+KOKUSEN : LINE 586
+LIMITLESS : LINE 587
+Tree: EMPTY
+LAPSE : LINE 588
+result = 21
+LAPSE : LINE 589
+result = 9
+LAPSE : LINE 590
+result = 67
+LAPSE : LINE 591
+result = 39
+LAPSE : LINE 592
+result = 21
+LAPSE : LINE 593
+result = 31
+LAPSE : LINE 594
+result = 61
+LAPSE : LINE 595
+result = 59
+LAPSE : LINE 596
+result = 45
+LAPSE : LINE 597
+result = 91
+LAPSE : LINE 598
+result = 91
+LAPSE : LINE 599
+result = 73
+LAPSE : LINE 600
+result = 35
+LAPSE : LINE 601
+result = 91
+LAPSE : LINE 602
+result = 35
+LAPSE : LINE 603
+result = 27
+LAPSE : LINE 604
+result = 93
+LIMITLESS : LINE 605
+Tree: 47(21(NULL,21),73)
+KOKUSEN : LINE 606
+LIMITLESS : LINE 607
+Tree: 73
+LAPSE : LINE 608
+result = 29
+LAPSE : LINE 609
+result = 95
+LAPSE : LINE 610
+result = 69
+LAPSE : LINE 611
+result = 97
+LAPSE : LINE 612
+result = 71
+LAPSE : LINE 613
+result = 99
+LAPSE : LINE 614
+result = 59
+LAPSE : LINE 615
+result = 15
+LIMITLESS : LINE 616
+Tree: 29
+LAPSE : LINE 617
+result = 43
+LAPSE : LINE 618
+result = 21
+LAPSE : LINE 619
+result = 27
+LAPSE : LINE 620
+result = 93
+LAPSE : LINE 621
+result = 9
+LAPSE : LINE 622
+result = 55
+LAPSE : LINE 623
+result = 57
+LAPSE : LINE 624
+result = 69
+LIMITLESS : LINE 625
+Tree: 59(NULL,59)
+KOKUSEN : LINE 626
+LIMITLESS : LINE 627
+Tree: 59
+LAPSE : LINE 628
+result = 5
+LAPSE : LINE 629
+result = 89
+LIMITLESS : LINE 630
+Tree: EMPTY
+KOKUSEN : LINE 631
+LIMITLESS : LINE 632
+Tree: EMPTY
+LAPSE : LINE 633
+result = 69
+LAPSE : LINE 634
+result = 23
+LAPSE : LINE 635
+result = 35
+LAPSE : LINE 636
+result = 69
+LIMITLESS : LINE 637
+Tree: EMPTY
+KOKUSEN : LINE 638
+LIMITLESS : LINE 639
+Tree: EMPTY
+LIMITLESS : LINE 640
+Tree: 35
+KOKUSEN : LINE 641
+LIMITLESS : LINE 642
+Tree: EMPTY
+LAPSE : LINE 643
+result = 75
+LAPSE : LINE 644
+result = 41
+LAPSE : LINE 645
+result = 97
+LAPSE : LINE 646
+result = 35
+LIMITLESS : LINE 647
+Tree: EMPTY
+LIMITLESS : LINE 648
+Tree: EMPTY
+LIMITLESS : LINE 649
+Tree: 41
+LIMITLESS : LINE 650
+Tree: EMPTY
+LIMITLESS : LINE 651
+Tree: 69
+LIMITLESS : LINE 652
+Tree: EMPTY
+LIMITLESS : LINE 653
+Tree: 97
+LIMITLESS : LINE 654
+Tree: EMPTY
+LIMITLESS : LINE 655
+Tree: EMPTY
+LIMITLESS : LINE 656
+Tree: 35
+LIMITLESS : LINE 657
+Tree: 75
+LIMITLESS : LINE 658
+Tree: EMPTY
+LIMITLESS : LINE 659
+Tree: EMPTY
+KOKUSEN : LINE 660
+LIMITLESS : LINE 661
+Tree: EMPTY
+LIMITLESS : LINE 662
+Tree: EMPTY
+LIMITLESS : LINE 663
+Tree: EMPTY
+LIMITLESS : LINE 664
+Tree: EMPTY
+LIMITLESS : LINE 665
+Tree: EMPTY
+LIMITLESS : LINE 666
+Tree: EMPTY
+LIMITLESS : LINE 667
+Tree: EMPTY
+LIMITLESS : LINE 668
+Tree: EMPTY
+LIMITLESS : LINE 669
+Tree: EMPTY
+LIMITLESS : LINE 670
+Tree: EMPTY
+LIMITLESS : LINE 671
+Tree: EMPTY
+LIMITLESS : LINE 672
+Tree: EMPTY
+LIMITLESS : LINE 673
+Tree: EMPTY

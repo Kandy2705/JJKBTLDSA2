@@ -1,421 +1,1187 @@
-CLEAVE 1 : LINE 54
-Heap : 1(len=1,index=19) 17(len=1,index=17) 35(len=1,index=18) 31(len=1,index=12) 21(len=1,index=10) 9(len=3,index=0) 25(len=2,index=2) 41(len=2,index=8) 13(len=2,index=9) 23(len=2,index=16) 37(len=4,index=1) 5(len=5,index=13) 33(len=4,index=6) 27(len=3,index=3) 11(len=4,index=7) 19(len=4,index=14) 15(len=3,index=5) 7(len=3,index=15) 3(len=3,index=4) 43(len=4,index=11) 
-Heap : 1 17 35 31 21 9 25 41 13 23 37 5 33 27 11 19 15 7 3 43 
-list LRU : 9 37 25 27 3 15 33 11 41 13 21 43 31 5 19 7 23 17 35 1 
-customers in the area ID = 1: 176 
-customers in the area ID = 17: 104 
-customers in the area ID = 31: 74 
-customers in the area ID = 41: 84 
-customers in the area ID = 19: 458 
-customers in the area ID = 15: 234 
-customers in the area ID = 13: 364 
-customers in the area ID = 7: 402 
-customers in the area ID = 3: 134 
-customers in the area ID = 21: 416 
-customers in the area ID = 23: 374 
-customers in the area ID = 43: 350 
-customers in the area ID = 37: 36 
-customers in the area ID = 35: 78 
-customers in the area ID = 9: 360 
-customers in the area ID = 5: 356 
-customers in the area ID = 33: 384 
-customers in the area ID = 25: 376 
-customers in the area ID = 27: 26 
-customers in the area ID = 11: 142 
-
-KEITEIKEN 2 : LINE 55
-remove customers in the area ID = 1: 176 
-remove customers in the area ID = 35: 78 
-
-CLEAVE 10 : LINE 56
-Heap : 17(len=1,index=17) 31(len=1,index=12) 25(len=2,index=2) 13(len=2,index=9) 21(len=1,index=10) 9(len=3,index=0) 27(len=3,index=3) 41(len=2,index=8) 7(len=3,index=15) 23(len=2,index=16) 37(len=4,index=1) 5(len=5,index=13) 33(len=4,index=6) 43(len=4,index=11) 11(len=4,index=7) 19(len=4,index=14) 15(len=3,index=5) 3(len=3,index=4) 
-Heap : 17 31 25 13 21 9 27 41 7 23 37 5 33 43 11 19 15 3 
-list LRU : 9 37 25 27 3 15 33 11 41 13 21 43 31 5 19 7 23 17 
-customers in the area ID = 17: 104 
-customers in the area ID = 31: 74 
-customers in the area ID = 13: 364 276 
-customers in the area ID = 41: 84 172 
-customers in the area ID = 19: 458 282 18 458 
-customers in the area ID = 15: 234 410 190 
-customers in the area ID = 7: 402 50 182 
-customers in the area ID = 3: 134 46 2 
-customers in the area ID = 21: 416 
-customers in the area ID = 23: 374 374 
-customers in the area ID = 37: 36 432 388 168 
-customers in the area ID = 25: 376 68 
-customers in the area ID = 9: 360 316 96 
-customers in the area ID = 5: 356 488 444 224 136 
-customers in the area ID = 33: 384 164 164 340 
-customers in the area ID = 27: 26 466 158 
-customers in the area ID = 43: 350 218 86 42 
-customers in the area ID = 11: 142 10 54 494 
-
-CLEAVE 3 : LINE 198
-Heap : 35(len=5,index=19) 29(len=5,index=10) 25(len=6,index=11) 3(len=8,index=15) 21(len=6,index=14) 33(len=10,index=5) 43(len=8,index=20) 41(len=9,index=18) 31(len=8,index=12) 1(len=7,index=8) 37(len=8,index=21) 5(len=11,index=3) 9(len=11,index=16) 27(len=9,index=2) 11(len=15,index=6) 13(len=9,index=9) 7(len=9,index=17) 19(len=11,index=4) 15(len=11,index=13) 23(len=10,index=1) 17(len=7,index=7) 39(len=9,index=0) 
-Heap : 35 29 25 3 21 33 43 41 31 1 37 5 9 27 11 13 7 19 15 23 17 39 
-list LRU : 39 23 27 5 19 33 11 17 1 13 29 25 31 15 21 3 9 7 41 35 43 37 
-customers in the area ID = 35: 34 122 78 
-customers in the area ID = 29: 336 424 424 
-customers in the area ID = 3: 46 222 398 
-customers in the area ID = 41: 304 260 304 
-customers in the area ID = 13: 276 452 364 
-customers in the area ID = 7: 182 138 314 
-customers in the area ID = 31: 294 162 426 
-customers in the area ID = 19: 458 62 62 
-customers in the area ID = 15: 410 58 14 
-customers in the area ID = 21: 416 152 196 
-customers in the area ID = 1: 352 484 308 
-customers in the area ID = 23: 22 242 286 
-customers in the area ID = 17: 192 368 280 
-customers in the area ID = 37: 36 300 432 
-customers in the area ID = 39: 478 126 478 
-customers in the area ID = 25: 244 112 244 
-customers in the area ID = 33: 296 32 164 
-customers in the area ID = 5: 400 356 224 
-customers in the area ID = 9: 316 140 184 
-customers in the area ID = 43: 438 218 174 
-customers in the area ID = 27: 114 290 26 
-customers in the area ID = 11: 362 362 54 
-
-KEITEIKEN 50 : LINE 199
-remove customers in the area ID = 35: 78 298 78 122 34 
-remove customers in the area ID = 29: 424 160 424 424 336 
-remove customers in the area ID = 21: 416 372 372 196 152 416 
-remove customers in the area ID = 25: 68 376 156 244 112 244 
-remove customers in the area ID = 1: 264 440 396 0 308 484 352 
-remove customers in the area ID = 17: 104 280 104 324 280 368 192 
-remove customers in the area ID = 37: 168 388 432 36 300 432 300 36 
-remove customers in the area ID = 43: 42 86 218 350 394 174 218 438 
-remove customers in the area ID = 3: 2 46 134 442 310 398 222 46 
-remove customers in the area ID = 31: 74 470 294 338 118 426 162 294 
-remove customers in the area ID = 41: 172 84 392 216 436 480 304 260 304 
-remove customers in the area ID = 7: 182 50 402 138 138 358 314 138 182 
-remove customers in the area ID = 13: 276 364 408 276 320 452 364 452 276 
-remove customers in the area ID = 27: 158 466 26 246 70 158 26 290 114 
-remove customers in the area ID = 39: 390 82 346 258 170 214 478 126 478 
-remove customers in the area ID = 33: 340 164 164 384 472 32 32 164 32 296 
-remove customers in the area ID = 23: 374 374 110 242 374 22 66 286 242 22 
-remove customers in the area ID = 9: 96 316 360 272 316 360 448 52 184 140 316 
-remove customers in the area ID = 15: 190 410 234 454 322 498 234 410 14 58 410 
-remove customers in the area ID = 19: 458 18 282 458 326 414 150 282 62 62 458 
-remove customers in the area ID = 5: 136 224 444 488 356 48 4 268 224 356 400 
-remove customers in the area ID = 11: 494 54 10 142 54 406 98 10 318 406 230 230 54 362 362 
-
-CLEAVE 3 : LINE 200
-Heap : 
-Heap : 
-list LRU : 
-
-CLEAVE 10 : LINE 269
-Heap : 21(len=1,index=20) 43(len=1,index=6) 15(len=2,index=11) 39(len=2,index=15) 11(len=2,index=8) 33(len=3,index=10) 1(len=3,index=18) 31(len=3,index=17) 29(len=2,index=9) 23(len=2,index=1) 5(len=5,index=7) 3(len=5,index=14) 19(len=4,index=16) 27(len=3,index=2) 9(len=4,index=3) 37(len=4,index=12) 41(len=4,index=13) 35(len=5,index=4) 25(len=3,index=5) 17(len=7,index=0) 7(len=3,index=19) 
-Heap : 21 43 15 39 11 33 1 31 29 23 5 3 19 27 9 37 41 35 25 17 7 
-list LRU : 17 23 27 9 35 25 43 5 11 29 33 15 37 41 3 39 19 31 1 7 21 
-customers in the area ID = 21: 196 
-customers in the area ID = 43: 86 
-customers in the area ID = 39: 82 126 
-customers in the area ID = 31: 470 206 294 
-customers in the area ID = 37: 388 212 476 344 
-customers in the area ID = 41: 40 128 304 216 
-customers in the area ID = 29: 248 160 
-customers in the area ID = 35: 166 386 34 78 34 
-customers in the area ID = 25: 420 68 332 
-customers in the area ID = 11: 362 406 
-customers in the area ID = 23: 374 330 
-customers in the area ID = 17: 412 60 324 456 16 236 324 
-customers in the area ID = 7: 358 94 6 
-customers in the area ID = 5: 312 224 180 312 48 
-customers in the area ID = 15: 366 322 
-customers in the area ID = 33: 164 296 428 
-customers in the area ID = 3: 442 178 178 442 90 
-customers in the area ID = 19: 238 106 370 326 
-customers in the area ID = 1: 308 352 220 
-customers in the area ID = 27: 334 26 114 
-customers in the area ID = 9: 404 272 140 404 
-
-KEITEIKEN 1 : LINE 270
-remove customers in the area ID = 21: 196 
-
-CLEAVE 10 : LINE 271
-Heap : 43(len=1,index=6) 39(len=2,index=15) 15(len=2,index=11) 29(len=2,index=9) 11(len=2,index=8) 33(len=3,index=10) 1(len=3,index=18) 31(len=3,index=17) 7(len=3,index=19) 23(len=2,index=1) 5(len=5,index=7) 3(len=5,index=14) 19(len=4,index=16) 27(len=3,index=2) 9(len=4,index=3) 37(len=4,index=12) 41(len=4,index=13) 35(len=5,index=4) 25(len=3,index=5) 17(len=7,index=0) 
-Heap : 43 39 15 29 11 33 1 31 7 23 5 3 19 27 9 37 41 35 25 17 
-list LRU : 17 23 27 9 35 25 43 5 11 29 33 15 37 41 3 39 19 31 1 7 
-customers in the area ID = 43: 86 
-customers in the area ID = 39: 82 126 
-customers in the area ID = 29: 248 160 
-customers in the area ID = 31: 470 206 294 
-customers in the area ID = 37: 388 212 476 344 
-customers in the area ID = 41: 40 128 304 216 
-customers in the area ID = 7: 358 94 6 
-customers in the area ID = 35: 166 386 34 78 34 
-customers in the area ID = 25: 420 68 332 
-customers in the area ID = 11: 362 406 
-customers in the area ID = 23: 374 330 
-customers in the area ID = 17: 412 60 324 456 16 236 324 
-customers in the area ID = 5: 312 224 180 312 48 
-customers in the area ID = 15: 366 322 
-customers in the area ID = 33: 164 296 428 
-customers in the area ID = 3: 442 178 178 442 90 
-customers in the area ID = 19: 238 106 370 326 
-customers in the area ID = 1: 308 352 220 
-customers in the area ID = 27: 334 26 114 
-customers in the area ID = 9: 404 272 140 404 
-
-CLEAVE 2 : LINE 329
-Heap : 39(len=2,index=20) 21(len=2,index=19) 33(len=4,index=0) 43(len=4,index=16) 29(len=4,index=18) 1(len=5,index=17) 9(len=6,index=4) 7(len=6,index=9) 31(len=4,index=5) 11(len=5,index=10) 5(len=10,index=7) 3(len=9,index=14) 19(len=7,index=6) 27(len=6,index=1) 15(len=7,index=8) 37(len=8,index=2) 41(len=8,index=15) 35(len=7,index=11) 25(len=6,index=12) 17(len=9,index=13) 23(len=5,index=3) 
-Heap : 39 21 33 43 29 1 9 7 31 11 5 3 19 27 15 37 41 35 25 17 23 
-list LRU : 33 27 37 23 9 31 19 5 15 7 11 35 25 17 3 41 43 1 29 21 39 
-customers in the area ID = 39: 82 126 
-customers in the area ID = 21: 152 152 
-customers in the area ID = 43: 174 262 
-customers in the area ID = 7: 270 270 
-customers in the area ID = 37: 80 432 
-customers in the area ID = 41: 172 84 
-customers in the area ID = 31: 382 470 
-customers in the area ID = 35: 342 298 
-customers in the area ID = 25: 200 332 
-customers in the area ID = 29: 160 204 
-customers in the area ID = 11: 230 362 
-customers in the area ID = 17: 104 236 
-customers in the area ID = 23: 286 286 
-customers in the area ID = 5: 4 224 
-customers in the area ID = 33: 252 164 
-customers in the area ID = 1: 88 352 
-customers in the area ID = 3: 46 46 
-customers in the area ID = 19: 414 370 
-customers in the area ID = 9: 316 272 
-customers in the area ID = 27: 290 26 
-customers in the area ID = 15: 366 58 
-
-KEITEIKEN 10 : LINE 330
-remove customers in the area ID = 39: 126 82 
-remove customers in the area ID = 21: 152 152 
-remove customers in the area ID = 29: 160 248 204 160 
-remove customers in the area ID = 43: 86 86 262 174 
-remove customers in the area ID = 31: 294 206 470 382 
-remove customers in the area ID = 33: 428 296 164 252 
-remove customers in the area ID = 1: 220 352 308 352 88 
-remove customers in the area ID = 11: 406 362 98 362 230 
-remove customers in the area ID = 23: 330 374 154 286 286 
-remove customers in the area ID = 25: 332 68 420 24 332 200 
-
-CLEAVE 1 : LINE 331
-Heap : 7(len=6,index=6) 35(len=7,index=7) 9(len=6,index=2) 41(len=8,index=10) 15(len=7,index=5) 19(len=7,index=3) 27(len=6,index=0) 37(len=8,index=1) 3(len=9,index=9) 17(len=9,index=8) 5(len=10,index=4) 
-Heap : 7 35 9 41 15 19 27 37 3 17 5 
-list LRU : 27 37 9 19 5 15 7 35 17 3 41 
-customers in the area ID = 7: 270 
-customers in the area ID = 35: 342 
-customers in the area ID = 41: 172 
-customers in the area ID = 37: 80 
-customers in the area ID = 3: 46 
-customers in the area ID = 15: 366 
-customers in the area ID = 17: 104 
-customers in the area ID = 5: 4 
-customers in the area ID = 9: 316 
-customers in the area ID = 19: 414 
-customers in the area ID = 27: 290 
-
-CLEAVE 10 : LINE 374
-Heap : 23(len=1,index=13) 1(len=1,index=6) 31(len=2,index=16) 29(len=1,index=4) 33(len=1,index=3) 9(len=8,index=10) 43(len=3,index=15) 15(len=7,index=19) 11(len=2,index=11) 21(len=1,index=2) 5(len=17,index=0) 19(len=9,index=14) 7(len=11,index=1) 27(len=7,index=12) 25(len=3,index=8) 41(len=10,index=9) 37(len=8,index=18) 3(len=9,index=20) 13(len=3,index=7) 17(len=13,index=5) 35(len=8,index=17) 
-Heap : 23 1 31 29 33 9 43 15 11 21 5 19 7 27 25 41 37 3 13 17 35 
-list LRU : 5 7 21 33 29 17 1 13 25 41 9 11 27 23 19 43 31 35 37 15 3 
-customers in the area ID = 23: 418 
-customers in the area ID = 1: 484 
-customers in the area ID = 29: 116 
-customers in the area ID = 15: 366 58 146 322 322 366 322 
-customers in the area ID = 41: 260 348 172 84 304 348 40 128 304 216 
-customers in the area ID = 37: 80 432 80 300 388 212 476 344 
-customers in the area ID = 11: 318 186 
-customers in the area ID = 3: 46 46 266 178 442 178 178 442 90 
-customers in the area ID = 13: 232 56 56 
-customers in the area ID = 33: 164 
-customers in the area ID = 21: 284 
-customers in the area ID = 17: 60 456 192 148 104 236 412 60 324 456 
-customers in the area ID = 35: 166 342 298 166 386 34 78 34 
-customers in the area ID = 5: 4 48 180 312 136 92 180 4 224 136 
-customers in the area ID = 31: 294 294 
-customers in the area ID = 9: 184 404 316 272 404 272 140 404 
-customers in the area ID = 19: 18 62 414 370 458 238 106 370 326 
-customers in the area ID = 7: 358 314 490 446 402 270 270 138 358 94 
-customers in the area ID = 43: 394 130 306 
-customers in the area ID = 27: 70 290 26 290 334 26 114 
-customers in the area ID = 25: 156 68 156 
-
-KEITEIKEN 2 : LINE 375
-remove customers in the area ID = 23: 418 
-remove customers in the area ID = 1: 484 
-
-CLEAVE 10 : LINE 376
-Heap : 29(len=1,index=4) 33(len=1,index=3) 31(len=2,index=14) 11(len=2,index=10) 21(len=1,index=2) 9(len=8,index=9) 43(len=3,index=13) 15(len=7,index=17) 13(len=3,index=6) 17(len=13,index=5) 5(len=17,index=0) 19(len=9,index=12) 7(len=11,index=1) 27(len=7,index=11) 25(len=3,index=7) 41(len=10,index=8) 37(len=8,index=16) 3(len=9,index=18) 35(len=8,index=15) 
-Heap : 29 33 31 11 21 9 43 15 13 17 5 19 7 27 25 41 37 3 35 
-list LRU : 5 7 21 33 29 17 13 25 41 9 11 27 19 43 31 35 37 15 3 
-customers in the area ID = 29: 116 
-customers in the area ID = 33: 164 
-customers in the area ID = 11: 318 186 
-customers in the area ID = 15: 366 58 146 322 322 366 322 
-customers in the area ID = 41: 260 348 172 84 304 348 40 128 304 216 
-customers in the area ID = 37: 80 432 80 300 388 212 476 344 
-customers in the area ID = 13: 232 56 56 
-customers in the area ID = 3: 46 46 266 178 442 178 178 442 90 
-customers in the area ID = 35: 166 342 298 166 386 34 78 34 
-customers in the area ID = 21: 284 
-customers in the area ID = 17: 60 456 192 148 104 236 412 60 324 456 
-customers in the area ID = 5: 4 48 180 312 136 92 180 4 224 136 
-customers in the area ID = 31: 294 294 
-customers in the area ID = 9: 184 404 316 272 404 272 140 404 
-customers in the area ID = 19: 18 62 414 370 458 238 106 370 326 
-customers in the area ID = 7: 358 314 490 446 402 270 270 138 358 94 
-customers in the area ID = 43: 394 130 306 
-customers in the area ID = 27: 70 290 26 290 334 26 114 
-customers in the area ID = 25: 156 68 156 
-
-CLEAVE 10 : LINE 399
-Heap : 29(len=1,index=16) 33(len=1,index=15) 31(len=2,index=18) 13(len=4,index=9) 23(len=1,index=0) 9(len=9,index=13) 25(len=4,index=11) 15(len=8,index=4) 11(len=4,index=2) 21(len=2,index=7) 5(len=19,index=5) 19(len=11,index=12) 7(len=12,index=8) 27(len=7,index=17) 43(len=4,index=10) 41(len=11,index=14) 37(len=9,index=1) 3(len=9,index=19) 35(len=11,index=3) 17(len=16,index=6) 
-Heap : 29 33 31 13 23 9 25 15 11 21 5 19 7 27 43 41 37 3 35 17 
-list LRU : 23 37 11 35 15 5 17 21 7 13 43 25 19 9 41 33 29 27 31 3 
-customers in the area ID = 29: 116 
-customers in the area ID = 33: 164 
-customers in the area ID = 13: 188 232 56 56 
-customers in the area ID = 15: 190 366 58 146 322 322 366 322 
-customers in the area ID = 41: 128 260 348 172 84 304 348 40 128 304 
-customers in the area ID = 37: 476 80 432 80 300 388 212 476 344 
-customers in the area ID = 11: 54 362 318 186 
-customers in the area ID = 3: 46 46 266 178 442 178 178 442 90 
-customers in the area ID = 35: 474 34 210 166 342 298 166 386 34 78 
-customers in the area ID = 23: 110 
-customers in the area ID = 21: 328 284 
-customers in the area ID = 17: 104 16 412 60 456 192 148 104 236 412 
-customers in the area ID = 5: 268 444 4 48 180 312 136 92 180 4 
-customers in the area ID = 31: 294 294 
-customers in the area ID = 9: 272 184 404 316 272 404 272 140 404 
-customers in the area ID = 19: 414 414 18 62 414 370 458 238 106 370 
-customers in the area ID = 7: 402 358 314 490 446 402 270 270 138 358 
-customers in the area ID = 25: 156 156 68 156 
-customers in the area ID = 27: 70 290 26 290 334 26 114 
-customers in the area ID = 43: 306 394 130 306 
-
-KEITEIKEN 10 : LINE 400
-remove customers in the area ID = 29: 116 
-remove customers in the area ID = 33: 164 
-remove customers in the area ID = 23: 110 
-remove customers in the area ID = 31: 294 294 
-remove customers in the area ID = 21: 284 328 
-remove customers in the area ID = 25: 156 68 156 156 
-remove customers in the area ID = 43: 306 130 394 306 
-remove customers in the area ID = 13: 56 56 232 188 
-remove customers in the area ID = 11: 186 318 362 54 
-remove customers in the area ID = 27: 114 26 334 290 26 290 70 
-
-CLEAVE 2 : LINE 401
-Heap : 15(len=8,index=2) 37(len=9,index=0) 3(len=9,index=9) 41(len=11,index=8) 35(len=11,index=1) 9(len=9,index=7) 19(len=11,index=6) 5(len=19,index=3) 7(len=12,index=5) 17(len=16,index=4) 
-Heap : 15 37 3 41 35 9 19 5 7 17 
-list LRU : 37 35 15 5 17 7 19 9 41 3 
-customers in the area ID = 15: 190 366 
-customers in the area ID = 37: 476 80 
-customers in the area ID = 41: 128 260 
-customers in the area ID = 5: 268 444 
-customers in the area ID = 7: 402 358 
-customers in the area ID = 35: 474 34 
-customers in the area ID = 17: 104 16 
-customers in the area ID = 3: 46 46 
-customers in the area ID = 9: 272 184 
-customers in the area ID = 19: 414 414 
-
-CLEAVE 10 : LINE 416
-Heap : 33(len=1,index=10) 43(len=1,index=3) 27(len=1,index=8) 37(len=9,index=11) 15(len=9,index=4) 39(len=2,index=0) 25(len=1,index=7) 41(len=12,index=2) 7(len=14,index=9) 17(len=16,index=14) 35(len=11,index=12) 9(len=11,index=5) 3(len=10,index=1) 19(len=11,index=15) 31(len=1,index=6) 5(len=19,index=13) 
-Heap : 33 43 27 37 15 39 25 41 7 17 35 9 3 19 31 5 
-list LRU : 39 3 41 43 15 9 31 25 27 7 33 37 35 5 17 19 
-customers in the area ID = 33: 384 
-customers in the area ID = 43: 86 
-customers in the area ID = 37: 476 80 432 80 300 388 212 476 344 
-customers in the area ID = 41: 480 128 260 348 172 84 304 348 40 128 
-customers in the area ID = 5: 268 444 4 48 180 312 136 92 180 4 
-customers in the area ID = 7: 270 94 402 358 314 490 446 402 270 270 
-customers in the area ID = 15: 190 190 366 58 146 322 322 366 322 
-customers in the area ID = 17: 104 16 412 60 456 192 148 104 236 412 
-customers in the area ID = 35: 474 34 210 166 342 298 166 386 34 78 
-customers in the area ID = 27: 26 
-customers in the area ID = 39: 302 478 
-customers in the area ID = 9: 52 272 272 184 404 316 272 404 272 140 
-customers in the area ID = 3: 46 46 46 266 178 442 178 178 442 90 
-customers in the area ID = 25: 200 
-customers in the area ID = 19: 414 414 18 62 414 370 458 238 106 370 
-customers in the area ID = 31: 30 
-
-KEITEIKEN 1 : LINE 417
-remove customers in the area ID = 33: 384 
-
-CLEAVE 10 : LINE 418
-Heap : 27(len=1,index=8) 43(len=1,index=3) 25(len=1,index=7) 37(len=9,index=10) 15(len=9,index=4) 39(len=2,index=0) 31(len=1,index=6) 41(len=12,index=2) 7(len=14,index=9) 17(len=16,index=13) 35(len=11,index=11) 9(len=11,index=5) 3(len=10,index=1) 19(len=11,index=14) 5(len=19,index=12) 
-Heap : 27 43 25 37 15 39 31 41 7 17 35 9 3 19 5 
-list LRU : 39 3 41 43 15 9 31 25 27 7 37 35 5 17 19 
-customers in the area ID = 27: 26 
-customers in the area ID = 43: 86 
-customers in the area ID = 37: 476 80 432 80 300 388 212 476 344 
-customers in the area ID = 41: 480 128 260 348 172 84 304 348 40 128 
-customers in the area ID = 7: 270 94 402 358 314 490 446 402 270 270 
-customers in the area ID = 15: 190 190 366 58 146 322 322 366 322 
-customers in the area ID = 17: 104 16 412 60 456 192 148 104 236 412 
-customers in the area ID = 35: 474 34 210 166 342 298 166 386 34 78 
-customers in the area ID = 25: 200 
-customers in the area ID = 39: 302 478 
-customers in the area ID = 9: 52 272 272 184 404 316 272 404 272 140 
-customers in the area ID = 3: 46 46 46 266 178 442 178 178 442 90 
-customers in the area ID = 31: 30 
-customers in the area ID = 19: 414 414 18 62 414 370 458 238 106 370 
-customers in the area ID = 5: 268 444 4 48 180 312 136 92 180 4 
-
-CLEAVE 100 : LINE 514
-Heap : 23(len=1,index=6) 31(len=3,index=5) 39(len=4,index=20) 33(len=4,index=18) 13(len=4,index=14) 27(len=5,index=19) 25(len=7,index=12) 43(len=6,index=7) 11(len=4,index=8) 29(len=6,index=2) 35(len=16,index=13) 9(len=12,index=10) 3(len=15,index=0) 19(len=14,index=16) 5(len=25,index=3) 41(len=17,index=15) 37(len=13,index=11) 7(len=24,index=4) 1(len=6,index=9) 17(len=23,index=1) 15(len=14,index=17) 
-Heap : 23 31 39 33 13 27 25 43 11 29 35 9 3 19 5 41 37 7 1 17 15 
-list LRU : 3 17 29 5 7 31 23 43 11 1 9 37 25 35 13 41 19 15 33 27 39 
-customers in the area ID = 23: 462 
-customers in the area ID = 31: 206 250 30 
-customers in the area ID = 33: 472 208 120 164 
-customers in the area ID = 43: 350 130 482 262 482 86 
-customers in the area ID = 41: 40 128 172 260 304 480 128 260 348 172 84 304 348 40 128 304 216 
-customers in the area ID = 37: 432 388 388 212 476 80 432 80 300 388 212 476 344 
-customers in the area ID = 11: 274 54 362 230 
-customers in the area ID = 7: 490 6 358 226 358 6 446 402 402 270 270 94 402 358 314 490 446 402 270 270 138 358 94 6 
-customers in the area ID = 1: 440 220 352 440 176 132 
-customers in the area ID = 13: 496 56 364 56 
-customers in the area ID = 29: 292 424 468 160 248 28 
-customers in the area ID = 17: 16 16 16 104 456 104 236 104 16 412 60 456 192 148 104 236 412 60 324 456 16 236 324 
-customers in the area ID = 15: 190 322 14 146 278 190 190 366 58 146 322 322 366 322 
-customers in the area ID = 35: 122 298 298 386 166 474 34 210 166 342 298 166 386 34 78 34 
-customers in the area ID = 39: 170 390 302 478 
-customers in the area ID = 27: 202 334 466 246 26 
-customers in the area ID = 9: 8 52 272 272 184 404 316 272 404 272 140 404 
-customers in the area ID = 3: 398 134 178 266 266 46 46 46 266 178 442 178 178 442 90 
-customers in the area ID = 25: 156 200 244 112 112 112 200 
-customers in the area ID = 19: 62 282 150 414 414 18 62 414 370 458 238 106 370 326 
-customers in the area ID = 5: 356 400 400 356 444 400 268 444 4 48 180 312 136 92 180 4 224 136 224 312 312 224 180 312 48 
-
-KEITEIKEN 3 : LINE 515
-remove customers in the area ID = 23: 462 
-remove customers in the area ID = 31: 30 250 206 
-remove customers in the area ID = 39: 478 302 390 
-
-CLEAVE 100 : LINE 516
-Heap : 39(len=1,index=18) 33(len=4,index=16) 27(len=5,index=17) 11(len=4,index=6) 13(len=4,index=12) 9(len=12,index=8) 25(len=7,index=10) 43(len=6,index=5) 1(len=6,index=7) 29(len=6,index=2) 35(len=16,index=11) 17(len=23,index=1) 3(len=15,index=0) 19(len=14,index=14) 5(len=25,index=3) 41(len=17,index=13) 37(len=13,index=9) 7(len=24,index=4) 15(len=14,index=15) 
-Heap : 39 33 27 11 13 9 25 43 1 29 35 17 3 19 5 41 37 7 15 
-list LRU : 3 17 29 5 7 43 11 1 9 37 25 35 13 41 19 15 33 27 39 
-customers in the area ID = 39: 170 
-customers in the area ID = 33: 472 208 120 164 
-customers in the area ID = 11: 274 54 362 230 
-customers in the area ID = 43: 350 130 482 262 482 86 
-customers in the area ID = 41: 40 128 172 260 304 480 128 260 348 172 84 304 348 40 128 304 216 
-customers in the area ID = 37: 432 388 388 212 476 80 432 80 300 388 212 476 344 
-customers in the area ID = 1: 440 220 352 440 176 132 
-customers in the area ID = 7: 490 6 358 226 358 6 446 402 402 270 270 94 402 358 314 490 446 402 270 270 138 358 94 6 
-customers in the area ID = 15: 190 322 14 146 278 190 190 366 58 146 322 322 366 322 
-customers in the area ID = 13: 496 56 364 56 
-customers in the area ID = 29: 292 424 468 160 248 28 
-customers in the area ID = 35: 122 298 298 386 166 474 34 210 166 342 298 166 386 34 78 34 
-customers in the area ID = 27: 202 334 466 246 26 
-customers in the area ID = 9: 8 52 272 272 184 404 316 272 404 272 140 404 
-customers in the area ID = 17: 16 16 16 104 456 104 236 104 16 412 60 456 192 148 104 236 412 60 324 456 16 236 324 
-customers in the area ID = 3: 398 134 178 266 266 46 46 46 266 178 442 178 178 442 90 
-customers in the area ID = 25: 156 200 244 112 112 112 200 
-customers in the area ID = 19: 62 282 150 414 414 18 62 414 370 458 238 106 370 326 
-customers in the area ID = 5: 356 400 400 356 444 400 268 444 4 48 180 312 136 92 180 4 224 136 224 312 312 224 180 312 48 
-
+MAXSIZE : 5
+LAPSE : LINE 1
+result = 45
+LAPSE : LINE 2
+result = 1
+LAPSE : LINE 3
+result = 65
+LAPSE : LINE 4
+result = 83
+LAPSE : LINE 5
+result = 7
+LAPSE : LINE 6
+result = 69
+LAPSE : LINE 7
+result = 77
+LAPSE : LINE 8
+result = 71
+LAPSE : LINE 9
+result = 95
+LAPSE : LINE 10
+result = 7
+LAPSE : LINE 11
+result = 39
+LAPSE : LINE 12
+result = 95
+LAPSE : LINE 13
+result = 63
+LAPSE : LINE 14
+result = 65
+LIMITLESS : LINE 15
+Tree: 69(39,NULL)
+KOKUSEN : LINE 16
+LIMITLESS : LINE 17
+Tree: 39
+LAPSE : LINE 18
+result = 23
+LAPSE : LINE 19
+result = 27
+LAPSE : LINE 20
+result = 95
+LIMITLESS : LINE 21
+Tree: 39
+KOKUSEN : LINE 22
+LIMITLESS : LINE 23
+Tree: EMPTY
+LAPSE : LINE 24
+result = 25
+LAPSE : LINE 25
+result = 33
+LIMITLESS : LINE 26
+Tree: EMPTY
+KOKUSEN : LINE 27
+LIMITLESS : LINE 28
+Tree: EMPTY
+LAPSE : LINE 29
+result = 21
+LAPSE : LINE 30
+result = 99
+LAPSE : LINE 31
+result = 45
+LAPSE : LINE 32
+result = 39
+LAPSE : LINE 33
+result = 81
+LAPSE : LINE 34
+result = 89
+LAPSE : LINE 35
+result = 87
+LAPSE : LINE 36
+result = 63
+LAPSE : LINE 37
+result = 37
+LAPSE : LINE 38
+result = 5
+LAPSE : LINE 39
+result = 61
+LAPSE : LINE 40
+result = 27
+LAPSE : LINE 41
+result = 59
+LAPSE : LINE 42
+result = 99
+LIMITLESS : LINE 43
+Tree: 33(NULL,63)
+KOKUSEN : LINE 44
+LIMITLESS : LINE 45
+Tree: 63
+LAPSE : LINE 46
+result = 89
+LAPSE : LINE 47
+result = 63
+LAPSE : LINE 48
+result = 55
+LAPSE : LINE 49
+result = 75
+LAPSE : LINE 50
+result = 53
+LAPSE : LINE 51
+result = 41
+LAPSE : LINE 52
+result = 9
+LAPSE : LINE 53
+result = 7
+LAPSE : LINE 54
+result = 27
+LAPSE : LINE 55
+result = 43
+LAPSE : LINE 56
+result = 13
+LAPSE : LINE 57
+result = 89
+LAPSE : LINE 58
+result = 21
+LAPSE : LINE 59
+result = 85
+LAPSE : LINE 60
+result = 13
+LAPSE : LINE 61
+result = 3
+LAPSE : LINE 62
+result = 79
+LIMITLESS : LINE 63
+Tree: 63(53(43(13(3,13),NULL),NULL),63)
+LAPSE : LINE 64
+result = 27
+LAPSE : LINE 65
+result = 21
+LAPSE : LINE 66
+result = 37
+LIMITLESS : LINE 67
+Tree: 87(37(27(7,27(NULL,27)),37),NULL)
+LAPSE : LINE 68
+result = 53
+LAPSE : LINE 69
+result = 21
+LAPSE : LINE 70
+result = 85
+LAPSE : LINE 71
+result = 3
+LAPSE : LINE 72
+result = 73
+LIMITLESS : LINE 73
+Tree: 63(53(43(13(3(NULL,3),13),NULL),53),63(NULL,73))
+KOKUSEN : LINE 74
+LIMITLESS : LINE 75
+Tree: 73(53(43(13(3(NULL,3),13),NULL),NULL),NULL)
+LAPSE : LINE 76
+result = 71
+LAPSE : LINE 77
+result = 89
+LAPSE : LINE 78
+result = 65
+LAPSE : LINE 79
+result = 89
+LIMITLESS : LINE 80
+Tree: 61(41(21(NULL,21(NULL,21)),NULL),71)
+KOKUSEN : LINE 81
+LIMITLESS : LINE 82
+Tree: 61(41(21(NULL,21(NULL,21)),NULL),71)
+LAPSE : LINE 83
+result = 85
+LIMITLESS : LINE 84
+Tree: 85(65,85)
+KOKUSEN : LINE 85
+LIMITLESS : LINE 86
+Tree: 85
+LAPSE : LINE 87
+result = 93
+LAPSE : LINE 88
+result = 35
+LAPSE : LINE 89
+result = 89
+LAPSE : LINE 90
+result = 95
+LAPSE : LINE 91
+result = 99
+LAPSE : LINE 92
+result = 87
+LAPSE : LINE 93
+result = 39
+LAPSE : LINE 94
+result = 33
+LAPSE : LINE 95
+result = 43
+LAPSE : LINE 96
+result = 85
+LAPSE : LINE 97
+result = 15
+LAPSE : LINE 98
+result = 69
+LAPSE : LINE 99
+result = 89
+LIMITLESS : LINE 100
+Tree: 61(41(21(NULL,21(NULL,21)),NULL),71)
+KOKUSEN : LINE 101
+LIMITLESS : LINE 102
+Tree: 61(41(21(NULL,21(NULL,21)),NULL),71)
+LAPSE : LINE 103
+result = 15
+LAPSE : LINE 104
+result = 67
+LAPSE : LINE 105
+result = 63
+LAPSE : LINE 106
+result = 77
+LIMITLESS : LINE 107
+Tree: 73(53(3(NULL,33(NULL,43)),63),93)
+KOKUSEN : LINE 108
+LIMITLESS : LINE 109
+Tree: 63(33(NULL,43),NULL)
+LAPSE : LINE 110
+result = 11
+LAPSE : LINE 111
+result = 39
+LAPSE : LINE 112
+result = 43
+LAPSE : LINE 113
+result = 61
+LAPSE : LINE 114
+result = 31
+LAPSE : LINE 115
+result = 21
+LIMITLESS : LINE 116
+Tree: 89(39,NULL)
+KOKUSEN : LINE 117
+LIMITLESS : LINE 118
+Tree: 39
+LAPSE : LINE 119
+result = 69
+LAPSE : LINE 120
+result = 93
+LAPSE : LINE 121
+result = 45
+LAPSE : LINE 122
+result = 69
+LAPSE : LINE 123
+result = 75
+LAPSE : LINE 124
+result = 11
+LAPSE : LINE 125
+result = 3
+LAPSE : LINE 126
+result = 65
+LIMITLESS : LINE 127
+Tree: 63(43(3,43),93)
+KOKUSEN : LINE 128
+LIMITLESS : LINE 129
+Tree: 93(3,NULL)
+LAPSE : LINE 130
+result = 91
+LAPSE : LINE 131
+result = 83
+LIMITLESS : LINE 132
+Tree: 61(41(21(11(NULL,11),21(NULL,21(NULL,31(21,NULL)))),NULL),71(61,91))
+LAPSE : LINE 133
+result = 71
+LAPSE : LINE 134
+result = 57
+LAPSE : LINE 135
+result = 31
+LAPSE : LINE 136
+result = 63
+LIMITLESS : LINE 137
+Tree: 87(37(27(7,27(NULL,27)),37(NULL,67(57,77))),87)
+LAPSE : LINE 138
+result = 83
+LIMITLESS : LINE 139
+Tree: 93(3(NULL,83(63,83)),NULL)
+KOKUSEN : LINE 140
+LIMITLESS : LINE 141
+Tree: 83(63,83)
+LAPSE : LINE 142
+result = 71
+LIMITLESS : LINE 143
+Tree: 65
+KOKUSEN : LINE 144
+LIMITLESS : LINE 145
+Tree: EMPTY
+LAPSE : LINE 146
+result = 63
+LAPSE : LINE 147
+result = 59
+LAPSE : LINE 148
+result = 13
+LIMITLESS : LINE 149
+Tree: 83(63(13,NULL),NULL)
+KOKUSEN : LINE 150
+LIMITLESS : LINE 151
+Tree: 63(13,NULL)
+LAPSE : LINE 152
+result = 91
+LAPSE : LINE 153
+result = 97
+LAPSE : LINE 154
+result = 45
+LIMITLESS : LINE 155
+Tree: 63(13,NULL)
+KOKUSEN : LINE 156
+LIMITLESS : LINE 157
+Tree: 13
+LAPSE : LINE 158
+result = 39
+LAPSE : LINE 159
+result = 87
+LAPSE : LINE 160
+result = 87
+LIMITLESS : LINE 161
+Tree: 39
+LAPSE : LINE 162
+result = 65
+LAPSE : LINE 163
+result = 43
+LAPSE : LINE 164
+result = 31
+LAPSE : LINE 165
+result = 69
+LAPSE : LINE 166
+result = 95
+LAPSE : LINE 167
+result = 73
+LAPSE : LINE 168
+result = 11
+LAPSE : LINE 169
+result = 77
+LAPSE : LINE 170
+result = 75
+LAPSE : LINE 171
+result = 13
+LAPSE : LINE 172
+result = 19
+LAPSE : LINE 173
+result = 93
+LAPSE : LINE 174
+result = 33
+LIMITLESS : LINE 175
+Tree: 87(37(27(7,27(NULL,27)),37(NULL,67(57,77(NULL,77)))),87(NULL,97(87(NULL,87),NULL)))
+KOKUSEN : LINE 176
+LIMITLESS : LINE 177
+Tree: 87(37(27(NULL,27),67(57,77(NULL,77))),97(87(NULL,87),NULL))
+LAPSE : LINE 178
+result = 51
+LAPSE : LINE 179
+result = 37
+LAPSE : LINE 180
+result = 33
+LAPSE : LINE 181
+result = 3
+LAPSE : LINE 182
+result = 3
+LAPSE : LINE 183
+result = 31
+LAPSE : LINE 184
+result = 41
+LIMITLESS : LINE 185
+Tree: 61(21(11(NULL,11(NULL,11)),31(NULL,31(NULL,31(NULL,51(31(NULL,41),NULL))))),91(71(NULL,71),91))
+KOKUSEN : LINE 186
+LIMITLESS : LINE 187
+Tree: 71(21(11(NULL,11),31(NULL,31(NULL,31(NULL,51(31(NULL,41),NULL))))),91(71,91))
+LAPSE : LINE 188
+result = 71
+LAPSE : LINE 189
+result = 55
+LIMITLESS : LINE 190
+Tree: 75(55,NULL)
+KOKUSEN : LINE 191
+LIMITLESS : LINE 192
+Tree: 55
+LAPSE : LINE 193
+result = 17
+LAPSE : LINE 194
+result = 17
+LIMITLESS : LINE 195
+Tree: 71(21(11(NULL,11),31(NULL,31(NULL,31(NULL,51(31(NULL,41),NULL))))),91(71(NULL,71),91))
+KOKUSEN : LINE 196
+LIMITLESS : LINE 197
+Tree: 71(21(11(NULL,11),31(NULL,31(NULL,31(NULL,51(31(NULL,41),NULL))))),91(71(NULL,71),91))
+LAPSE : LINE 198
+result = 25
+LAPSE : LINE 199
+result = 77
+LAPSE : LINE 200
+result = 29
+LAPSE : LINE 201
+result = 33
+LAPSE : LINE 202
+result = 11
+LAPSE : LINE 203
+result = 5
+LAPSE : LINE 204
+result = 35
+LAPSE : LINE 205
+result = 17
+LAPSE : LINE 206
+result = 19
+LAPSE : LINE 207
+result = 3
+LAPSE : LINE 208
+result = 67
+LAPSE : LINE 209
+result = 1
+LAPSE : LINE 210
+result = 53
+LAPSE : LINE 211
+result = 77
+LAPSE : LINE 212
+result = 29
+LAPSE : LINE 213
+result = 89
+LAPSE : LINE 214
+result = 43
+LAPSE : LINE 215
+result = 9
+LIMITLESS : LINE 216
+Tree: 29(19(9,NULL),29(NULL,89))
+KOKUSEN : LINE 217
+LIMITLESS : LINE 218
+Tree: 29(19(9,NULL),89)
+LAPSE : LINE 219
+result = 5
+LAPSE : LINE 220
+result = 57
+LIMITLESS : LINE 221
+Tree: 35(5,NULL)
+KOKUSEN : LINE 222
+LIMITLESS : LINE 223
+Tree: 5
+LAPSE : LINE 224
+result = 91
+LAPSE : LINE 225
+result = 87
+LAPSE : LINE 226
+result = 33
+LAPSE : LINE 227
+result = 91
+LAPSE : LINE 228
+result = 77
+LAPSE : LINE 229
+result = 37
+LAPSE : LINE 230
+result = 43
+LAPSE : LINE 231
+result = 63
+LAPSE : LINE 232
+result = 97
+LAPSE : LINE 233
+result = 33
+LAPSE : LINE 234
+result = 63
+LAPSE : LINE 235
+result = 69
+LAPSE : LINE 236
+result = 37
+LAPSE : LINE 237
+result = 13
+LAPSE : LINE 238
+result = 99
+LAPSE : LINE 239
+result = 7
+LIMITLESS : LINE 240
+Tree: 71(21(11(1,11(NULL,11)),31(NULL,31(NULL,31(NULL,51(31(NULL,41),NULL))))),91(71(NULL,71),91(NULL,91(NULL,91))))
+KOKUSEN : LINE 241
+LIMITLESS : LINE 242
+Tree: 71(21(11(1,11(NULL,11)),31(NULL,31(NULL,31(NULL,51(31(NULL,41),NULL))))),91(71(NULL,71),91(NULL,91(NULL,91))))
+LAPSE : LINE 243
+result = 95
+LAPSE : LINE 244
+result = 87
+LAPSE : LINE 245
+result = 13
+LIMITLESS : LINE 246
+Tree: 95
+KOKUSEN : LINE 247
+LIMITLESS : LINE 248
+Tree: EMPTY
+LAPSE : LINE 249
+result = 77
+LAPSE : LINE 250
+result = 47
+LAPSE : LINE 251
+result = 83
+LAPSE : LINE 252
+result = 11
+LAPSE : LINE 253
+result = 55
+LAPSE : LINE 254
+result = 41
+LIMITLESS : LINE 255
+Tree: 55
+KOKUSEN : LINE 256
+LIMITLESS : LINE 257
+Tree: EMPTY
+LIMITLESS : LINE 258
+Tree: EMPTY
+KOKUSEN : LINE 259
+LIMITLESS : LINE 260
+Tree: EMPTY
+LAPSE : LINE 261
+result = 75
+LAPSE : LINE 262
+result = 71
+LAPSE : LINE 263
+result = 89
+LAPSE : LINE 264
+result = 39
+LIMITLESS : LINE 265
+Tree: 75
+KOKUSEN : LINE 266
+LIMITLESS : LINE 267
+Tree: EMPTY
+LAPSE : LINE 268
+result = 41
+LAPSE : LINE 269
+result = 13
+LAPSE : LINE 270
+result = 39
+LAPSE : LINE 271
+result = 27
+LAPSE : LINE 272
+result = 45
+LAPSE : LINE 273
+result = 91
+LIMITLESS : LINE 274
+Tree: 93(33(3(NULL,3(NULL,3(NULL,13(NULL,13(NULL,13))))),33(NULL,33(NULL,53(43(33(NULL,33),43),63(NULL,63(NULL,83)))))),NULL)
+KOKUSEN : LINE 275
+LIMITLESS : LINE 276
+Tree: 93(33(3(NULL,3(NULL,3(NULL,13(NULL,13(NULL,13))))),33(NULL,33(NULL,53(43(33(NULL,33),43),63(NULL,63(NULL,83)))))),NULL)
+LAPSE : LINE 277
+result = 83
+LAPSE : LINE 278
+result = 35
+LAPSE : LINE 279
+result = 89
+LIMITLESS : LINE 280
+Tree: 93(33(3(NULL,3(NULL,3(NULL,13(NULL,13(NULL,13))))),33(NULL,33(NULL,53(43(33(NULL,33),43),63(NULL,63(NULL,83(NULL,83))))))),NULL)
+KOKUSEN : LINE 281
+LIMITLESS : LINE 282
+Tree: 93(33(3(NULL,3(NULL,3(NULL,13(NULL,13(NULL,13))))),33(NULL,33(NULL,53(43(33(NULL,33),43),63(NULL,63(NULL,83(NULL,83))))))),NULL)
+LAPSE : LINE 283
+result = 65
+LAPSE : LINE 284
+result = 9
+LAPSE : LINE 285
+result = 3
+LAPSE : LINE 286
+result = 75
+LAPSE : LINE 287
+result = 61
+LAPSE : LINE 288
+result = 65
+LAPSE : LINE 289
+result = 23
+LIMITLESS : LINE 290
+Tree: 71(21(11(1,11(NULL,11(NULL,11))),31(NULL,31(NULL,31(NULL,51(31(NULL,41(NULL,41(NULL,41))),61))))),91(71(NULL,71(NULL,71)),91(NULL,91(NULL,91(NULL,91)))))
+KOKUSEN : LINE 291
+LIMITLESS : LINE 292
+Tree: 71(21(11(1,11(NULL,11(NULL,11))),31(NULL,31(NULL,31(NULL,51(31(NULL,41(NULL,41(NULL,41))),61))))),91(71(NULL,71(NULL,71)),91(NULL,91(NULL,91(NULL,91)))))
+LAPSE : LINE 293
+result = 9
+LIMITLESS : LINE 294
+Tree: 75(65,NULL)
+KOKUSEN : LINE 295
+LIMITLESS : LINE 296
+Tree: 65
+LAPSE : LINE 297
+result = 43
+LAPSE : LINE 298
+result = 21
+LAPSE : LINE 299
+result = 97
+LAPSE : LINE 300
+result = 73
+LAPSE : LINE 301
+result = 9
+LAPSE : LINE 302
+result = 51
+LAPSE : LINE 303
+result = 49
+LAPSE : LINE 304
+result = 51
+LAPSE : LINE 305
+result = 17
+LIMITLESS : LINE 306
+Tree: 87(37(17(7,17(NULL,17(NULL,27(17,NULL)))),67(57(37(NULL,37(NULL,47)),57),77(67,77(NULL,77(NULL,77(NULL,77(NULL,77))))))),97(87(NULL,87(NULL,87(NULL,87))),97(NULL,97)))
+KOKUSEN : LINE 307
+LIMITLESS : LINE 308
+Tree: 87(37(17(7,17(NULL,17(NULL,27(17,NULL)))),67(57(37(NULL,37(NULL,47)),57),77(67,77(NULL,77(NULL,77(NULL,77(NULL,77))))))),97(87(NULL,87(NULL,87(NULL,87))),97(NULL,97)))
+LAPSE : LINE 309
+result = 13
+LAPSE : LINE 310
+result = 35
+LAPSE : LINE 311
+result = 37
+LAPSE : LINE 312
+result = 71
+LAPSE : LINE 313
+result = 63
+LAPSE : LINE 314
+result = 65
+LAPSE : LINE 315
+result = 89
+LAPSE : LINE 316
+result = 59
+LAPSE : LINE 317
+result = 53
+LAPSE : LINE 318
+result = 77
+LAPSE : LINE 319
+result = 1
+LAPSE : LINE 320
+result = 11
+LIMITLESS : LINE 321
+Tree: 87(37(17(7,17(NULL,17(NULL,27(17,NULL)))),67(57(37(NULL,37(NULL,47(37,NULL))),57),77(67,77(NULL,77(NULL,77(NULL,77(NULL,77(NULL,77)))))))),97(87(NULL,87(NULL,87(NULL,87))),97(NULL,97)))
+KOKUSEN : LINE 322
+LIMITLESS : LINE 323
+Tree: 87(37(17(7,17(NULL,17(NULL,27(17,NULL)))),67(57(37(NULL,37(NULL,47(37,NULL))),57),77(67,77(NULL,77(NULL,77(NULL,77(NULL,77(NULL,77)))))))),97(87(NULL,87(NULL,87(NULL,87))),97(NULL,97)))
+LAPSE : LINE 324
+result = 59
+LAPSE : LINE 325
+result = 19
+LIMITLESS : LINE 326
+Tree: 87(37(17(7,17(NULL,17(NULL,27(17,NULL)))),67(57(37(NULL,37(NULL,47(37,NULL))),57),77(67,77(NULL,77(NULL,77(NULL,77(NULL,77(NULL,77)))))))),97(87(NULL,87(NULL,87(NULL,87))),97(NULL,97)))
+KOKUSEN : LINE 327
+LIMITLESS : LINE 328
+Tree: 87(37(17(7,17(NULL,17(NULL,27(17,NULL)))),67(57(37(NULL,37(NULL,47(37,NULL))),57),77(67,77(NULL,77(NULL,77(NULL,77(NULL,77(NULL,77)))))))),97(87(NULL,87(NULL,87(NULL,87))),97(NULL,97)))
+LAPSE : LINE 329
+result = 49
+LAPSE : LINE 330
+result = 17
+LAPSE : LINE 331
+result = 75
+LAPSE : LINE 332
+result = 31
+LAPSE : LINE 333
+result = 71
+LAPSE : LINE 334
+result = 7
+LAPSE : LINE 335
+result = 99
+LAPSE : LINE 336
+result = 65
+LAPSE : LINE 337
+result = 49
+LAPSE : LINE 338
+result = 35
+LIMITLESS : LINE 339
+Tree: 93(33(3(NULL,3(NULL,3(NULL,13(3,13(NULL,13(NULL,23(13,NULL))))))),33(NULL,33(NULL,53(43(33(NULL,33),43(NULL,43)),63(53,63(NULL,83(73(63,NULL),83))))))),NULL)
+KOKUSEN : LINE 340
+LIMITLESS : LINE 341
+Tree: 93(33(3(NULL,3(NULL,3(NULL,13(3,13(NULL,13(NULL,23(13,NULL))))))),33(NULL,33(NULL,53(43(33(NULL,33),43(NULL,43)),63(53,63(NULL,83(73(63,NULL),83))))))),NULL)
+LAPSE : LINE 342
+result = 57
+LAPSE : LINE 343
+result = 79
+LAPSE : LINE 344
+result = 9
+LAPSE : LINE 345
+result = 21
+LAPSE : LINE 346
+result = 55
+LAPSE : LINE 347
+result = 17
+LAPSE : LINE 348
+result = 49
+LAPSE : LINE 349
+result = 91
+LAPSE : LINE 350
+result = 83
+LAPSE : LINE 351
+result = 21
+LAPSE : LINE 352
+result = 81
+LAPSE : LINE 353
+result = 93
+LAPSE : LINE 354
+result = 45
+LAPSE : LINE 355
+result = 75
+LAPSE : LINE 356
+result = 91
+LAPSE : LINE 357
+result = 41
+LAPSE : LINE 358
+result = 47
+LAPSE : LINE 359
+result = 17
+LAPSE : LINE 360
+result = 3
+LAPSE : LINE 361
+result = 83
+LAPSE : LINE 362
+result = 5
+LAPSE : LINE 363
+result = 69
+LAPSE : LINE 364
+result = 73
+LAPSE : LINE 365
+result = 61
+LAPSE : LINE 366
+result = 99
+LAPSE : LINE 367
+result = 71
+LAPSE : LINE 368
+result = 51
+LAPSE : LINE 369
+result = 83
+LAPSE : LINE 370
+result = 85
+LAPSE : LINE 371
+result = 41
+LIMITLESS : LINE 372
+Tree: 87(37(17(7(NULL,7),17(NULL,17(NULL,27(17(NULL,17(NULL,17(NULL,17))),NULL)))),67(57(37(NULL,37(NULL,47(37,47))),57(NULL,57)),77(67,77(NULL,77(NULL,77(NULL,77(NULL,77(NULL,77)))))))),97(87(NULL,87(NULL,87(NULL,87))),97(NULL,97)))
+KOKUSEN : LINE 373
+LIMITLESS : LINE 374
+Tree: 87(37(17(7(NULL,7),17(NULL,17(NULL,27(17(NULL,17(NULL,17(NULL,17))),NULL)))),67(57(37(NULL,37(NULL,47(37,47))),57(NULL,57)),77(67,77(NULL,77(NULL,77(NULL,77(NULL,77(NULL,77)))))))),97(87(NULL,87(NULL,87(NULL,87))),97(NULL,97)))
+LAPSE : LINE 375
+result = 91
+LAPSE : LINE 376
+result = 13
+LAPSE : LINE 377
+result = 7
+LIMITLESS : LINE 378
+Tree: 87(37(17(7(NULL,7(NULL,7)),17(NULL,17(NULL,27(17(NULL,17(NULL,17(NULL,17))),NULL)))),67(57(37(NULL,37(NULL,47(37,47))),57(NULL,57)),77(67,77(NULL,77(NULL,77(NULL,77(NULL,77(NULL,77)))))))),97(87(NULL,87(NULL,87(NULL,87))),97(NULL,97)))
+KOKUSEN : LINE 379
+LIMITLESS : LINE 380
+Tree: 87(37(17(7(NULL,7(NULL,7)),17(NULL,17(NULL,27(17(NULL,17(NULL,17(NULL,17))),NULL)))),67(57(37(NULL,37(NULL,47(37,47))),57(NULL,57)),77(67,77(NULL,77(NULL,77(NULL,77(NULL,77(NULL,77)))))))),97(87(NULL,87(NULL,87(NULL,87))),97(NULL,97)))
+LAPSE : LINE 381
+result = 57
+LAPSE : LINE 382
+result = 5
+LAPSE : LINE 383
+result = 67
+LAPSE : LINE 384
+result = 99
+LAPSE : LINE 385
+result = 33
+LAPSE : LINE 386
+result = 29
+LAPSE : LINE 387
+result = 25
+LAPSE : LINE 388
+result = 91
+LAPSE : LINE 389
+result = 23
+LIMITLESS : LINE 390
+Tree: 49(9(NULL,29),99(49(NULL,79(49(NULL,69),NULL)),99(NULL,99)))
+KOKUSEN : LINE 391
+LIMITLESS : LINE 392
+Tree: 49(9(NULL,29),99(49(NULL,79(49(NULL,69),NULL)),99(NULL,99)))
+LIMITLESS : LINE 393
+Tree: 65(35(5(NULL,5(NULL,25)),55(45,NULL)),75(NULL,85))
+LAPSE : LINE 394
+result = 57
+LAPSE : LINE 395
+result = 29
+LAPSE : LINE 396
+result = 1
+LIMITLESS : LINE 397
+Tree: 49(9(NULL,29(NULL,29)),99(49(NULL,79(49(NULL,69),NULL)),99(NULL,99)))
+KOKUSEN : LINE 398
+LIMITLESS : LINE 399
+Tree: 49(9(NULL,29(NULL,29)),99(49(NULL,79(49(NULL,69),NULL)),99(NULL,99)))
+LAPSE : LINE 400
+result = 93
+LAPSE : LINE 401
+result = 95
+LAPSE : LINE 402
+result = 71
+LAPSE : LINE 403
+result = 81
+LAPSE : LINE 404
+result = 23
+LIMITLESS : LINE 405
+Tree: 49(9(NULL,29(NULL,29)),99(49(NULL,79(49(NULL,69),NULL)),99(NULL,99)))
+KOKUSEN : LINE 406
+LIMITLESS : LINE 407
+Tree: 49(9(NULL,29(NULL,29)),99(49(NULL,79(49(NULL,69),NULL)),99(NULL,99)))
+LAPSE : LINE 408
+result = 13
+LAPSE : LINE 409
+result = 31
+LAPSE : LINE 410
+result = 41
+LAPSE : LINE 411
+result = 47
+LAPSE : LINE 412
+result = 57
+LAPSE : LINE 413
+result = 77
+LAPSE : LINE 414
+result = 71
+LAPSE : LINE 415
+result = 29
+LAPSE : LINE 416
+result = 81
+LIMITLESS : LINE 417
+Tree: 65(35(5(NULL,5(NULL,25)),55(45,NULL)),75(NULL,85(NULL,95)))
+KOKUSEN : LINE 418
+LIMITLESS : LINE 419
+Tree: 65(35(5(NULL,5(NULL,25)),55(45,NULL)),75(NULL,85(NULL,95)))
+LIMITLESS : LINE 420
+Tree: 93(33(3(NULL,3(NULL,3(NULL,13(3(NULL,3),13(NULL,13(NULL,23(13(NULL,13(NULL,13)),23(NULL,23)))))))),33(NULL,33(NULL,53(43(33(NULL,33(NULL,33)),43(NULL,43)),63(53,63(NULL,83(73(63,73),83(NULL,83(NULL,83(NULL,83)))))))))),93(NULL,93))
+KOKUSEN : LINE 421
+LIMITLESS : LINE 422
+Tree: 93(33(3(NULL,3(NULL,3(NULL,13(3(NULL,3),13(NULL,13(NULL,23(13(NULL,13(NULL,13)),23(NULL,23)))))))),33(NULL,33(NULL,53(43(33(NULL,33(NULL,33)),43(NULL,43)),63(53,63(NULL,83(73(63,73),83(NULL,83(NULL,83(NULL,83)))))))))),93(NULL,93))
+LAPSE : LINE 423
+result = 1
+LAPSE : LINE 424
+result = 29
+LAPSE : LINE 425
+result = 91
+LIMITLESS : LINE 426
+Tree: 49(9(NULL,29(NULL,29(NULL,29(NULL,29)))),99(49(NULL,79(49(NULL,69),NULL)),99(NULL,99)))
+KOKUSEN : LINE 427
+LIMITLESS : LINE 428
+Tree: 49(9(NULL,29(NULL,29(NULL,29(NULL,29)))),99(49(NULL,79(49(NULL,69),NULL)),99(NULL,99)))
+LAPSE : LINE 429
+result = 61
+LAPSE : LINE 430
+result = 83
+LIMITLESS : LINE 431
+Tree: 71(21(11(1(NULL,1(NULL,1(NULL,1))),11(NULL,11(NULL,11(NULL,11)))),31(21(NULL,21(NULL,21)),31(NULL,31(NULL,51(31(NULL,41(31(NULL,31),41(NULL,41(NULL,41(NULL,41(NULL,41)))))),61(51(NULL,51(NULL,51)),61(NULL,61))))))),91(71(NULL,71(NULL,71(NULL,71(NULL,71(NULL,81(71(NULL,71(NULL,71)),81(NULL,81))))))),91(NULL,91(NULL,91(NULL,91(NULL,91(NULL,91(NULL,91(NULL,91(NULL,91))))))))))
+KOKUSEN : LINE 432
+LIMITLESS : LINE 433
+Tree: 71(21(11(1(NULL,1(NULL,1(NULL,1))),11(NULL,11(NULL,11(NULL,11)))),31(21(NULL,21(NULL,21)),31(NULL,31(NULL,51(31(NULL,41(31(NULL,31),41(NULL,41(NULL,41(NULL,41(NULL,41)))))),61(51(NULL,51(NULL,51)),61(NULL,61))))))),91(71(NULL,71(NULL,71(NULL,71(NULL,71(NULL,81(71(NULL,71(NULL,71)),81(NULL,81))))))),91(NULL,91(NULL,91(NULL,91(NULL,91(NULL,91(NULL,91(NULL,91(NULL,91))))))))))
+LAPSE : LINE 434
+result = 57
+LAPSE : LINE 435
+result = 1
+LAPSE : LINE 436
+result = 95
+LAPSE : LINE 437
+result = 73
+LAPSE : LINE 438
+result = 63
+LIMITLESS : LINE 439
+Tree: 87(37(17(7(NULL,7(NULL,7)),17(NULL,17(NULL,27(17(NULL,17(NULL,17(NULL,17))),NULL)))),67(57(37(NULL,37(NULL,47(37,47(NULL,47)))),57(NULL,57(NULL,57(NULL,57(NULL,57(NULL,57)))))),77(67(NULL,67),77(NULL,77(NULL,77(NULL,77(NULL,77(NULL,77(NULL,77))))))))),97(87(NULL,87(NULL,87(NULL,87))),97(NULL,97)))
+LAPSE : LINE 440
+result = 5
+LIMITLESS : LINE 441
+Tree: 93(33(3(NULL,3(NULL,3(NULL,13(3(NULL,3),13(NULL,13(NULL,23(13(NULL,13(NULL,13)),23(NULL,23)))))))),33(NULL,33(NULL,53(43(33(NULL,33(NULL,33)),43(NULL,43)),63(53,63(NULL,83(73(63(NULL,63),73(NULL,73)),83(NULL,83(NULL,83(NULL,83(NULL,83))))))))))),93(NULL,93))
+KOKUSEN : LINE 442
+LIMITLESS : LINE 443
+Tree: 93(33(3(NULL,3(NULL,3(NULL,13(3(NULL,3),13(NULL,13(NULL,23(13(NULL,13(NULL,13)),23(NULL,23)))))))),33(NULL,33(NULL,53(43(33(NULL,33(NULL,33)),43(NULL,43)),63(53,63(NULL,83(73(63(NULL,63),73(NULL,73)),83(NULL,83(NULL,83(NULL,83(NULL,83))))))))))),93(NULL,93))
+LAPSE : LINE 444
+result = 75
+LAPSE : LINE 445
+result = 13
+LAPSE : LINE 446
+result = 13
+LAPSE : LINE 447
+result = 51
+LAPSE : LINE 448
+result = 51
+LAPSE : LINE 449
+result = 7
+LAPSE : LINE 450
+result = 15
+LIMITLESS : LINE 451
+Tree: 87(37(17(7(NULL,7(NULL,7(NULL,7))),17(NULL,17(NULL,27(17(NULL,17(NULL,17(NULL,17))),NULL)))),67(57(37(NULL,37(NULL,47(37,47(NULL,47)))),57(NULL,57(NULL,57(NULL,57(NULL,57(NULL,57)))))),77(67(NULL,67),77(NULL,77(NULL,77(NULL,77(NULL,77(NULL,77(NULL,77))))))))),97(87(NULL,87(NULL,87(NULL,87))),97(NULL,97)))
+KOKUSEN : LINE 452
+LIMITLESS : LINE 453
+Tree: 87(37(17(7(NULL,7(NULL,7(NULL,7))),17(NULL,17(NULL,27(17(NULL,17(NULL,17(NULL,17))),NULL)))),67(57(37(NULL,37(NULL,47(37,47(NULL,47)))),57(NULL,57(NULL,57(NULL,57(NULL,57(NULL,57)))))),77(67(NULL,67),77(NULL,77(NULL,77(NULL,77(NULL,77(NULL,77(NULL,77))))))))),97(87(NULL,87(NULL,87(NULL,87))),97(NULL,97)))
+LAPSE : LINE 454
+result = 5
+LAPSE : LINE 455
+result = 81
+LAPSE : LINE 456
+result = 7
+LAPSE : LINE 457
+result = 95
+LAPSE : LINE 458
+result = 5
+LAPSE : LINE 459
+result = 3
+LIMITLESS : LINE 460
+Tree: 71(21(11(1(NULL,1(NULL,1(NULL,1(NULL,1)))),11(NULL,11(NULL,11(NULL,11)))),31(21(NULL,21(NULL,21)),31(NULL,31(NULL,51(31(NULL,41(31(NULL,31),41(NULL,41(NULL,41(NULL,41(NULL,41)))))),61(51(NULL,51(NULL,51(NULL,51(NULL,51)))),61(NULL,61))))))),91(71(NULL,71(NULL,71(NULL,71(NULL,71(NULL,81(71(NULL,71(NULL,71)),81(NULL,81(NULL,81)))))))),91(NULL,91(NULL,91(NULL,91(NULL,91(NULL,91(NULL,91(NULL,91(NULL,91))))))))))
+KOKUSEN : LINE 461
+LIMITLESS : LINE 462
+Tree: 71(21(11(1(NULL,1(NULL,1(NULL,1(NULL,1)))),11(NULL,11(NULL,11(NULL,11)))),31(21(NULL,21(NULL,21)),31(NULL,31(NULL,51(31(NULL,41(31(NULL,31),41(NULL,41(NULL,41(NULL,41(NULL,41)))))),61(51(NULL,51(NULL,51(NULL,51(NULL,51)))),61(NULL,61))))))),91(71(NULL,71(NULL,71(NULL,71(NULL,71(NULL,81(71(NULL,71(NULL,71)),81(NULL,81(NULL,81)))))))),91(NULL,91(NULL,91(NULL,91(NULL,91(NULL,91(NULL,91(NULL,91(NULL,91))))))))))
+LAPSE : LINE 463
+result = 3
+LIMITLESS : LINE 464
+Tree: 75(45(5(NULL,5(NULL,25(5(NULL,15(5(NULL,5),NULL)),NULL))),NULL),85(75,95(NULL,95(NULL,95))))
+LAPSE : LINE 465
+result = 5
+LIMITLESS : LINE 466
+Tree: 87(37(17(7(NULL,7(NULL,7(NULL,7(NULL,7)))),17(NULL,17(NULL,27(17(NULL,17(NULL,17(NULL,17))),NULL)))),67(57(37(NULL,37(NULL,47(37,47(NULL,47)))),57(NULL,57(NULL,57(NULL,57(NULL,57(NULL,57)))))),77(67(NULL,67),77(NULL,77(NULL,77(NULL,77(NULL,77(NULL,77(NULL,77))))))))),97(87(NULL,87(NULL,87(NULL,87))),97(NULL,97)))
+LAPSE : LINE 467
+result = 3
+LAPSE : LINE 468
+result = 45
+LAPSE : LINE 469
+result = 69
+LAPSE : LINE 470
+result = 47
+LAPSE : LINE 471
+result = 19
+LAPSE : LINE 472
+result = 57
+LAPSE : LINE 473
+result = 33
+LAPSE : LINE 474
+result = 67
+LAPSE : LINE 475
+result = 93
+LAPSE : LINE 476
+result = 71
+LAPSE : LINE 477
+result = 49
+LAPSE : LINE 478
+result = 53
+LAPSE : LINE 479
+result = 59
+LIMITLESS : LINE 480
+Tree: 93(33(3(NULL,3(NULL,3(NULL,13(3(NULL,3(NULL,3(NULL,3(NULL,3)))),13(NULL,13(NULL,23(13(NULL,13(NULL,13(NULL,13(NULL,13)))),23(NULL,23)))))))),33(NULL,33(NULL,53(43(33(NULL,33(NULL,33(NULL,33))),43(NULL,43)),63(53(NULL,53),63(NULL,83(73(63(NULL,63),73(NULL,73)),83(NULL,83(NULL,83(NULL,83(NULL,83))))))))))),93(NULL,93(NULL,93)))
+LAPSE : LINE 481
+result = 47
+LAPSE : LINE 482
+result = 71
+LIMITLESS : LINE 483
+Tree: 75(45(5(NULL,5(NULL,25(5(NULL,15(5(NULL,5(NULL,5)),NULL)),NULL))),45),85(75,95(NULL,95(NULL,95))))
+KOKUSEN : LINE 484
+LIMITLESS : LINE 485
+Tree: 75(45(5(NULL,25(5(NULL,15(5(NULL,5(NULL,5)),NULL)),NULL)),NULL),85(NULL,95(NULL,95(NULL,95))))
+LAPSE : LINE 486
+result = 25
+LAPSE : LINE 487
+result = 45
+LAPSE : LINE 488
+result = 49
+LAPSE : LINE 489
+result = 25
+LAPSE : LINE 490
+result = 69
+LIMITLESS : LINE 491
+Tree: 87(37(17(7(NULL,7(NULL,7(NULL,7(NULL,7)))),17(NULL,17(NULL,27(17(NULL,17(NULL,17(NULL,17))),NULL)))),67(57(37(NULL,37(NULL,47(37,47(NULL,47(NULL,47(NULL,47)))))),57(NULL,57(NULL,57(NULL,57(NULL,57(NULL,57(NULL,57))))))),77(67(NULL,67(NULL,67)),77(NULL,77(NULL,77(NULL,77(NULL,77(NULL,77(NULL,77))))))))),97(87(NULL,87(NULL,87(NULL,87))),97(NULL,97)))
+KOKUSEN : LINE 492
+LIMITLESS : LINE 493
+Tree: 87(37(17(7(NULL,7(NULL,7(NULL,7(NULL,7)))),17(NULL,17(NULL,27(17(NULL,17(NULL,17(NULL,17))),NULL)))),67(57(37(NULL,37(NULL,47(37,47(NULL,47(NULL,47(NULL,47)))))),57(NULL,57(NULL,57(NULL,57(NULL,57(NULL,57(NULL,57))))))),77(67(NULL,67(NULL,67)),77(NULL,77(NULL,77(NULL,77(NULL,77(NULL,77(NULL,77))))))))),97(87(NULL,87(NULL,87(NULL,87))),97(NULL,97)))
+LAPSE : LINE 494
+result = 55
+LAPSE : LINE 495
+result = 11
+LAPSE : LINE 496
+result = 79
+LAPSE : LINE 497
+result = 13
+LAPSE : LINE 498
+result = 39
+LAPSE : LINE 499
+result = 75
+LAPSE : LINE 500
+result = 41
+LAPSE : LINE 501
+result = 7
+LIMITLESS : LINE 502
+Tree: 93(33(3(NULL,3(NULL,3(NULL,13(3(NULL,3(NULL,3(NULL,3(NULL,3)))),13(NULL,13(NULL,23(13(NULL,13(NULL,13(NULL,13(NULL,13(NULL,13))))),23(NULL,23)))))))),33(NULL,33(NULL,53(43(33(NULL,33(NULL,33(NULL,33))),43(NULL,43)),63(53(NULL,53),63(NULL,83(73(63(NULL,63),73(NULL,73)),83(NULL,83(NULL,83(NULL,83(NULL,83))))))))))),93(NULL,93(NULL,93)))
+KOKUSEN : LINE 503
+LIMITLESS : LINE 504
+Tree: 93(33(3(NULL,3(NULL,3(NULL,13(3(NULL,3(NULL,3(NULL,3(NULL,3)))),13(NULL,13(NULL,23(13(NULL,13(NULL,13(NULL,13(NULL,13(NULL,13))))),23(NULL,23)))))))),33(NULL,33(NULL,53(43(33(NULL,33(NULL,33(NULL,33))),43(NULL,43)),63(53(NULL,53),63(NULL,83(73(63(NULL,63),73(NULL,73)),83(NULL,83(NULL,83(NULL,83(NULL,83))))))))))),93(NULL,93(NULL,93)))
+LIMITLESS : LINE 505
+Tree: 49(9(NULL,29(19,29(NULL,29(NULL,29(NULL,39))))),99(79(49(NULL,69(49(NULL,59(49,NULL)),69(NULL,69))),79),99(NULL,99)))
+KOKUSEN : LINE 506
+LIMITLESS : LINE 507
+Tree: 49(9(NULL,29(19,29(NULL,29(NULL,29(NULL,39))))),99(79(49(NULL,69(49(NULL,59(49,NULL)),69(NULL,69))),79),99(NULL,99)))
+LAPSE : LINE 508
+result = 23
+LAPSE : LINE 509
+result = 31
+LIMITLESS : LINE 510
+Tree: 75(45(5(NULL,25(5(NULL,15(5(NULL,5(NULL,5)),NULL)),25(NULL,25))),45(NULL,55)),85(75,95(NULL,95(NULL,95))))
+LIMITLESS : LINE 511
+Tree: 93(33(3(NULL,3(NULL,3(NULL,13(3(NULL,3(NULL,3(NULL,3(NULL,3)))),13(NULL,13(NULL,23(13(NULL,13(NULL,13(NULL,13(NULL,13(NULL,13))))),23(NULL,23(NULL,23))))))))),33(NULL,33(NULL,53(43(33(NULL,33(NULL,33(NULL,33))),43(NULL,43)),63(53(NULL,53),63(NULL,83(73(63(NULL,63),73(NULL,73)),83(NULL,83(NULL,83(NULL,83(NULL,83))))))))))),93(NULL,93(NULL,93)))
+LAPSE : LINE 512
+result = 15
+LAPSE : LINE 513
+result = 5
+LAPSE : LINE 514
+result = 57
+LAPSE : LINE 515
+result = 89
+LAPSE : LINE 516
+result = 61
+LAPSE : LINE 517
+result = 11
+LAPSE : LINE 518
+result = 37
+LAPSE : LINE 519
+result = 11
+LAPSE : LINE 520
+result = 67
+LIMITLESS : LINE 521
+Tree: 93(33(3(NULL,3(NULL,3(NULL,13(3(NULL,3(NULL,3(NULL,3(NULL,3)))),13(NULL,13(NULL,23(13(NULL,13(NULL,13(NULL,13(NULL,13(NULL,13))))),23(NULL,23(NULL,23))))))))),33(NULL,33(NULL,53(43(33(NULL,33(NULL,33(NULL,33))),43(NULL,43)),63(53(NULL,53),63(NULL,83(73(63(NULL,63),73(NULL,73)),83(NULL,83(NULL,83(NULL,83(NULL,83))))))))))),93(NULL,93(NULL,93)))
+KOKUSEN : LINE 522
+LIMITLESS : LINE 523
+Tree: 93(33(3(NULL,3(NULL,3(NULL,13(3(NULL,3(NULL,3(NULL,3(NULL,3)))),13(NULL,13(NULL,23(13(NULL,13(NULL,13(NULL,13(NULL,13(NULL,13))))),23(NULL,23(NULL,23))))))))),33(NULL,33(NULL,53(43(33(NULL,33(NULL,33(NULL,33))),43(NULL,43)),63(53(NULL,53),63(NULL,83(73(63(NULL,63),73(NULL,73)),83(NULL,83(NULL,83(NULL,83(NULL,83))))))))))),93(NULL,93(NULL,93)))
+LAPSE : LINE 524
+result = 71
+LAPSE : LINE 525
+result = 23
+LAPSE : LINE 526
+result = 99
+LAPSE : LINE 527
+result = 17
+LAPSE : LINE 528
+result = 41
+LAPSE : LINE 529
+result = 43
+LAPSE : LINE 530
+result = 89
+LAPSE : LINE 531
+result = 95
+LAPSE : LINE 532
+result = 59
+LAPSE : LINE 533
+result = 53
+LAPSE : LINE 534
+result = 51
+LAPSE : LINE 535
+result = 7
+LAPSE : LINE 536
+result = 61
+LAPSE : LINE 537
+result = 23
+LAPSE : LINE 538
+result = 29
+LAPSE : LINE 539
+result = 57
+LAPSE : LINE 540
+result = 63
+LAPSE : LINE 541
+result = 47
+LAPSE : LINE 542
+result = 73
+LAPSE : LINE 543
+result = 35
+LAPSE : LINE 544
+result = 47
+LAPSE : LINE 545
+result = 87
+LAPSE : LINE 546
+result = 55
+LAPSE : LINE 547
+result = 15
+LAPSE : LINE 548
+result = 41
+LAPSE : LINE 549
+result = 77
+LAPSE : LINE 550
+result = 49
+LIMITLESS : LINE 551
+Tree: 71(21(11(1(NULL,1(NULL,1(NULL,1(NULL,1)))),11(NULL,11(NULL,11(NULL,11(NULL,11(NULL,11(NULL,11))))))),31(21(NULL,21(NULL,21)),31(NULL,31(NULL,51(31(NULL,41(31(NULL,31(NULL,31)),41(NULL,41(NULL,41(NULL,41(NULL,41(NULL,41(NULL,41(NULL,41))))))))),61(51(NULL,51(NULL,51(NULL,51(NULL,51(NULL,51))))),61(NULL,61(NULL,61(NULL,61))))))))),91(71(NULL,71(NULL,71(NULL,71(NULL,71(NULL,81(71(NULL,71(NULL,71(NULL,71(NULL,71(NULL,71))))),81(NULL,81(NULL,81)))))))),91(NULL,91(NULL,91(NULL,91(NULL,91(NULL,91(NULL,91(NULL,91(NULL,91))))))))))
+KOKUSEN : LINE 552
+LIMITLESS : LINE 553
+Tree: 71(21(11(1(NULL,1(NULL,1(NULL,1(NULL,1)))),11(NULL,11(NULL,11(NULL,11(NULL,11(NULL,11(NULL,11))))))),31(21(NULL,21(NULL,21)),31(NULL,31(NULL,51(31(NULL,41(31(NULL,31(NULL,31)),41(NULL,41(NULL,41(NULL,41(NULL,41(NULL,41(NULL,41(NULL,41))))))))),61(51(NULL,51(NULL,51(NULL,51(NULL,51(NULL,51))))),61(NULL,61(NULL,61(NULL,61))))))))),91(71(NULL,71(NULL,71(NULL,71(NULL,71(NULL,81(71(NULL,71(NULL,71(NULL,71(NULL,71(NULL,71))))),81(NULL,81(NULL,81)))))))),91(NULL,91(NULL,91(NULL,91(NULL,91(NULL,91(NULL,91(NULL,91(NULL,91))))))))))
+LAPSE : LINE 554
+result = 55
+LAPSE : LINE 555
+result = 81
+LAPSE : LINE 556
+result = 95
+LAPSE : LINE 557
+result = 23
+LAPSE : LINE 558
+result = 89
+LAPSE : LINE 559
+result = 49
+LAPSE : LINE 560
+result = 61
+LAPSE : LINE 561
+result = 83
+LAPSE : LINE 562
+result = 33
+LAPSE : LINE 563
+result = 67
+LIMITLESS : LINE 564
+Tree: 75(45(5(NULL,25(5(NULL,15(5(NULL,5(NULL,5(NULL,5))),15(NULL,15))),25(NULL,25(NULL,35)))),45(NULL,55(NULL,55(NULL,55)))),85(75,95(NULL,95(NULL,95(NULL,95(NULL,95))))))
+KOKUSEN : LINE 565
+LIMITLESS : LINE 566
+Tree: 75(45(5(NULL,25(5(NULL,15(5(NULL,5(NULL,5(NULL,5))),15(NULL,15))),25(NULL,25(NULL,35)))),45(NULL,55(NULL,55(NULL,55)))),85(75,95(NULL,95(NULL,95(NULL,95(NULL,95))))))
+LAPSE : LINE 567
+result = 83
+LAPSE : LINE 568
+result = 59
+LAPSE : LINE 569
+result = 37
+LAPSE : LINE 570
+result = 67
+LIMITLESS : LINE 571
+Tree: 71(21(11(1(NULL,1(NULL,1(NULL,1(NULL,1)))),11(NULL,11(NULL,11(NULL,11(NULL,11(NULL,11(NULL,11))))))),31(21(NULL,21(NULL,21)),31(NULL,31(NULL,51(31(NULL,41(31(NULL,31(NULL,31)),41(NULL,41(NULL,41(NULL,41(NULL,41(NULL,41(NULL,41(NULL,41))))))))),61(51(NULL,51(NULL,51(NULL,51(NULL,51(NULL,51))))),61(NULL,61(NULL,61(NULL,61(NULL,61)))))))))),91(71(NULL,71(NULL,71(NULL,71(NULL,71(NULL,81(71(NULL,71(NULL,71(NULL,71(NULL,71(NULL,71))))),81(NULL,81(NULL,81(NULL,81))))))))),91(NULL,91(NULL,91(NULL,91(NULL,91(NULL,91(NULL,91(NULL,91(NULL,91))))))))))
+KOKUSEN : LINE 572
+LIMITLESS : LINE 573
+Tree: 71(21(11(1(NULL,1(NULL,1(NULL,1(NULL,1)))),11(NULL,11(NULL,11(NULL,11(NULL,11(NULL,11(NULL,11))))))),31(21(NULL,21(NULL,21)),31(NULL,31(NULL,51(31(NULL,41(31(NULL,31(NULL,31)),41(NULL,41(NULL,41(NULL,41(NULL,41(NULL,41(NULL,41(NULL,41))))))))),61(51(NULL,51(NULL,51(NULL,51(NULL,51(NULL,51))))),61(NULL,61(NULL,61(NULL,61(NULL,61)))))))))),91(71(NULL,71(NULL,71(NULL,71(NULL,71(NULL,81(71(NULL,71(NULL,71(NULL,71(NULL,71(NULL,71))))),81(NULL,81(NULL,81(NULL,81))))))))),91(NULL,91(NULL,91(NULL,91(NULL,91(NULL,91(NULL,91(NULL,91(NULL,91))))))))))
+LAPSE : LINE 574
+result = 31
+LAPSE : LINE 575
+result = 49
+LIMITLESS : LINE 576
+Tree: 49(9(NULL,29(19,29(NULL,29(NULL,29(NULL,39(29,NULL)))))),99(79(49(NULL,69(49(NULL,59(49(NULL,49(NULL,49(NULL,49))),59(NULL,59))),69(NULL,69))),79(NULL,89(NULL,89(NULL,89)))),99(NULL,99(NULL,99))))
+LAPSE : LINE 577
+result = 95
+LAPSE : LINE 578
+result = 17
+LAPSE : LINE 579
+result = 67
+LAPSE : LINE 580
+result = 63
+LAPSE : LINE 581
+result = 9
+LAPSE : LINE 582
+result = 59
+LAPSE : LINE 583
+result = 7
+LAPSE : LINE 584
+result = 67
+LAPSE : LINE 585
+result = 11
+LAPSE : LINE 586
+result = 15
+LAPSE : LINE 587
+result = 25
+LAPSE : LINE 588
+result = 1
+LAPSE : LINE 589
+result = 33
+LAPSE : LINE 590
+result = 53
+LAPSE : LINE 591
+result = 63
+LAPSE : LINE 592
+result = 49
+LAPSE : LINE 593
+result = 47
+LAPSE : LINE 594
+result = 27
+LAPSE : LINE 595
+result = 55
+LAPSE : LINE 596
+result = 11
+LIMITLESS : LINE 597
+Tree: 75(45(5(NULL,25(5(NULL,15(5(NULL,5(NULL,5(NULL,5))),15(NULL,15(NULL,15)))),25(NULL,25(NULL,35(25,NULL))))),45(NULL,55(NULL,55(NULL,55(NULL,55))))),85(75,95(NULL,95(NULL,95(NULL,95(NULL,95(NULL,95)))))))
+KOKUSEN : LINE 598
+LIMITLESS : LINE 599
+Tree: 75(45(5(NULL,25(5(NULL,15(5(NULL,5(NULL,5(NULL,5))),15(NULL,15(NULL,15)))),25(NULL,25(NULL,35(25,NULL))))),45(NULL,55(NULL,55(NULL,55(NULL,55))))),85(75,95(NULL,95(NULL,95(NULL,95(NULL,95(NULL,95)))))))
+LAPSE : LINE 600
+result = 35
+LAPSE : LINE 601
+result = 65
+LAPSE : LINE 602
+result = 51
+LAPSE : LINE 603
+result = 83
+LAPSE : LINE 604
+result = 63
+LAPSE : LINE 605
+result = 61
+LAPSE : LINE 606
+result = 11
+LIMITLESS : LINE 607
+Tree: 49(9(NULL,29(19(9,NULL),29(NULL,29(NULL,29(NULL,39(29,NULL)))))),99(79(49(NULL,69(49(NULL,59(49(NULL,49(NULL,49(NULL,49(NULL,49)))),59(NULL,59(NULL,59)))),69(NULL,69))),79(NULL,89(NULL,89(NULL,89)))),99(NULL,99(NULL,99))))
+LAPSE : LINE 608
+result = 59
+LAPSE : LINE 609
+result = 5
+LAPSE : LINE 610
+result = 1
+LIMITLESS : LINE 611
+Tree: 75(45(5(NULL,25(5(NULL,15(5(NULL,5(NULL,5(NULL,5(NULL,5)))),15(NULL,15(NULL,15)))),25(NULL,25(NULL,35(25,35))))),45(NULL,55(NULL,55(NULL,55(NULL,55(NULL,65)))))),85(75,95(NULL,95(NULL,95(NULL,95(NULL,95(NULL,95)))))))
+LIMITLESS : LINE 612
+Tree: 71(21(11(1(NULL,1(NULL,1(NULL,1(NULL,1(NULL,1(NULL,1)))))),11(NULL,11(NULL,11(NULL,11(NULL,11(NULL,11(NULL,11(NULL,11(NULL,11(NULL,11)))))))))),31(21(NULL,21(NULL,21)),31(NULL,31(NULL,51(31(NULL,41(31(NULL,31(NULL,31(NULL,31))),41(NULL,41(NULL,41(NULL,41(NULL,41(NULL,41(NULL,41(NULL,41))))))))),61(51(NULL,51(NULL,51(NULL,51(NULL,51(NULL,51(NULL,51)))))),61(NULL,61(NULL,61(NULL,61(NULL,61(NULL,61))))))))))),91(71(NULL,71(NULL,71(NULL,71(NULL,71(NULL,81(71(NULL,71(NULL,71(NULL,71(NULL,71(NULL,71))))),81(NULL,81(NULL,81(NULL,81))))))))),91(NULL,91(NULL,91(NULL,91(NULL,91(NULL,91(NULL,91(NULL,91(NULL,91))))))))))
+LIMITLESS : LINE 613
+Tree: 87(37(17(7(NULL,7(NULL,7(NULL,7(NULL,7(NULL,7(NULL,7(NULL,7))))))),17(NULL,17(NULL,27(17(NULL,17(NULL,17(NULL,17(NULL,17(NULL,17))))),27)))),67(57(37(NULL,37(NULL,47(37(NULL,37(NULL,37)),47(NULL,47(NULL,47(NULL,47(NULL,47(NULL,47(NULL,47))))))))),57(NULL,57(NULL,57(NULL,57(NULL,57(NULL,57(NULL,57(NULL,57(NULL,57))))))))),77(67(NULL,67(NULL,67(NULL,67(NULL,67(NULL,67(NULL,67(NULL,67))))))),77(NULL,77(NULL,77(NULL,77(NULL,77(NULL,77(NULL,77(NULL,77)))))))))),97(87(NULL,87(NULL,87(NULL,87(NULL,87)))),97(NULL,97)))
+LIMITLESS : LINE 614
+Tree: 93(33(3(NULL,3(NULL,3(NULL,13(3(NULL,3(NULL,3(NULL,3(NULL,3)))),13(NULL,13(NULL,23(13(NULL,13(NULL,13(NULL,13(NULL,13(NULL,13))))),23(NULL,23(NULL,23(NULL,23(NULL,23(NULL,23)))))))))))),33(NULL,33(NULL,53(43(33(NULL,33(NULL,33(NULL,33(NULL,33(NULL,33))))),43(NULL,43(NULL,43))),63(53(NULL,53(NULL,53(NULL,53))),63(NULL,83(73(63(NULL,63(NULL,63(NULL,63(NULL,63(NULL,63))))),73(NULL,73(NULL,73))),83(NULL,83(NULL,83(NULL,83(NULL,83(NULL,83(NULL,83(NULL,83)))))))))))))),93(NULL,93(NULL,93)))
+LIMITLESS : LINE 615
+Tree: 49(9(NULL,29(19(9,NULL),29(NULL,29(NULL,29(NULL,39(29,NULL)))))),99(79(49(NULL,69(49(NULL,59(49(NULL,49(NULL,49(NULL,49(NULL,49)))),59(NULL,59(NULL,59(NULL,59))))),69(NULL,69))),79(NULL,89(NULL,89(NULL,89)))),99(NULL,99(NULL,99))))
+KOKUSEN : LINE 616
+LIMITLESS : LINE 617
+Tree: 75(45(5(NULL,25(5(NULL,15(5(NULL,5(NULL,5(NULL,5(NULL,5)))),15(NULL,15(NULL,15)))),25(NULL,25(NULL,35(25,35))))),45(NULL,55(NULL,55(NULL,55(NULL,55(NULL,65)))))),85(75,95(NULL,95(NULL,95(NULL,95(NULL,95(NULL,95)))))))
+LIMITLESS : LINE 618
+Tree: 71(21(11(1(NULL,1(NULL,1(NULL,1(NULL,1(NULL,1(NULL,1)))))),11(NULL,11(NULL,11(NULL,11(NULL,11(NULL,11(NULL,11(NULL,11(NULL,11(NULL,11)))))))))),31(21(NULL,21(NULL,21)),31(NULL,31(NULL,51(31(NULL,41(31(NULL,31(NULL,31(NULL,31))),41(NULL,41(NULL,41(NULL,41(NULL,41(NULL,41(NULL,41(NULL,41))))))))),61(51(NULL,51(NULL,51(NULL,51(NULL,51(NULL,51(NULL,51)))))),61(NULL,61(NULL,61(NULL,61(NULL,61(NULL,61))))))))))),91(71(NULL,71(NULL,71(NULL,71(NULL,71(NULL,81(71(NULL,71(NULL,71(NULL,71(NULL,71(NULL,71))))),81(NULL,81(NULL,81(NULL,81))))))))),91(NULL,91(NULL,91(NULL,91(NULL,91(NULL,91(NULL,91(NULL,91(NULL,91))))))))))
+LIMITLESS : LINE 619
+Tree: 87(37(17(7(NULL,7(NULL,7(NULL,7(NULL,7(NULL,7(NULL,7(NULL,7))))))),17(NULL,17(NULL,27(17(NULL,17(NULL,17(NULL,17(NULL,17(NULL,17))))),27)))),67(57(37(NULL,37(NULL,47(37(NULL,37(NULL,37)),47(NULL,47(NULL,47(NULL,47(NULL,47(NULL,47(NULL,47))))))))),57(NULL,57(NULL,57(NULL,57(NULL,57(NULL,57(NULL,57(NULL,57(NULL,57))))))))),77(67(NULL,67(NULL,67(NULL,67(NULL,67(NULL,67(NULL,67(NULL,67))))))),77(NULL,77(NULL,77(NULL,77(NULL,77(NULL,77(NULL,77(NULL,77)))))))))),97(87(NULL,87(NULL,87(NULL,87(NULL,87)))),97(NULL,97)))
+LIMITLESS : LINE 620
+Tree: 93(33(3(NULL,3(NULL,3(NULL,13(3(NULL,3(NULL,3(NULL,3(NULL,3)))),13(NULL,13(NULL,23(13(NULL,13(NULL,13(NULL,13(NULL,13(NULL,13))))),23(NULL,23(NULL,23(NULL,23(NULL,23(NULL,23)))))))))))),33(NULL,33(NULL,53(43(33(NULL,33(NULL,33(NULL,33(NULL,33(NULL,33))))),43(NULL,43(NULL,43))),63(53(NULL,53(NULL,53(NULL,53))),63(NULL,83(73(63(NULL,63(NULL,63(NULL,63(NULL,63(NULL,63))))),73(NULL,73(NULL,73))),83(NULL,83(NULL,83(NULL,83(NULL,83(NULL,83(NULL,83(NULL,83)))))))))))))),93(NULL,93(NULL,93)))
+LIMITLESS : LINE 621
+Tree: 49(9(NULL,29(19(9,NULL),29(NULL,29(NULL,29(NULL,39(29,NULL)))))),99(79(49(NULL,69(49(NULL,59(49(NULL,49(NULL,49(NULL,49(NULL,49)))),59(NULL,59(NULL,59(NULL,59))))),69(NULL,69))),79(NULL,89(NULL,89(NULL,89)))),99(NULL,99(NULL,99))))

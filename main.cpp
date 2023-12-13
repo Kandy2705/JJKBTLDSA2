@@ -9,72 +9,8 @@ TODO Võ Tiến ..............
 #include "main.h"
 #include "restaurant.cpp"
 
-const int startProgam = 401;
-const int endProgam = 600;
-
-void simulate(string filename)
-{
-    solution.flush();
-    //* nhập file
-    ifstream ss(filename);
-    if (ss.fail())
-    {
-        cout << "ERROR: " << filename << endl;
-        return;
-    }
-
-
-    string str, name;
-    int num, i = 1;
-
-    ss >> str;
-    ss >> MAXSIZE; //* nhập maxsize đầu tiên
-    JJK_RESTAURANT_OPERATIONS* NOT_LIKE_CODE = new JJK_RESTAURANT_OPERATIONS();
-    // //* xử lí file
-    while (ss >> str)
-    {
-        if (str == "LAPSE") // LAPSE <NAME>
-        {
-            ss >> name;
-            solution << "LAPSE : LINE " << i << "\n";
-            NOT_LIKE_CODE->LAPSE(name);
-        }
-        else if (str == "KOKUSEN") // KOKUSEN
-        {
-            NOT_LIKE_CODE->KOKUSEN();
-        }
-        else if (str == "KEITEIKEN") // KEITEIKEN <NUM>
-        {
-            ss >> num;
-            solution << "KEITEIKEN " + to_string(num) +" : LINE " << i << "\n";
-            NOT_LIKE_CODE->KEITEIKEN(num);
-            solution << '\n';
-        }
-        else if (str == "HAND") // HAND
-        {
-            solution << "HAND : LINE " << i << "\n";
-            NOT_LIKE_CODE->HAND();
-            solution << '\n';
-        }
-        else if (str == "LIMITLESS") // LIMITLESS <NUM>
-        {
-            ss >> num;
-            solution << "LIMITLESS " + to_string(num) +" : LINE " << i << "\n";
-            NOT_LIKE_CODE->LIMITLESS(num);
-            solution << '\n';
-        }
-        else if (str == "CLEAVE") // CLEAVE <NUM>
-        {
-            ss >> num;
-            solution << "CLEAVE " + to_string(num) +" : LINE " << i << "\n";
-            NOT_LIKE_CODE->CLEAVE(num);
-            solution << '\n';
-        }
-        i++;
-    }
-    delete NOT_LIKE_CODE;
-}
-
+    const int startProgam = 1501;
+    const int endProgam = 1501;
 
 void copyFile(const std::string& sourcePath, const std::string& destinationPath) {
     std::ifstream sourceFile(sourcePath, std::ios::binary);
@@ -243,14 +179,15 @@ int main(int argc, char *argv[])
     }
 
 
-    // if (COUNTDELETE == 0)
-    // {
-    // 	cout << "\nOK: NO leak mermory \n"
-    // 		 << endl;
-    // }
-    // else if (COUNTDELETE)
-    // {
-    // 	cout << "\nOK: leak mermory Please fix the bug, No 10\% test deduction\n"
-    // 		 << endl;
-    // }
+    if (COUNTDELETE == 0)
+    {
+        cout << "\nOK: NO leak mermory \n"
+             << endl;
+    }
+    else if (COUNTDELETE)
+    {
+        cout << "\nOK: leak mermory Please fix the bug\n";
+        cout << COUNTDELETE
+             << endl;
+    }
 }

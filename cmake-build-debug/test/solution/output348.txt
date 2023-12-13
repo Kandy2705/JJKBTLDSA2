@@ -1,530 +1,1259 @@
-CLEAVE 10 : LINE 39
-Heap : 13(len=1,index=12) 9(len=1,index=10) 21(len=2,index=8) 3(len=3,index=9) 17(len=2,index=7) 11(len=3,index=3) 23(len=5,index=1) 25(len=6,index=2) 7(len=3,index=6) 19(len=3,index=11) 15(len=2,index=4) 5(len=4,index=5) 1(len=3,index=0) 
-Heap : 13 9 21 3 17 11 23 25 7 19 15 5 1 
-list LRU : 1 23 25 11 15 5 7 17 21 3 9 19 13 
-customers in the area ID = 13: 428 
-customers in the area ID = 9: 320 
-customers in the area ID = 3: 236 236 2 
-customers in the area ID = 25: 466 310 154 76 76 76 
-customers in the area ID = 7: 448 58 110 
-customers in the area ID = 17: 198 198 
-customers in the area ID = 19: 148 356 148 
-customers in the area ID = 15: 118 144 
-customers in the area ID = 21: 202 176 
-customers in the area ID = 11: 374 140 192 
-customers in the area ID = 5: 212 290 420 264 
-customers in the area ID = 1: 208 286 286 
-customers in the area ID = 23: 360 464 334 74 360 
-
-KEITEIKEN 2 : LINE 40
-remove customers in the area ID = 13: 428 
-remove customers in the area ID = 9: 320 
-
-CLEAVE 10 : LINE 41
-Heap : 21(len=2,index=8) 17(len=2,index=7) 11(len=3,index=3) 3(len=3,index=9) 15(len=2,index=4) 5(len=4,index=5) 23(len=5,index=1) 25(len=6,index=2) 7(len=3,index=6) 19(len=3,index=10) 1(len=3,index=0) 
-Heap : 21 17 11 3 15 5 23 25 7 19 1 
-list LRU : 1 23 25 11 15 5 7 17 21 3 19 
-customers in the area ID = 21: 202 176 
-customers in the area ID = 17: 198 198 
-customers in the area ID = 3: 236 236 2 
-customers in the area ID = 25: 466 310 154 76 76 76 
-customers in the area ID = 7: 448 58 110 
-customers in the area ID = 15: 118 144 
-customers in the area ID = 19: 148 356 148 
-customers in the area ID = 1: 208 286 286 
-customers in the area ID = 11: 374 140 192 
-customers in the area ID = 5: 212 290 420 264 
-customers in the area ID = 23: 360 464 334 74 360 
-
-CLEAVE 10 : LINE 82
-Heap : 13(len=2,index=1) 7(len=3,index=12) 9(len=5,index=7) 15(len=3,index=11) 1(len=5,index=3) 11(len=5,index=4) 23(len=8,index=9) 25(len=10,index=6) 3(len=5,index=8) 17(len=10,index=0) 19(len=7,index=2) 21(len=6,index=5) 5(len=7,index=10) 
-Heap : 13 7 9 15 1 11 23 25 3 17 19 21 5 
-list LRU : 17 13 19 1 11 21 25 9 3 23 5 15 7 
-customers in the area ID = 13: 220 454 
-customers in the area ID = 7: 448 58 110 
-customers in the area ID = 15: 378 118 144 
-customers in the area ID = 25: 50 388 492 206 466 310 154 76 76 76 
-customers in the area ID = 3: 262 340 236 236 2 
-customers in the area ID = 1: 442 260 208 286 286 
-customers in the area ID = 17: 224 484 432 354 432 276 276 406 198 198 
-customers in the area ID = 19: 434 408 356 382 148 356 148 
-customers in the area ID = 9: 294 216 294 112 476 
-customers in the area ID = 11: 114 374 374 140 192 
-customers in the area ID = 21: 176 20 98 150 202 176 
-customers in the area ID = 5: 420 342 30 212 290 420 264 
-customers in the area ID = 23: 230 178 412 360 464 334 74 360 
-
-KEITEIKEN 50 : LINE 83
-remove customers in the area ID = 13: 454 220 
-remove customers in the area ID = 7: 110 58 448 
-remove customers in the area ID = 15: 144 118 378 
-remove customers in the area ID = 3: 2 236 236 340 262 
-remove customers in the area ID = 9: 476 112 294 216 294 
-remove customers in the area ID = 11: 192 140 374 374 114 
-remove customers in the area ID = 1: 286 286 208 260 442 
-remove customers in the area ID = 21: 176 202 150 98 20 176 
-remove customers in the area ID = 5: 264 420 290 212 30 342 420 
-remove customers in the area ID = 19: 148 356 148 382 356 408 434 
-remove customers in the area ID = 23: 360 74 334 464 360 412 178 230 
-remove customers in the area ID = 25: 76 76 76 154 310 466 206 492 388 50 
-remove customers in the area ID = 17: 198 198 406 276 276 432 354 432 484 224 
-
-CLEAVE 10 : LINE 84
-Heap : 
-Heap : 
-list LRU : 
-
-CLEAVE 10 : LINE 95
-Heap : 13(len=1,index=5) 11(len=1,index=4) 3(len=2,index=2) 17(len=2,index=1) 19(len=2,index=3) 25(len=2,index=0) 
-Heap : 13 11 3 17 19 25 
-list LRU : 25 17 3 19 11 13 
-customers in the area ID = 13: 64 
-customers in the area ID = 11: 62 
-customers in the area ID = 17: 146 120 
-customers in the area ID = 19: 252 252 
-customers in the area ID = 3: 2 28 
-customers in the area ID = 25: 466 440 
-
-KEITEIKEN 1 : LINE 96
-remove customers in the area ID = 13: 64 
-
-CLEAVE 10 : LINE 97
-Heap : 11(len=1,index=4) 19(len=2,index=3) 3(len=2,index=2) 17(len=2,index=1) 25(len=2,index=0) 
-Heap : 11 19 3 17 25 
-list LRU : 25 17 3 19 11 
-customers in the area ID = 11: 62 
-customers in the area ID = 19: 252 252 
-customers in the area ID = 17: 146 120 
-customers in the area ID = 25: 466 440 
-customers in the area ID = 3: 2 28 
-
-CLEAVE 3 : LINE 112
-Heap : 15(len=1,index=11) 7(len=1,index=9) 1(len=1,index=0) 9(len=1,index=7) 5(len=1,index=3) 21(len=2,index=8) 11(len=2,index=4) 17(len=4,index=1) 19(len=3,index=5) 25(len=3,index=6) 23(len=1,index=2) 3(len=3,index=10) 
-Heap : 15 7 1 9 5 21 11 17 19 25 23 3 
-list LRU : 1 17 23 5 11 19 25 9 21 7 3 15 
-customers in the area ID = 15: 482 
-customers in the area ID = 7: 58 
-customers in the area ID = 9: 398 
-customers in the area ID = 17: 16 172 146 
-customers in the area ID = 19: 70 252 252 
-customers in the area ID = 5: 4 
-customers in the area ID = 25: 258 466 440 
-customers in the area ID = 23: 22 
-customers in the area ID = 1: 442 
-customers in the area ID = 21: 254 410 
-customers in the area ID = 3: 314 2 28 
-customers in the area ID = 11: 36 62 
-
-KEITEIKEN 10 : LINE 113
-remove customers in the area ID = 15: 482 
-remove customers in the area ID = 7: 58 
-remove customers in the area ID = 9: 398 
-remove customers in the area ID = 5: 4 
-remove customers in the area ID = 23: 22 
-remove customers in the area ID = 1: 442 
-remove customers in the area ID = 21: 410 254 
-remove customers in the area ID = 11: 62 36 
-remove customers in the area ID = 3: 28 2 314 
-remove customers in the area ID = 25: 440 466 258 
-
-CLEAVE 1 : LINE 114
-Heap : 19(len=3,index=1) 17(len=4,index=0) 
-Heap : 19 17 
-list LRU : 17 19 
-customers in the area ID = 19: 70 
-customers in the area ID = 17: 16 
-
-CLEAVE 2 : LINE 180
-Heap : 1(len=4,index=9) 25(len=5,index=6) 9(len=4,index=7) 11(len=5,index=5) 5(len=6,index=10) 19(len=5,index=12) 13(len=7,index=3) 21(len=5,index=0) 7(len=7,index=4) 17(len=6,index=2) 23(len=8,index=8) 3(len=5,index=1) 15(len=5,index=11) 
-Heap : 1 25 9 11 5 19 13 21 7 17 23 3 15 
-list LRU : 21 3 17 13 7 11 25 9 23 1 5 15 19 
-customers in the area ID = 1: 156 0 
-customers in the area ID = 25: 154 128 
-customers in the area ID = 11: 192 62 
-customers in the area ID = 21: 306 176 
-customers in the area ID = 7: 58 396 
-customers in the area ID = 5: 420 212 
-customers in the area ID = 17: 250 328 
-customers in the area ID = 23: 126 360 
-customers in the area ID = 9: 476 216 
-customers in the area ID = 19: 174 122 
-customers in the area ID = 3: 132 210 
-customers in the area ID = 15: 352 378 
-customers in the area ID = 13: 142 480 
-
-KEITEIKEN 3 : LINE 181
-remove customers in the area ID = 1: 494 104 0 
-remove customers in the area ID = 1: 156 
-remove customers in the area ID = 9: 216 294 216 
-
-CLEAVE 10 : LINE 182
-Heap : 9(len=1,index=7) 25(len=5,index=6) 19(len=5,index=11) 11(len=5,index=5) 5(len=6,index=9) 15(len=5,index=10) 13(len=7,index=3) 21(len=5,index=0) 7(len=7,index=4) 17(len=6,index=2) 23(len=8,index=8) 3(len=5,index=1) 
-Heap : 9 25 19 11 5 15 13 21 7 17 23 3 
-list LRU : 21 3 17 13 7 11 25 9 23 5 15 19 
-customers in the area ID = 9: 476 
-customers in the area ID = 25: 154 128 440 258 310 
-customers in the area ID = 11: 192 62 244 400 426 
-customers in the area ID = 21: 306 176 124 20 384 
-customers in the area ID = 7: 58 396 110 448 448 448 396 
-customers in the area ID = 5: 420 212 394 186 56 264 
-customers in the area ID = 17: 250 328 16 172 146 120 
-customers in the area ID = 23: 126 360 152 100 308 464 334 282 
-customers in the area ID = 19: 174 122 70 252 252 
-customers in the area ID = 15: 352 378 66 378 378 
-customers in the area ID = 3: 132 210 392 470 392 
-customers in the area ID = 13: 142 480 246 168 38 454 298 
-
-CLEAVE 1 : LINE 183
-Heap : 9(len=1,index=7) 25(len=5,index=6) 19(len=5,index=11) 11(len=5,index=5) 5(len=6,index=9) 15(len=5,index=10) 13(len=7,index=3) 21(len=5,index=0) 7(len=7,index=4) 17(len=6,index=2) 23(len=8,index=8) 3(len=5,index=1) 
-Heap : 9 25 19 11 5 15 13 21 7 17 23 3 
-list LRU : 21 3 17 13 7 11 25 9 23 5 15 19 
-customers in the area ID = 9: 476 
-customers in the area ID = 25: 154 
-customers in the area ID = 11: 192 
-customers in the area ID = 21: 306 
-customers in the area ID = 7: 58 
-customers in the area ID = 5: 420 
-customers in the area ID = 17: 250 
-customers in the area ID = 23: 126 
-customers in the area ID = 19: 174 
-customers in the area ID = 15: 352 
-customers in the area ID = 3: 132 
-customers in the area ID = 13: 142 
-
-KEITEIKEN 1 : LINE 184
-remove customers in the area ID = 9: 476 
-
-CLEAVE 10 : LINE 185
-Heap : 19(len=5,index=10) 25(len=5,index=6) 15(len=5,index=9) 11(len=5,index=5) 5(len=6,index=8) 3(len=5,index=1) 13(len=7,index=3) 21(len=5,index=0) 7(len=7,index=4) 17(len=6,index=2) 23(len=8,index=7) 
-Heap : 19 25 15 11 5 3 13 21 7 17 23 
-list LRU : 21 3 17 13 7 11 25 23 5 15 19 
-customers in the area ID = 19: 174 122 70 252 252 
-customers in the area ID = 25: 154 128 440 258 310 
-customers in the area ID = 11: 192 62 244 400 426 
-customers in the area ID = 21: 306 176 124 20 384 
-customers in the area ID = 7: 58 396 110 448 448 448 396 
-customers in the area ID = 5: 420 212 394 186 56 264 
-customers in the area ID = 17: 250 328 16 172 146 120 
-customers in the area ID = 23: 126 360 152 100 308 464 334 282 
-customers in the area ID = 15: 352 378 66 378 378 
-customers in the area ID = 3: 132 210 392 470 392 
-customers in the area ID = 13: 142 480 246 168 38 454 298 
-
-CLEAVE 10 : LINE 254
-Heap : 9(len=4,index=11) 21(len=8,index=2) 1(len=5,index=12) 11(len=10,index=8) 17(len=12,index=1) 19(len=7,index=7) 13(len=11,index=5) 25(len=11,index=6) 7(len=16,index=4) 5(len=13,index=3) 23(len=18,index=0) 3(len=8,index=9) 15(len=9,index=10) 
-Heap : 9 21 1 11 17 19 13 25 7 5 23 3 15 
-list LRU : 23 17 21 5 7 13 25 19 11 3 15 9 1 
-customers in the area ID = 9: 86 294 372 398 
-customers in the area ID = 21: 254 410 46 306 176 124 20 384 
-customers in the area ID = 11: 400 348 270 452 62 192 62 244 400 426 
-customers in the area ID = 25: 414 362 24 76 128 232 154 128 440 258 
-customers in the area ID = 7: 240 448 110 240 266 318 162 344 162 58 
-customers in the area ID = 17: 250 276 406 146 16 276 250 328 16 172 
-customers in the area ID = 5: 368 4 290 238 264 82 238 420 212 394 
-customers in the area ID = 23: 464 464 490 22 282 412 74 256 464 334 
-customers in the area ID = 1: 78 416 468 182 390 
-customers in the area ID = 19: 278 460 174 122 70 252 252 
-customers in the area ID = 3: 314 236 444 132 210 392 470 392 
-customers in the area ID = 15: 404 170 482 40 352 378 66 378 378 
-customers in the area ID = 13: 428 298 272 480 142 480 246 168 38 454 
-
-KEITEIKEN 1 : LINE 255
-remove customers in the area ID = 9: 398 
-
-CLEAVE 2 : LINE 256
-Heap : 9(len=3,index=11) 21(len=8,index=2) 1(len=5,index=12) 11(len=10,index=8) 17(len=12,index=1) 19(len=7,index=7) 13(len=11,index=5) 25(len=11,index=6) 7(len=16,index=4) 5(len=13,index=3) 23(len=18,index=0) 3(len=8,index=9) 15(len=9,index=10) 
-Heap : 9 21 1 11 17 19 13 25 7 5 23 3 15 
-list LRU : 23 17 21 5 7 13 25 19 11 3 15 9 1 
-customers in the area ID = 9: 86 294 
-customers in the area ID = 21: 254 410 
-customers in the area ID = 11: 400 348 
-customers in the area ID = 25: 414 362 
-customers in the area ID = 7: 240 448 
-customers in the area ID = 17: 250 276 
-customers in the area ID = 5: 368 4 
-customers in the area ID = 23: 464 464 
-customers in the area ID = 1: 78 416 
-customers in the area ID = 19: 278 460 
-customers in the area ID = 3: 314 236 
-customers in the area ID = 15: 404 170 
-customers in the area ID = 13: 428 298 
-
-CLEAVE 3 : LINE 301
-Heap : 9(len=8,index=5) 25(len=12,index=8) 15(len=11,index=4) 11(len=13,index=11) 17(len=14,index=10) 3(len=11,index=2) 13(len=15,index=9) 21(len=14,index=6) 7(len=18,index=3) 5(len=18,index=1) 23(len=18,index=12) 1(len=11,index=0) 19(len=12,index=7) 
-Heap : 9 25 15 11 17 3 13 21 7 5 23 1 19 
-list LRU : 1 5 3 7 15 9 21 19 25 13 17 11 23 
-customers in the area ID = 9: 242 8 190 
-customers in the area ID = 25: 76 414 362 
-customers in the area ID = 11: 140 452 452 
-customers in the area ID = 21: 254 72 98 
-customers in the area ID = 7: 422 136 240 
-customers in the area ID = 17: 380 406 250 
-customers in the area ID = 5: 420 212 368 
-customers in the area ID = 23: 464 464 490 
-customers in the area ID = 15: 482 196 404 
-customers in the area ID = 3: 158 80 496 
-customers in the area ID = 1: 208 260 416 
-customers in the area ID = 19: 408 278 434 
-customers in the area ID = 13: 246 246 194 
-
-KEITEIKEN 1 : LINE 302
-remove customers in the area ID = 9: 372 
-
-CLEAVE 10 : LINE 303
-Heap : 9(len=7,index=5) 25(len=12,index=8) 15(len=11,index=4) 11(len=13,index=11) 17(len=14,index=10) 3(len=11,index=2) 13(len=15,index=9) 21(len=14,index=6) 7(len=18,index=3) 5(len=18,index=1) 23(len=18,index=12) 1(len=11,index=0) 19(len=12,index=7) 
-Heap : 9 25 15 11 17 3 13 21 7 5 23 1 19 
-list LRU : 1 5 3 7 15 9 21 19 25 13 17 11 23 
-customers in the area ID = 9: 242 8 190 398 138 86 294 
-customers in the area ID = 25: 76 414 362 24 76 128 232 154 128 440 
-customers in the area ID = 11: 140 452 452 400 348 270 452 62 192 62 
-customers in the area ID = 21: 254 72 98 228 488 436 254 410 46 306 
-customers in the area ID = 7: 422 136 240 448 110 240 266 318 162 344 
-customers in the area ID = 17: 380 406 250 276 406 146 16 276 250 328 
-customers in the area ID = 5: 420 212 368 4 160 368 4 290 238 264 
-customers in the area ID = 23: 464 464 490 22 282 412 74 256 464 334 
-customers in the area ID = 15: 482 196 404 170 482 40 352 378 66 378 
-customers in the area ID = 3: 158 80 496 314 236 444 132 210 392 470 
-customers in the area ID = 1: 208 260 416 338 130 260 78 416 468 182 
-customers in the area ID = 19: 408 278 434 304 122 278 460 174 122 70 
-customers in the area ID = 13: 246 246 194 324 428 298 272 480 142 480 
-
-CLEAVE 10 : LINE 328
-Heap : 9(len=9,index=3) 25(len=14,index=1) 3(len=11,index=11) 11(len=15,index=0) 17(len=15,index=10) 1(len=12,index=9) 13(len=17,index=6) 21(len=16,index=5) 7(len=22,index=2) 5(len=21,index=7) 23(len=18,index=12) 15(len=15,index=8) 19(len=13,index=4) 
-Heap : 9 25 3 11 17 1 13 21 7 5 23 15 19 
-list LRU : 11 25 7 9 19 21 13 5 15 1 17 3 23 
-customers in the area ID = 9: 60 398 242 8 190 398 138 86 294 
-customers in the area ID = 25: 24 388 76 414 362 24 76 128 232 154 
-customers in the area ID = 11: 244 426 140 452 452 400 348 270 452 62 
-customers in the area ID = 21: 46 280 254 72 98 228 488 436 254 410 
-customers in the area ID = 7: 110 318 396 318 422 136 240 448 110 240 
-customers in the area ID = 17: 198 380 406 250 276 406 146 16 276 250 
-customers in the area ID = 5: 238 498 30 420 212 368 4 160 368 4 
-customers in the area ID = 23: 464 464 490 22 282 412 74 256 464 334 
-customers in the area ID = 3: 158 80 496 314 236 444 132 210 392 470 
-customers in the area ID = 1: 104 208 260 416 338 130 260 78 416 468 
-customers in the area ID = 15: 326 430 118 196 482 196 404 170 482 40 
-customers in the area ID = 19: 434 408 278 434 304 122 278 460 174 122 
-customers in the area ID = 13: 90 90 246 246 194 324 428 298 272 480 
-
-KEITEIKEN 50 : LINE 329
-remove customers in the area ID = 9: 294 86 138 398 190 8 242 398 60 
-remove customers in the area ID = 3: 392 470 392 210 132 444 236 314 496 80 158 
-remove customers in the area ID = 1: 390 182 468 416 78 260 130 338 416 260 208 104 
-remove customers in the area ID = 19: 252 252 70 122 174 460 278 122 304 434 278 408 434 
-remove customers in the area ID = 25: 310 258 440 128 154 232 128 76 24 362 414 76 388 24 
-remove customers in the area ID = 17: 120 146 172 16 328 250 276 16 146 406 276 250 406 380 198 
-remove customers in the area ID = 15: 378 378 66 378 352 40 482 170 404 196 482 196 118 430 326 
-remove customers in the area ID = 11: 426 400 244 62 192 62 452 270 348 400 452 452 140 426 244 
-remove customers in the area ID = 21: 384 20 124 176 306 46 410 254 436 488 228 98 72 254 280 46 
-remove customers in the area ID = 13: 298 454 38 168 246 480 142 480 272 298 428 324 194 246 246 90 90 
-remove customers in the area ID = 23: 282 334 464 308 100 152 360 126 334 464 256 74 412 282 22 490 464 464 
-remove customers in the area ID = 5: 264 56 186 394 212 420 238 82 264 238 290 4 368 160 4 368 212 420 30 498 238 
-remove customers in the area ID = 7: 396 448 448 448 110 396 58 162 344 162 318 266 240 110 448 240 136 422 318 396 318 110 
-
-CLEAVE 2 : LINE 330
-Heap : 
-Heap : 
-list LRU : 
-
-CLEAVE 3 : LINE 334
-Heap : 1(len=1,index=2) 15(len=1,index=1) 25(len=1,index=0) 
-Heap : 1 15 25 
-list LRU : 25 15 1 
-customers in the area ID = 1: 156 
-customers in the area ID = 15: 404 
-customers in the area ID = 25: 414 
-
-KEITEIKEN 3 : LINE 335
-remove customers in the area ID = 1: 156 
-remove customers in the area ID = 15: 404 
-remove customers in the area ID = 25: 414 
-
-CLEAVE 10 : LINE 336
-Heap : 
-Heap : 
-list LRU : 
-
-CLEAVE 2 : LINE 376
-Heap : 7(len=2,index=10) 23(len=3,index=9) 5(len=2,index=8) 1(len=4,index=6) 3(len=3,index=4) 13(len=5,index=3) 21(len=4,index=5) 19(len=5,index=1) 15(len=5,index=7) 11(len=3,index=2) 9(len=3,index=0) 
-Heap : 7 23 5 1 3 13 21 19 15 11 9 
-list LRU : 9 19 11 13 3 21 1 15 5 23 7 
-customers in the area ID = 7: 214 448 
-customers in the area ID = 23: 360 230 
-customers in the area ID = 1: 442 416 
-customers in the area ID = 19: 486 44 
-customers in the area ID = 15: 326 274 
-customers in the area ID = 3: 288 444 
-customers in the area ID = 11: 426 374 
-customers in the area ID = 9: 8 8 
-customers in the area ID = 5: 264 134 
-customers in the area ID = 13: 246 324 
-customers in the area ID = 21: 202 436 
-
-KEITEIKEN 50 : LINE 377
-remove customers in the area ID = 7: 448 214 
-remove customers in the area ID = 5: 134 264 
-remove customers in the area ID = 23: 230 230 360 
-remove customers in the area ID = 3: 496 444 288 
-remove customers in the area ID = 11: 10 374 426 
-remove customers in the area ID = 9: 398 8 8 
-remove customers in the area ID = 1: 364 182 416 442 
-remove customers in the area ID = 21: 462 410 436 202 
-remove customers in the area ID = 15: 118 144 92 274 326 
-remove customers in the area ID = 13: 324 298 428 324 246 
-remove customers in the area ID = 19: 356 278 304 44 486 
-
-CLEAVE 2 : LINE 378
-Heap : 
-Heap : 
-list LRU : 
-
-CLEAVE 10 : LINE 416
-Heap : 1(len=1,index=12) 11(len=2,index=11) 19(len=1,index=5) 21(len=2,index=2) 13(len=3,index=4) 9(len=1,index=3) 23(len=4,index=10) 5(len=4,index=9) 25(len=4,index=0) 7(len=5,index=7) 15(len=4,index=1) 17(len=4,index=6) 3(len=2,index=8) 
-Heap : 1 11 19 21 13 9 23 5 25 7 15 17 3 
-list LRU : 25 15 21 9 13 19 17 7 3 5 23 11 1 
-customers in the area ID = 1: 130 
-customers in the area ID = 11: 478 322 
-customers in the area ID = 21: 332 228 
-customers in the area ID = 5: 186 108 160 316 
-customers in the area ID = 25: 284 258 440 388 
-customers in the area ID = 13: 246 12 428 
-customers in the area ID = 7: 422 110 396 162 422 
-customers in the area ID = 15: 14 274 248 456 
-customers in the area ID = 19: 18 
-customers in the area ID = 9: 164 
-customers in the area ID = 17: 432 250 16 68 
-customers in the area ID = 3: 210 444 
-customers in the area ID = 23: 438 178 334 22 
-
-KEITEIKEN 50 : LINE 417
-remove customers in the area ID = 1: 130 
-remove customers in the area ID = 19: 18 
-remove customers in the area ID = 9: 164 
-remove customers in the area ID = 11: 322 478 
-remove customers in the area ID = 3: 444 210 
-remove customers in the area ID = 21: 228 332 
-remove customers in the area ID = 13: 428 12 246 
-remove customers in the area ID = 23: 22 334 178 438 
-remove customers in the area ID = 5: 316 160 108 186 
-remove customers in the area ID = 17: 68 16 250 432 
-remove customers in the area ID = 15: 456 248 274 14 
-remove customers in the area ID = 25: 388 440 258 284 
-remove customers in the area ID = 7: 422 162 396 110 422 
-
-CLEAVE 10 : LINE 418
-Heap : 
-Heap : 
-list LRU : 
-
-CLEAVE 1 : LINE 479
-Heap : 15(len=1,index=8) 7(len=2,index=11) 5(len=3,index=9) 21(len=3,index=12) 17(len=6,index=6) 3(len=4,index=7) 23(len=7,index=10) 9(len=7,index=2) 11(len=5,index=5) 13(len=8,index=0) 25(len=6,index=3) 1(len=4,index=4) 19(len=4,index=1) 
-Heap : 15 7 5 21 17 3 23 9 11 13 25 1 19 
-list LRU : 13 19 9 25 1 11 17 3 15 5 23 7 21 
-customers in the area ID = 15: 222 
-customers in the area ID = 7: 162 
-customers in the area ID = 21: 46 
-customers in the area ID = 9: 294 
-customers in the area ID = 11: 400 
-customers in the area ID = 17: 328 
-customers in the area ID = 13: 454 
-customers in the area ID = 25: 50 
-customers in the area ID = 5: 212 
-customers in the area ID = 3: 444 
-customers in the area ID = 1: 130 
-customers in the area ID = 19: 44 
-customers in the area ID = 23: 490 
-
-KEITEIKEN 3 : LINE 480
-remove customers in the area ID = 15: 222 
-remove customers in the area ID = 7: 188 162 
-remove customers in the area ID = 21: 20 176 46 
-
-CLEAVE 10 : LINE 481
-Heap : 5(len=3,index=8) 1(len=4,index=4) 3(len=4,index=7) 19(len=4,index=1) 17(len=6,index=6) 25(len=6,index=3) 23(len=7,index=9) 9(len=7,index=2) 11(len=5,index=5) 13(len=8,index=0) 
-Heap : 5 1 3 19 17 25 23 9 11 13 
-list LRU : 13 19 9 25 1 11 17 3 5 23 
-customers in the area ID = 5: 212 30 316 
-customers in the area ID = 1: 130 442 416 130 
-customers in the area ID = 19: 44 382 122 486 
-customers in the area ID = 9: 294 60 60 216 450 424 242 
-customers in the area ID = 11: 400 36 140 218 270 
-customers in the area ID = 17: 328 68 458 198 380 484 
-customers in the area ID = 13: 454 64 142 90 480 38 90 194 
-customers in the area ID = 3: 444 210 158 184 
-customers in the area ID = 25: 50 440 492 284 102 180 
-customers in the area ID = 23: 490 204 152 256 256 22 178 
-
-CLEAVE 10 : LINE 491
-Heap : 21(len=1,index=5) 5(len=3,index=10) 15(len=2,index=1) 19(len=4,index=7) 1(len=5,index=2) 3(len=6,index=0) 23(len=7,index=11) 9(len=7,index=8) 11(len=6,index=6) 13(len=9,index=3) 17(len=6,index=9) 25(len=7,index=4) 
-Heap : 21 5 15 19 1 3 23 9 11 13 17 25 
-list LRU : 3 15 1 13 25 21 11 19 9 17 5 23 
-customers in the area ID = 21: 280 
-customers in the area ID = 5: 212 30 316 
-customers in the area ID = 19: 44 382 122 486 
-customers in the area ID = 9: 294 60 60 216 450 424 242 
-customers in the area ID = 11: 192 400 36 140 218 270 
-customers in the area ID = 1: 52 130 442 416 130 
-customers in the area ID = 13: 428 454 64 142 90 480 38 90 194 
-customers in the area ID = 17: 328 68 458 198 380 484 
-customers in the area ID = 15: 274 274 
-customers in the area ID = 3: 418 236 444 210 158 184 
-customers in the area ID = 25: 232 50 440 492 284 102 180 
-customers in the area ID = 23: 490 204 152 256 256 22 178 
-
-KEITEIKEN 10 : LINE 492
-remove customers in the area ID = 21: 280 
-remove customers in the area ID = 15: 274 274 
-remove customers in the area ID = 5: 316 30 212 
-remove customers in the area ID = 19: 486 122 382 44 
-remove customers in the area ID = 1: 130 416 442 130 52 
-remove customers in the area ID = 17: 484 380 198 458 68 328 
-remove customers in the area ID = 11: 270 218 140 36 400 192 
-remove customers in the area ID = 3: 184 158 210 444 236 418 
-remove customers in the area ID = 23: 178 22 256 256 152 204 490 
-remove customers in the area ID = 9: 242 424 450 216 60 60 294 
-
-CLEAVE 10 : LINE 493
-Heap : 25(len=7,index=1) 13(len=9,index=0) 
-Heap : 25 13 
-list LRU : 13 25 
-customers in the area ID = 25: 232 50 440 492 284 102 180 
-customers in the area ID = 13: 428 454 64 142 90 480 38 90 194 
-
-CLEAVE 100 : LINE 528
-Heap : 7(len=1,index=9) 3(len=2,index=12) 23(len=1,index=6) 1(len=4,index=3) 17(len=2,index=4) 15(len=2,index=8) 19(len=6,index=1) 13(len=10,index=10) 5(len=4,index=0) 11(len=3,index=11) 21(len=3,index=7) 25(len=10,index=5) 9(len=2,index=2) 
-Heap : 7 3 23 1 17 15 19 13 5 11 21 25 9 
-list LRU : 5 19 9 1 17 25 23 21 15 7 13 11 3 
-customers in the area ID = 7: 448 
-customers in the area ID = 3: 2 28 
-customers in the area ID = 1: 78 104 182 442 
-customers in the area ID = 13: 272 428 454 64 142 90 480 38 90 194 
-customers in the area ID = 5: 56 186 186 446 
-customers in the area ID = 17: 302 432 
-customers in the area ID = 11: 192 478 88 
-customers in the area ID = 21: 254 306 488 
-customers in the area ID = 23: 152 
-customers in the area ID = 15: 170 326 
-customers in the area ID = 25: 284 154 492 232 50 440 492 284 102 180 
-customers in the area ID = 9: 112 86 
-customers in the area ID = 19: 486 70 486 148 330 330 
-
-KEITEIKEN 1 : LINE 529
-remove customers in the area ID = 7: 448 
-
-CLEAVE 100 : LINE 530
-Heap : 23(len=1,index=6) 3(len=2,index=11) 15(len=2,index=8) 1(len=4,index=3) 17(len=2,index=4) 9(len=2,index=2) 19(len=6,index=1) 13(len=10,index=9) 5(len=4,index=0) 11(len=3,index=10) 21(len=3,index=7) 25(len=10,index=5) 
-Heap : 23 3 15 1 17 9 19 13 5 11 21 25 
-list LRU : 5 19 9 1 17 25 23 21 15 13 11 3 
-customers in the area ID = 23: 152 
-customers in the area ID = 3: 2 28 
-customers in the area ID = 1: 78 104 182 442 
-customers in the area ID = 13: 272 428 454 64 142 90 480 38 90 194 
-customers in the area ID = 5: 56 186 186 446 
-customers in the area ID = 17: 302 432 
-customers in the area ID = 11: 192 478 88 
-customers in the area ID = 21: 254 306 488 
-customers in the area ID = 15: 170 326 
-customers in the area ID = 9: 112 86 
-customers in the area ID = 25: 284 154 492 232 50 440 492 284 102 180 
-customers in the area ID = 19: 486 70 486 148 330 330 
-
+MAXSIZE : 11
+LAPSE : LINE 1
+result = 5
+LAPSE : LINE 2
+result = 77
+LAPSE : LINE 3
+result = 67
+LIMITLESS : LINE 4
+Tree: EMPTY
+KOKUSEN : LINE 5
+LIMITLESS : LINE 6
+Tree: EMPTY
+LAPSE : LINE 7
+result = 25
+LIMITLESS : LINE 8
+Tree: EMPTY
+KOKUSEN : LINE 9
+LIMITLESS : LINE 10
+Tree: EMPTY
+LAPSE : LINE 11
+result = 31
+LAPSE : LINE 12
+result = 93
+LAPSE : LINE 13
+result = 9
+LAPSE : LINE 14
+result = 87
+LAPSE : LINE 15
+result = 35
+LAPSE : LINE 16
+result = 57
+LAPSE : LINE 17
+result = 81
+LAPSE : LINE 18
+result = 27
+LAPSE : LINE 19
+result = 17
+LAPSE : LINE 20
+result = 85
+LAPSE : LINE 21
+result = 29
+LAPSE : LINE 22
+result = 11
+LIMITLESS : LINE 23
+Tree: 11
+LAPSE : LINE 24
+result = 3
+LIMITLESS : LINE 25
+Tree: 81
+KOKUSEN : LINE 26
+LIMITLESS : LINE 27
+Tree: EMPTY
+LIMITLESS : LINE 28
+Tree: 9
+KOKUSEN : LINE 29
+LIMITLESS : LINE 30
+Tree: EMPTY
+LAPSE : LINE 31
+result = 17
+LAPSE : LINE 32
+result = 89
+LAPSE : LINE 33
+result = 21
+LIMITLESS : LINE 34
+Tree: EMPTY
+KOKUSEN : LINE 35
+LIMITLESS : LINE 36
+Tree: EMPTY
+LAPSE : LINE 37
+result = 15
+LIMITLESS : LINE 38
+Tree: EMPTY
+LAPSE : LINE 39
+result = 45
+LAPSE : LINE 40
+result = 77
+LIMITLESS : LINE 41
+Tree: EMPTY
+KOKUSEN : LINE 42
+LIMITLESS : LINE 43
+Tree: EMPTY
+LAPSE : LINE 44
+result = 41
+LAPSE : LINE 45
+result = 71
+LIMITLESS : LINE 46
+Tree: EMPTY
+LAPSE : LINE 47
+result = 49
+LAPSE : LINE 48
+result = 19
+LAPSE : LINE 49
+result = 11
+LAPSE : LINE 50
+result = 97
+LAPSE : LINE 51
+result = 25
+LAPSE : LINE 52
+result = 41
+LAPSE : LINE 53
+result = 7
+LAPSE : LINE 54
+result = 89
+LIMITLESS : LINE 55
+Tree: EMPTY
+KOKUSEN : LINE 56
+LIMITLESS : LINE 57
+Tree: EMPTY
+LAPSE : LINE 58
+result = 75
+LIMITLESS : LINE 59
+Tree: EMPTY
+KOKUSEN : LINE 60
+LIMITLESS : LINE 61
+Tree: EMPTY
+LAPSE : LINE 62
+result = 81
+LAPSE : LINE 63
+result = 67
+LIMITLESS : LINE 64
+Tree: EMPTY
+LAPSE : LINE 65
+result = 41
+LAPSE : LINE 66
+result = 5
+LAPSE : LINE 67
+result = 71
+LAPSE : LINE 68
+result = 27
+LAPSE : LINE 69
+result = 95
+LAPSE : LINE 70
+result = 1
+LAPSE : LINE 71
+result = 17
+LAPSE : LINE 72
+result = 53
+LIMITLESS : LINE 73
+Tree: 5(NULL,71(27,NULL))
+LIMITLESS : LINE 74
+Tree: EMPTY
+KOKUSEN : LINE 75
+LIMITLESS : LINE 76
+Tree: EMPTY
+LAPSE : LINE 77
+result = 7
+LIMITLESS : LINE 78
+Tree: 71(27,NULL)
+KOKUSEN : LINE 79
+LIMITLESS : LINE 80
+Tree: 27
+LAPSE : LINE 81
+result = 39
+LAPSE : LINE 82
+result = 19
+LAPSE : LINE 83
+result = 53
+LIMITLESS : LINE 84
+Tree: EMPTY
+KOKUSEN : LINE 85
+LIMITLESS : LINE 86
+Tree: EMPTY
+LIMITLESS : LINE 87
+Tree: EMPTY
+KOKUSEN : LINE 88
+LIMITLESS : LINE 89
+Tree: EMPTY
+LAPSE : LINE 90
+result = 51
+LAPSE : LINE 91
+result = 63
+LAPSE : LINE 92
+result = 87
+LAPSE : LINE 93
+result = 57
+LAPSE : LINE 94
+result = 95
+LAPSE : LINE 95
+result = 63
+LAPSE : LINE 96
+result = 55
+LAPSE : LINE 97
+result = 5
+LIMITLESS : LINE 98
+Tree: 55
+KOKUSEN : LINE 99
+LIMITLESS : LINE 100
+Tree: EMPTY
+LIMITLESS : LINE 101
+Tree: EMPTY
+KOKUSEN : LINE 102
+LIMITLESS : LINE 103
+Tree: EMPTY
+LAPSE : LINE 104
+result = 1
+LAPSE : LINE 105
+result = 43
+LIMITLESS : LINE 106
+Tree: EMPTY
+KOKUSEN : LINE 107
+LIMITLESS : LINE 108
+Tree: EMPTY
+LAPSE : LINE 109
+result = 47
+LAPSE : LINE 110
+result = 91
+LAPSE : LINE 111
+result = 91
+LIMITLESS : LINE 112
+Tree: EMPTY
+LAPSE : LINE 113
+result = 65
+LAPSE : LINE 114
+result = 63
+LAPSE : LINE 115
+result = 73
+LAPSE : LINE 116
+result = 79
+LIMITLESS : LINE 117
+Tree: EMPTY
+KOKUSEN : LINE 118
+LIMITLESS : LINE 119
+Tree: EMPTY
+LAPSE : LINE 120
+result = 55
+LIMITLESS : LINE 121
+Tree: EMPTY
+KOKUSEN : LINE 122
+LIMITLESS : LINE 123
+Tree: EMPTY
+LAPSE : LINE 124
+result = 43
+LAPSE : LINE 125
+result = 11
+LAPSE : LINE 126
+result = 87
+LAPSE : LINE 127
+result = 31
+LAPSE : LINE 128
+result = 13
+LAPSE : LINE 129
+result = 95
+LAPSE : LINE 130
+result = 11
+LIMITLESS : LINE 131
+Tree: EMPTY
+LAPSE : LINE 132
+result = 89
+LAPSE : LINE 133
+result = 45
+LAPSE : LINE 134
+result = 67
+LIMITLESS : LINE 135
+Tree: 89(45(NULL,67),NULL)
+LAPSE : LINE 136
+result = 3
+LAPSE : LINE 137
+result = 67
+LIMITLESS : LINE 138
+Tree: EMPTY
+KOKUSEN : LINE 139
+LIMITLESS : LINE 140
+Tree: EMPTY
+LAPSE : LINE 141
+result = 53
+LAPSE : LINE 142
+result = 87
+LAPSE : LINE 143
+result = 99
+LAPSE : LINE 144
+result = 23
+LAPSE : LINE 145
+result = 79
+LAPSE : LINE 146
+result = 21
+LAPSE : LINE 147
+result = 15
+LIMITLESS : LINE 148
+Tree: EMPTY
+KOKUSEN : LINE 149
+LIMITLESS : LINE 150
+Tree: EMPTY
+LIMITLESS : LINE 151
+Tree: 99
+KOKUSEN : LINE 152
+LIMITLESS : LINE 153
+Tree: EMPTY
+LAPSE : LINE 154
+result = 57
+LAPSE : LINE 155
+result = 61
+LAPSE : LINE 156
+result = 83
+LAPSE : LINE 157
+result = 61
+LAPSE : LINE 158
+result = 85
+LAPSE : LINE 159
+result = 85
+LIMITLESS : LINE 160
+Tree: EMPTY
+KOKUSEN : LINE 161
+LIMITLESS : LINE 162
+Tree: EMPTY
+LIMITLESS : LINE 163
+Tree: EMPTY
+KOKUSEN : LINE 164
+LIMITLESS : LINE 165
+Tree: EMPTY
+LAPSE : LINE 166
+result = 11
+LAPSE : LINE 167
+result = 73
+LAPSE : LINE 168
+result = 79
+LAPSE : LINE 169
+result = 25
+LAPSE : LINE 170
+result = 49
+LAPSE : LINE 171
+result = 33
+LAPSE : LINE 172
+result = 55
+LIMITLESS : LINE 173
+Tree: EMPTY
+KOKUSEN : LINE 174
+LIMITLESS : LINE 175
+Tree: EMPTY
+LIMITLESS : LINE 176
+Tree: EMPTY
+KOKUSEN : LINE 177
+LIMITLESS : LINE 178
+Tree: EMPTY
+LIMITLESS : LINE 179
+Tree: EMPTY
+LAPSE : LINE 180
+result = 67
+LIMITLESS : LINE 181
+Tree: EMPTY
+KOKUSEN : LINE 182
+LIMITLESS : LINE 183
+Tree: EMPTY
+LAPSE : LINE 184
+result = 47
+LIMITLESS : LINE 185
+Tree: EMPTY
+KOKUSEN : LINE 186
+LIMITLESS : LINE 187
+Tree: EMPTY
+LAPSE : LINE 188
+result = 81
+LAPSE : LINE 189
+result = 3
+LAPSE : LINE 190
+result = 77
+LAPSE : LINE 191
+result = 77
+LAPSE : LINE 192
+result = 71
+LAPSE : LINE 193
+result = 81
+LAPSE : LINE 194
+result = 69
+LIMITLESS : LINE 195
+Tree: EMPTY
+KOKUSEN : LINE 196
+LIMITLESS : LINE 197
+Tree: EMPTY
+LAPSE : LINE 198
+result = 41
+LAPSE : LINE 199
+result = 31
+LAPSE : LINE 200
+result = 97
+LAPSE : LINE 201
+result = 79
+LAPSE : LINE 202
+result = 27
+LAPSE : LINE 203
+result = 37
+LAPSE : LINE 204
+result = 37
+LAPSE : LINE 205
+result = 65
+LAPSE : LINE 206
+result = 67
+LIMITLESS : LINE 207
+Tree: 27
+KOKUSEN : LINE 208
+LIMITLESS : LINE 209
+Tree: EMPTY
+LAPSE : LINE 210
+result = 37
+LIMITLESS : LINE 211
+Tree: EMPTY
+LAPSE : LINE 212
+result = 15
+LAPSE : LINE 213
+result = 21
+LAPSE : LINE 214
+result = 87
+LAPSE : LINE 215
+result = 75
+LAPSE : LINE 216
+result = 65
+LAPSE : LINE 217
+result = 33
+LAPSE : LINE 218
+result = 93
+LAPSE : LINE 219
+result = 33
+LAPSE : LINE 220
+result = 95
+LAPSE : LINE 221
+result = 49
+LAPSE : LINE 222
+result = 9
+LAPSE : LINE 223
+result = 35
+LAPSE : LINE 224
+result = 5
+LAPSE : LINE 225
+result = 59
+LAPSE : LINE 226
+result = 9
+LAPSE : LINE 227
+result = 43
+LAPSE : LINE 228
+result = 65
+LAPSE : LINE 229
+result = 53
+LIMITLESS : LINE 230
+Tree: 95
+KOKUSEN : LINE 231
+LIMITLESS : LINE 232
+Tree: EMPTY
+LAPSE : LINE 233
+result = 13
+LAPSE : LINE 234
+result = 13
+LAPSE : LINE 235
+result = 91
+LAPSE : LINE 236
+result = 3
+LAPSE : LINE 237
+result = 95
+LAPSE : LINE 238
+result = 29
+LAPSE : LINE 239
+result = 29
+LAPSE : LINE 240
+result = 25
+LAPSE : LINE 241
+result = 29
+LAPSE : LINE 242
+result = 89
+LAPSE : LINE 243
+result = 53
+LAPSE : LINE 244
+result = 5
+LAPSE : LINE 245
+result = 61
+LAPSE : LINE 246
+result = 37
+LAPSE : LINE 247
+result = 57
+LAPSE : LINE 248
+result = 93
+LAPSE : LINE 249
+result = 57
+LAPSE : LINE 250
+result = 61
+LIMITLESS : LINE 251
+Tree: EMPTY
+KOKUSEN : LINE 252
+LIMITLESS : LINE 253
+Tree: EMPTY
+LIMITLESS : LINE 254
+Tree: 93
+KOKUSEN : LINE 255
+LIMITLESS : LINE 256
+Tree: EMPTY
+LAPSE : LINE 257
+result = 37
+LIMITLESS : LINE 258
+Tree: EMPTY
+KOKUSEN : LINE 259
+LIMITLESS : LINE 260
+Tree: EMPTY
+LAPSE : LINE 261
+result = 23
+LAPSE : LINE 262
+result = 19
+LIMITLESS : LINE 263
+Tree: EMPTY
+LAPSE : LINE 264
+result = 17
+LAPSE : LINE 265
+result = 73
+LAPSE : LINE 266
+result = 91
+LIMITLESS : LINE 267
+Tree: 23
+KOKUSEN : LINE 268
+LIMITLESS : LINE 269
+Tree: EMPTY
+LAPSE : LINE 270
+result = 7
+LAPSE : LINE 271
+result = 75
+LAPSE : LINE 272
+result = 49
+LAPSE : LINE 273
+result = 15
+LAPSE : LINE 274
+result = 97
+LAPSE : LINE 275
+result = 23
+LAPSE : LINE 276
+result = 67
+LAPSE : LINE 277
+result = 61
+LAPSE : LINE 278
+result = 27
+LAPSE : LINE 279
+result = 31
+LIMITLESS : LINE 280
+Tree: 49(27,NULL)
+KOKUSEN : LINE 281
+LIMITLESS : LINE 282
+Tree: 27
+LAPSE : LINE 283
+result = 41
+LAPSE : LINE 284
+result = 1
+LAPSE : LINE 285
+result = 47
+LAPSE : LINE 286
+result = 13
+LAPSE : LINE 287
+result = 39
+LAPSE : LINE 288
+result = 31
+LAPSE : LINE 289
+result = 21
+LAPSE : LINE 290
+result = 9
+LIMITLESS : LINE 291
+Tree: 21
+KOKUSEN : LINE 292
+LIMITLESS : LINE 293
+Tree: EMPTY
+LAPSE : LINE 294
+result = 57
+LAPSE : LINE 295
+result = 19
+LAPSE : LINE 296
+result = 63
+LAPSE : LINE 297
+result = 5
+LAPSE : LINE 298
+result = 85
+LAPSE : LINE 299
+result = 75
+LAPSE : LINE 300
+result = 67
+LIMITLESS : LINE 301
+Tree: EMPTY
+KOKUSEN : LINE 302
+LIMITLESS : LINE 303
+Tree: EMPTY
+LAPSE : LINE 304
+result = 79
+LAPSE : LINE 305
+result = 87
+LAPSE : LINE 306
+result = 33
+LAPSE : LINE 307
+result = 71
+LAPSE : LINE 308
+result = 89
+LAPSE : LINE 309
+result = 9
+LAPSE : LINE 310
+result = 63
+LAPSE : LINE 311
+result = 5
+LAPSE : LINE 312
+result = 9
+LIMITLESS : LINE 313
+Tree: EMPTY
+KOKUSEN : LINE 314
+LIMITLESS : LINE 315
+Tree: EMPTY
+LAPSE : LINE 316
+result = 61
+LAPSE : LINE 317
+result = 1
+LAPSE : LINE 318
+result = 29
+LAPSE : LINE 319
+result = 69
+LAPSE : LINE 320
+result = 37
+LAPSE : LINE 321
+result = 47
+LAPSE : LINE 322
+result = 59
+LAPSE : LINE 323
+result = 5
+LAPSE : LINE 324
+result = 21
+LAPSE : LINE 325
+result = 91
+LAPSE : LINE 326
+result = 49
+LAPSE : LINE 327
+result = 77
+LAPSE : LINE 328
+result = 15
+LAPSE : LINE 329
+result = 83
+LAPSE : LINE 330
+result = 7
+LAPSE : LINE 331
+result = 81
+LAPSE : LINE 332
+result = 41
+LAPSE : LINE 333
+result = 83
+LAPSE : LINE 334
+result = 93
+LAPSE : LINE 335
+result = 93
+LAPSE : LINE 336
+result = 85
+LAPSE : LINE 337
+result = 65
+LIMITLESS : LINE 338
+Tree: 5(NULL,5(NULL,49(NULL,93(NULL,93))))
+LAPSE : LINE 339
+result = 21
+LIMITLESS : LINE 340
+Tree: EMPTY
+KOKUSEN : LINE 341
+LIMITLESS : LINE 342
+Tree: EMPTY
+LAPSE : LINE 343
+result = 33
+LIMITLESS : LINE 344
+Tree: 9
+KOKUSEN : LINE 345
+LIMITLESS : LINE 346
+Tree: EMPTY
+LAPSE : LINE 347
+result = 43
+LIMITLESS : LINE 348
+Tree: EMPTY
+KOKUSEN : LINE 349
+LIMITLESS : LINE 350
+Tree: EMPTY
+LIMITLESS : LINE 351
+Tree: EMPTY
+KOKUSEN : LINE 352
+LIMITLESS : LINE 353
+Tree: EMPTY
+LAPSE : LINE 354
+result = 13
+LAPSE : LINE 355
+result = 15
+LAPSE : LINE 356
+result = 91
+LAPSE : LINE 357
+result = 99
+LAPSE : LINE 358
+result = 15
+LAPSE : LINE 359
+result = 85
+LAPSE : LINE 360
+result = 61
+LAPSE : LINE 361
+result = 75
+LAPSE : LINE 362
+result = 99
+LAPSE : LINE 363
+result = 43
+LAPSE : LINE 364
+result = 17
+LAPSE : LINE 365
+result = 41
+LAPSE : LINE 366
+result = 37
+LIMITLESS : LINE 367
+Tree: EMPTY
+KOKUSEN : LINE 368
+LIMITLESS : LINE 369
+Tree: EMPTY
+LAPSE : LINE 370
+result = 79
+LAPSE : LINE 371
+result = 13
+LAPSE : LINE 372
+result = 13
+LIMITLESS : LINE 373
+Tree: EMPTY
+KOKUSEN : LINE 374
+LIMITLESS : LINE 375
+Tree: EMPTY
+LAPSE : LINE 376
+result = 43
+LAPSE : LINE 377
+result = 23
+LAPSE : LINE 378
+result = 23
+LAPSE : LINE 379
+result = 9
+LAPSE : LINE 380
+result = 35
+LAPSE : LINE 381
+result = 45
+LAPSE : LINE 382
+result = 47
+LAPSE : LINE 383
+result = 61
+LAPSE : LINE 384
+result = 43
+LAPSE : LINE 385
+result = 73
+LAPSE : LINE 386
+result = 95
+LAPSE : LINE 387
+result = 9
+LAPSE : LINE 388
+result = 1
+LAPSE : LINE 389
+result = 33
+LIMITLESS : LINE 390
+Tree: EMPTY
+KOKUSEN : LINE 391
+LIMITLESS : LINE 392
+Tree: EMPTY
+LIMITLESS : LINE 393
+Tree: EMPTY
+KOKUSEN : LINE 394
+LIMITLESS : LINE 395
+Tree: EMPTY
+LAPSE : LINE 396
+result = 45
+LAPSE : LINE 397
+result = 81
+LAPSE : LINE 398
+result = 37
+LAPSE : LINE 399
+result = 37
+LAPSE : LINE 400
+result = 45
+LAPSE : LINE 401
+result = 27
+LIMITLESS : LINE 402
+Tree: EMPTY
+KOKUSEN : LINE 403
+LIMITLESS : LINE 404
+Tree: EMPTY
+LAPSE : LINE 405
+result = 99
+LAPSE : LINE 406
+result = 11
+LAPSE : LINE 407
+result = 33
+LIMITLESS : LINE 408
+Tree: 99(11(NULL,33),NULL)
+KOKUSEN : LINE 409
+LIMITLESS : LINE 410
+Tree: 11(NULL,33)
+LAPSE : LINE 411
+result = 71
+LAPSE : LINE 412
+result = 45
+LAPSE : LINE 413
+result = 31
+LAPSE : LINE 414
+result = 17
+LAPSE : LINE 415
+result = 59
+LAPSE : LINE 416
+result = 1
+LAPSE : LINE 417
+result = 91
+LAPSE : LINE 418
+result = 79
+LAPSE : LINE 419
+result = 23
+LAPSE : LINE 420
+result = 49
+LAPSE : LINE 421
+result = 21
+LAPSE : LINE 422
+result = 59
+LAPSE : LINE 423
+result = 75
+LAPSE : LINE 424
+result = 67
+LAPSE : LINE 425
+result = 95
+LAPSE : LINE 426
+result = 25
+LAPSE : LINE 427
+result = 21
+LAPSE : LINE 428
+result = 23
+LAPSE : LINE 429
+result = 81
+LAPSE : LINE 430
+result = 47
+LAPSE : LINE 431
+result = 33
+LAPSE : LINE 432
+result = 73
+LAPSE : LINE 433
+result = 95
+LAPSE : LINE 434
+result = 93
+LAPSE : LINE 435
+result = 97
+LAPSE : LINE 436
+result = 79
+LAPSE : LINE 437
+result = 25
+LIMITLESS : LINE 438
+Tree: 17
+KOKUSEN : LINE 439
+LIMITLESS : LINE 440
+Tree: EMPTY
+LAPSE : LINE 441
+result = 55
+LAPSE : LINE 442
+result = 45
+LAPSE : LINE 443
+result = 55
+LAPSE : LINE 444
+result = 63
+LAPSE : LINE 445
+result = 73
+LAPSE : LINE 446
+result = 67
+LAPSE : LINE 447
+result = 37
+LAPSE : LINE 448
+result = 35
+LAPSE : LINE 449
+result = 37
+LIMITLESS : LINE 450
+Tree: 21
+LAPSE : LINE 451
+result = 5
+LIMITLESS : LINE 452
+Tree: 23(NULL,45(NULL,67))
+KOKUSEN : LINE 453
+LIMITLESS : LINE 454
+Tree: 45(NULL,67)
+LAPSE : LINE 455
+result = 29
+LAPSE : LINE 456
+result = 61
+LAPSE : LINE 457
+result = 17
+LAPSE : LINE 458
+result = 81
+LIMITLESS : LINE 459
+Tree: 61(17,NULL)
+KOKUSEN : LINE 460
+LIMITLESS : LINE 461
+Tree: 17
+LAPSE : LINE 462
+result = 87
+LAPSE : LINE 463
+result = 35
+LAPSE : LINE 464
+result = 41
+LAPSE : LINE 465
+result = 39
+LAPSE : LINE 466
+result = 91
+LAPSE : LINE 467
+result = 69
+LAPSE : LINE 468
+result = 97
+LAPSE : LINE 469
+result = 29
+LAPSE : LINE 470
+result = 1
+LAPSE : LINE 471
+result = 15
+LAPSE : LINE 472
+result = 27
+LAPSE : LINE 473
+result = 57
+LAPSE : LINE 474
+result = 43
+LAPSE : LINE 475
+result = 13
+LAPSE : LINE 476
+result = 57
+LAPSE : LINE 477
+result = 81
+LAPSE : LINE 478
+result = 91
+LAPSE : LINE 479
+result = 63
+LIMITLESS : LINE 480
+Tree: 27
+KOKUSEN : LINE 481
+LIMITLESS : LINE 482
+Tree: EMPTY
+LAPSE : LINE 483
+result = 69
+LAPSE : LINE 484
+result = 9
+LAPSE : LINE 485
+result = 93
+LAPSE : LINE 486
+result = 99
+LAPSE : LINE 487
+result = 27
+LAPSE : LINE 488
+result = 5
+LAPSE : LINE 489
+result = 87
+LIMITLESS : LINE 490
+Tree: 55(NULL,99)
+KOKUSEN : LINE 491
+LIMITLESS : LINE 492
+Tree: 99
+LAPSE : LINE 493
+result = 69
+LIMITLESS : LINE 494
+Tree: EMPTY
+KOKUSEN : LINE 495
+LIMITLESS : LINE 496
+Tree: EMPTY
+LAPSE : LINE 497
+result = 71
+LAPSE : LINE 498
+result = 1
+LAPSE : LINE 499
+result = 93
+LAPSE : LINE 500
+result = 77
+LIMITLESS : LINE 501
+Tree: EMPTY
+LAPSE : LINE 502
+result = 69
+LAPSE : LINE 503
+result = 9
+LAPSE : LINE 504
+result = 59
+LAPSE : LINE 505
+result = 7
+LIMITLESS : LINE 506
+Tree: 5(NULL,71(NULL,93))
+KOKUSEN : LINE 507
+LIMITLESS : LINE 508
+Tree: 71(NULL,93)
+LIMITLESS : LINE 509
+Tree: EMPTY
+KOKUSEN : LINE 510
+LIMITLESS : LINE 511
+Tree: EMPTY
+LAPSE : LINE 512
+result = 81
+LAPSE : LINE 513
+result = 57
+LAPSE : LINE 514
+result = 69
+LAPSE : LINE 515
+result = 31
+LAPSE : LINE 516
+result = 59
+LAPSE : LINE 517
+result = 3
+LAPSE : LINE 518
+result = 43
+LAPSE : LINE 519
+result = 81
+LAPSE : LINE 520
+result = 77
+LIMITLESS : LINE 521
+Tree: EMPTY
+KOKUSEN : LINE 522
+LIMITLESS : LINE 523
+Tree: EMPTY
+LAPSE : LINE 524
+result = 89
+LAPSE : LINE 525
+result = 15
+LAPSE : LINE 526
+result = 69
+LAPSE : LINE 527
+result = 97
+LAPSE : LINE 528
+result = 45
+LIMITLESS : LINE 529
+Tree: 97
+KOKUSEN : LINE 530
+LIMITLESS : LINE 531
+Tree: EMPTY
+LAPSE : LINE 532
+result = 75
+LAPSE : LINE 533
+result = 23
+LAPSE : LINE 534
+result = 67
+LIMITLESS : LINE 535
+Tree: EMPTY
+KOKUSEN : LINE 536
+LIMITLESS : LINE 537
+Tree: EMPTY
+LAPSE : LINE 538
+result = 81
+LAPSE : LINE 539
+result = 31
+LAPSE : LINE 540
+result = 77
+LAPSE : LINE 541
+result = 87
+LAPSE : LINE 542
+result = 33
+LIMITLESS : LINE 543
+Tree: EMPTY
+KOKUSEN : LINE 544
+LIMITLESS : LINE 545
+Tree: EMPTY
+LAPSE : LINE 546
+result = 57
+LAPSE : LINE 547
+result = 23
+LAPSE : LINE 548
+result = 27
+LAPSE : LINE 549
+result = 63
+LIMITLESS : LINE 550
+Tree: EMPTY
+KOKUSEN : LINE 551
+LIMITLESS : LINE 552
+Tree: EMPTY
+LAPSE : LINE 553
+result = 63
+LAPSE : LINE 554
+result = 13
+LAPSE : LINE 555
+result = 7
+LAPSE : LINE 556
+result = 85
+LIMITLESS : LINE 557
+Tree: EMPTY
+KOKUSEN : LINE 558
+LIMITLESS : LINE 559
+Tree: EMPTY
+LIMITLESS : LINE 560
+Tree: EMPTY
+LAPSE : LINE 561
+result = 7
+LAPSE : LINE 562
+result = 47
+LIMITLESS : LINE 563
+Tree: EMPTY
+KOKUSEN : LINE 564
+LIMITLESS : LINE 565
+Tree: EMPTY
+LIMITLESS : LINE 566
+Tree: EMPTY
+KOKUSEN : LINE 567
+LIMITLESS : LINE 568
+Tree: EMPTY
+LAPSE : LINE 569
+result = 95
+LAPSE : LINE 570
+result = 45
+LAPSE : LINE 571
+result = 89
+LAPSE : LINE 572
+result = 59
+LAPSE : LINE 573
+result = 9
+LAPSE : LINE 574
+result = 45
+LIMITLESS : LINE 575
+Tree: 59
+KOKUSEN : LINE 576
+LIMITLESS : LINE 577
+Tree: EMPTY
+LIMITLESS : LINE 578
+Tree: 89(45,NULL)
+KOKUSEN : LINE 579
+LIMITLESS : LINE 580
+Tree: 45
+LAPSE : LINE 581
+result = 31
+LIMITLESS : LINE 582
+Tree: 31
+LAPSE : LINE 583
+result = 49
+LIMITLESS : LINE 584
+Tree: EMPTY
+KOKUSEN : LINE 585
+LIMITLESS : LINE 586
+Tree: EMPTY
+LAPSE : LINE 587
+result = 3
+LAPSE : LINE 588
+result = 17
+LIMITLESS : LINE 589
+Tree: EMPTY
+KOKUSEN : LINE 590
+LIMITLESS : LINE 591
+Tree: EMPTY
+LAPSE : LINE 592
+result = 79
+LAPSE : LINE 593
+result = 43
+LAPSE : LINE 594
+result = 53
+LIMITLESS : LINE 595
+Tree: EMPTY
+KOKUSEN : LINE 596
+LIMITLESS : LINE 597
+Tree: EMPTY
+LAPSE : LINE 598
+result = 13
+LAPSE : LINE 599
+result = 69
+LAPSE : LINE 600
+result = 49
+LAPSE : LINE 601
+result = 87
+LAPSE : LINE 602
+result = 97
+LAPSE : LINE 603
+result = 73
+LAPSE : LINE 604
+result = 89
+LAPSE : LINE 605
+result = 13
+LIMITLESS : LINE 606
+Tree: 73
+KOKUSEN : LINE 607
+LIMITLESS : LINE 608
+Tree: EMPTY
+LAPSE : LINE 609
+result = 11
+LAPSE : LINE 610
+result = 79
+LIMITLESS : LINE 611
+Tree: EMPTY
+LIMITLESS : LINE 612
+Tree: EMPTY
+LAPSE : LINE 613
+result = 69
+LAPSE : LINE 614
+result = 37
+LAPSE : LINE 615
+result = 29
+LAPSE : LINE 616
+result = 41
+LAPSE : LINE 617
+result = 47
+LIMITLESS : LINE 618
+Tree: EMPTY
+KOKUSEN : LINE 619
+LIMITLESS : LINE 620
+Tree: EMPTY
+LAPSE : LINE 621
+result = 51
+LIMITLESS : LINE 622
+Tree: 51
+KOKUSEN : LINE 623
+LIMITLESS : LINE 624
+Tree: EMPTY
+LAPSE : LINE 625
+result = 69
+LAPSE : LINE 626
+result = 53
+LAPSE : LINE 627
+result = 31
+LAPSE : LINE 628
+result = 55
+LAPSE : LINE 629
+result = 41
+LAPSE : LINE 630
+result = 35
+LAPSE : LINE 631
+result = 87
+LAPSE : LINE 632
+result = 37
+LAPSE : LINE 633
+result = 93
+LAPSE : LINE 634
+result = 97
+LAPSE : LINE 635
+result = 87
+LAPSE : LINE 636
+result = 85
+LAPSE : LINE 637
+result = 65
+LAPSE : LINE 638
+result = 95
+LAPSE : LINE 639
+result = 83
+LAPSE : LINE 640
+result = 67
+LAPSE : LINE 641
+result = 61
+LAPSE : LINE 642
+result = 27
+LIMITLESS : LINE 643
+Tree: 55
+LIMITLESS : LINE 644
+Tree: 67
+LIMITLESS : LINE 645
+Tree: 35
+LIMITLESS : LINE 646
+Tree: 69
+LIMITLESS : LINE 647
+Tree: 37
+LIMITLESS : LINE 648
+Tree: 93(27,NULL)
+LIMITLESS : LINE 649
+Tree: 83(61,NULL)
+LIMITLESS : LINE 650
+Tree: 95
+LIMITLESS : LINE 651
+Tree: 41(NULL,85)
+LIMITLESS : LINE 652
+Tree: 53(31,97)
+LIMITLESS : LINE 653
+Tree: 87(65,87)
+KOKUSEN : LINE 654
+LIMITLESS : LINE 655
+Tree: EMPTY
+LIMITLESS : LINE 656
+Tree: EMPTY
+LIMITLESS : LINE 657
+Tree: EMPTY
+LIMITLESS : LINE 658
+Tree: EMPTY
+LIMITLESS : LINE 659
+Tree: EMPTY
+LIMITLESS : LINE 660
+Tree: 27
+LIMITLESS : LINE 661
+Tree: 61
+LIMITLESS : LINE 662
+Tree: EMPTY
+LIMITLESS : LINE 663
+Tree: 85
+LIMITLESS : LINE 664
+Tree: 97
+LIMITLESS : LINE 665
+Tree: 65
