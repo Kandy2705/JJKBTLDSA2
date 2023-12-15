@@ -2,12 +2,12 @@
 
 int MAXSIZE = 0;
 
-class JJK_RESTAURANT_OPERATIONS;
+class thucthi;
 class nhahangGojo;
 class nhahangSukuna;
-class HuffTree;
+class HuffTree_AVL;
 
-
+//* nhà hàng của sư phụ GOJO
 class nhahangGojo{
 public:
     class Tree_BST;
@@ -21,18 +21,15 @@ public:
         ID = result % MAXSIZE + 1;
         khu_vuc[ID].insert(result);
     }
-
     void KOKUSEN()
     {
-        for(int i = 1; i < MAXSIZE + 1; i++) {
-            khu_vuc[i].remove();
-        }
+        for(int i = 1; i < MAXSIZE + 1; i++) khu_vuc[i].remove();
     }
 
-    void print_LIMITLESS(int number)
+    void print_LIMITLESS(int canxoa)
     {
-        if(number <= 0 || number > MAXSIZE) return;
-        khu_vuc[number].print();
+        if(canxoa <= 0 || canxoa > MAXSIZE) return;
+        khu_vuc[canxoa].print();
     }
 public:
     class Tree_BST{
@@ -42,8 +39,13 @@ public:
         queue<int> ttvaokhuvuc;
         int a[1005][1005];
     public:
-        Tree_BST():vaodaukhuvuc(nullptr){
-
+        Tree_BST():vaodaukhuvuc(nullptr){}
+        ~Tree_BST(){
+            while(!ttvaokhuvuc.empty()){
+                int temp = ttvaokhuvuc.front();
+                ttvaokhuvuc.pop();
+                vaodaukhuvuc = xoa(vaodaukhuvuc,temp);
+            }
         }
         int size(){
             return ttvaokhuvuc.size();
@@ -57,7 +59,7 @@ public:
         {
             if (node == NULL){
                 ttvaokhuvuc.push(result);
-                COUNTDELETE--;
+                  
                 return new Node(result);
             }
             if (result < node -> result) {
@@ -71,8 +73,8 @@ public:
             return;
         }
         //////////////////////////////////////////////////////////////////////////
-        Node* min(Node*root){
-            Node* temp = root;
+        Node* min(Node*vaodaukhuvuc){
+            Node* temp = vaodaukhuvuc;
             while(temp && temp->left != NULL){
                 temp = temp->left;
             }
@@ -81,7 +83,6 @@ public:
         /////////////////////////////////////////////////////////////////////////
         Node* xoa(Node* root,int result)
         {
-
             if (root == NULL) return root;
             if (result < root -> result){
                 root -> left = xoa(root -> left, result);
@@ -92,19 +93,19 @@ public:
             else{
                 if (root-> left == NULL && root-> right == NULL){
                     delete root;
-                    COUNTDELETE++;
+                      
                     return NULL;
                 }
                 else if (root-> left == NULL){
                     Node* temp = root-> right;
                     delete root;
-                    COUNTDELETE++;
+                      
                     return temp;
                 }
                 else if (root-> right == NULL){
                     Node* temp = root-> left;
                     delete root;
-                    COUNTDELETE++;
+                      
                     return temp;
                 }
                 Node* temp = min(root-> right);
@@ -125,60 +126,36 @@ public:
             }
         }
 
-        unsigned long long DFS(Node* node)
+        unsigned long long sohoanvi(Node* node)
         {
             if (node == NULL) return 1;
             if (sokhachkv(node) <= 2) return 1;
             mangchinhhop();
-            return ((a[sokhachkv(node) - 1][sokhachkv(node -> left)] % MAXSIZE) * (DFS(node -> right) % MAXSIZE)*(DFS(node -> left) % MAXSIZE)) % MAXSIZE;
+            return ((a[sokhachkv(node) - 1][sokhachkv(node -> left)] % MAXSIZE) * (sohoanvi(node -> right) % MAXSIZE)*(sohoanvi(node -> left) % MAXSIZE)) % MAXSIZE;
         }
-
         void remove(){
-            if(this->size() == 0) return;
-            unsigned long long canxoa = DFS(vaodaukhuvuc) % MAXSIZE;
+            if(ttvaokhuvuc.empty()) return;
+            unsigned long long canxoa = sohoanvi(vaodaukhuvuc) % MAXSIZE;
+
+            number_KOKUSEN.push_back(canxoa);
+
             while(canxoa != 0 && !ttvaokhuvuc.empty())
             {
                 int temp = ttvaokhuvuc.front();
                 ttvaokhuvuc.pop();
                 vaodaukhuvuc = xoa(vaodaukhuvuc ,temp);
-                canxoa--;
+                canxoa --;
             }
         }
-
-        //^ test case thôi nộp bài thì xóa đi nha --------------------------------------------------------------------
-        string test_print_recursive(Node* node)
-        {
-            if(node == nullptr) return "NULL"; //! trường hợp dừng print
-            if(node->left == nullptr && node->right == nullptr) return to_string(node->result); //! tr
-            return to_string(node->result)+"("+test_print_recursive(node->left) +","+test_print_recursive(node->right)+")";
-        }
-        void test_print(){
-            //! trường hợp rỗng bỏ qua
-            if(this->size() == 0){
-                solution << "Tree: EMPTY\n";
-                return;
-            }
-            solution << "Tree: " << test_print_recursive(vaodaukhuvuc);
-            solution << "\n";
-        }
-        //^ ----------------------------------------------------------------------------------------------------------
-
         void print_recursive(Node* node)
         {
             if(node != NULL){
-                solution << node->result << "\n";
                 print_recursive(node->left);
+                solution << node->result << "\n";
                 print_recursive(node->right);
             }
         }
-        void print()
-        {
-            //^ test case thôi nộp bài thì xóa đi nha --------------------------------------------------------------------
-            test_print();
-            //^ ----------------------------------------------------------------------------------------------------------
-            //print_recursive(root);
-        }
-
+        void print(){print_recursive(vaodaukhuvuc);}
     private:
         class Node{
         private:
@@ -189,8 +166,14 @@ public:
         public:
             Node(int result) : result(result), left(NULL), right(NULL) {}
         };
+    public:
+
     };
 };
+//////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////
+//* nhà hàng sư phụ Sukuna
+
 
 class nhahangSukuna{
     class Node;
@@ -250,19 +233,19 @@ private:
         LRU.push_front(node);
     }
 
-    void removeNode(Node* node)
+    void xoanode(Node* node)
     {
         LRU.remove(node);
     }
 public:
     nhahangSukuna(){}
     ~nhahangSukuna(){
-        for(int i = 0; i < luutrukhuvuc.size(); i++)
-        {
+        for(int i = 0; i < luutrukhuvuc.size(); i++){
             delete luutrukhuvuc[i];
-            COUNTDELETE++;
+                
         }
     }
+
     void tinhID(int result)
     {
         int ID = result % MAXSIZE + 1;
@@ -275,8 +258,8 @@ public:
         }
 
         if(index == -1){
-            COUNTDELETE--;
             luutrukhuvuc.push_back(new Node(ID));
+              
             index = luutrukhuvuc.size() - 1;
             luutrukhuvuc[index]->insert(result);
             this->moveTop(luutrukhuvuc[index]);
@@ -289,121 +272,97 @@ public:
             this->ReHeap_down(index);
         }
     }
-    void remove_KEITEIKEN(int number)
+    void remove_KEITEIKEN(int canxoa)
     {
         if(luutrukhuvuc.size() <= 0) return;
-
-        //* TẠO ra heap mới sao chép từ heap cũ
-        vector<Node* > khu_vucNew(luutrukhuvuc.begin(), luutrukhuvuc.end());
-        queue<Node* > listDelete; //! danh sách các khu cấn xóa
-        int dodai = luutrukhuvuc.size();
-        for(int i = 0; i < min(dodai, number); i++){
-            //* lấy ra phần tử đầu tiên trong heap
+        
+        vector<Node* > newkv(luutrukhuvuc.begin(), luutrukhuvuc.end());
+        queue<Node* > listDelete;
+        for(int i = 0;  luutrukhuvuc.size() && i < canxoa; i++)
+        {
             Node* nodeDelete = luutrukhuvuc[0];
             swap(luutrukhuvuc[0], luutrukhuvuc[luutrukhuvuc.size() - 1]);
-            // để nó bị mất cân bằng
             luutrukhuvuc.pop_back();
             this->ReHeap_down(0);
-
-            //* đưa vào danh sách cần xóa
+            
             listDelete.push(nodeDelete);
         }
-
-        //* trả lại heap
-        luutrukhuvuc = khu_vucNew;
-
-        //* đuổi num khách hàng tại num khu vực
+        
+        luutrukhuvuc = newkv;
+        
         while(listDelete.size()){
-            //* lấy ra khu đang ở đầu đầu heap xóa number khách hàng đầu linklist
             Node* nodeDelete = listDelete.front();
             listDelete.pop();
-
-            solution << "remove customers in the area ID = " << nodeDelete->ID <<"(len=" <<nodeDelete->head.size()<< ")" << ": ";
-            nodeDelete->remove(number);
-            solution << "\n";
-
-            //* tìm vị trí của nó trong heap
+            nodeDelete->remove(canxoa);
+            
             int index = 0;
-            while(luutrukhuvuc[index] !=  nodeDelete) index++;
-
-            //* trường hợp xóa hết thì xóa nó trong heap sau đó reheap down khu xuống vì đang ở đầu hàng
+            while(luutrukhuvuc[index] !=  nodeDelete) {
+                index++;
+            }
             if(nodeDelete->size() == 0)
             {
                 swap(luutrukhuvuc[index], luutrukhuvuc[luutrukhuvuc.size() - 1]);
-                //! xóa nó khỏi danh sách liên kết
-                this->removeNode(luutrukhuvuc[luutrukhuvuc.size() - 1]);
+                this -> xoanode(luutrukhuvuc[luutrukhuvuc.size() - 1]);
                 delete luutrukhuvuc[luutrukhuvuc.size() - 1];
-                COUNTDELETE++;
-                //! xóa trong heap nữa
                 luutrukhuvuc.pop_back();
             }
-            this->ReHeap_down(index);
+            this -> ReHeap_down(index);
         }
     }
 
-    void print_pre_order(int index, int number)
+    void print_pre_order(int index, int canxoa)
     {
-        if(index >= this->luutrukhuvuc.size()) return;
-
-        this->luutrukhuvuc[index]->print(number);
-        print_pre_order(index * 2 + 1, number);
-        print_pre_order(index * 2 + 2, number);
+        if((index >= this->luutrukhuvuc.size()) || (canxoa <= 0)) {
+            return;
+        }
+        this->luutrukhuvuc[index]->print(canxoa);
+        print_pre_order(index * 2 + 1, canxoa);
+        print_pre_order(index * 2 + 2, canxoa);
     }
-    void print_LIMITLESS(int number)
+    void print_LIMITLESS(int canxoa)
     {
-        if(number <= 0) return;
-
-
-        solution << "Heap : ";
-        for(auto it : this->luutrukhuvuc) solution << it->ID  << " ";
-        solution << "\n";
-
-        solution << "list LRU : ";
-        for(auto it : LRU) solution << it->ID << " ";
-        solution << "\n";
-
-
-        print_pre_order(0, number);
+        print_pre_order(0, canxoa);
     }
-//^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 private:
     class Node{
     private:
-        int ID;					//! ID của bàn đó
-        list<int> head; 		//! lưu danh sách các result của khách hàng
+        int ID;
+        list<int> head;
         friend class nhahangSukuna;
     public:
         Node(int ID) : ID(ID) {}
         int size() const { return head.size(); }
         void insert(int result){head.push_front(result);}
-        void remove(int number)
+        void remove(int canxoa)
         {
-            for(int i = 0; i < number && !head.empty(); ++i){
-                solution << head.back() << " ";
-                head.pop_back();
-            }
-        }
-        void print(int number)
-        {
-            solution << "customers in the area ID = " << ID << "(len=" << head.size() <<")" << ": ";
-            for(list<int>::iterator it = head.begin(); number > 0 && it != head.end(); ++it, --number)
+            while(canxoa != 0 && !head.empty())
             {
-                solution << *it << " ";
+                solution << head.back() << "-" <<ID << "\n";
+                head.pop_back();
+                canxoa--;
             }
-            solution << "\n";
         }
-
+        void print(int canxoa)
+        {
+            for(list<int>::iterator it = head.begin(); canxoa > 0 && it != head.end(); ++it, --canxoa)
+            {
+                solution << ID << "-" << *it  << "\n";
+            }
+        }
     };
 };
+//////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////
 
-
-
-class HuffTree{
+// Xây dựng cây HUFF
+class HuffTree_AVL{
     class Node;
 private:
-    Node* root = nullptr;
+    Node* vaodaukhuvuc = nullptr;
 public:
-    ~HuffTree(){clear(root);}
+    ~HuffTree_AVL(){
+        clear(vaodaukhuvuc);
+    }
     void clear(Node* node)
     {
         if(node)
@@ -411,9 +370,10 @@ public:
             clear(node->left);
             clear(node->right);
             delete node;
-            COUNTDELETE++;
+              
         }
     }
+
     static bool kieuchu(int i){
         if (i >= 65 && i <= 90){
             return true;
@@ -431,7 +391,7 @@ public:
             return kieuchu(static_cast<int>(a.first)) == true ? true : false;
         }
     }
-    vector<pair<char, int>> string_Processing(string& name)
+    vector<pair<char, int>> xulychuoi(string& name)
     {
         int tmp[123] = {0};
         vector<pair<char, int>>ketqua;
@@ -444,6 +404,7 @@ public:
                 ketqua.emplace_back(static_cast<char>(i),tmp[i]);
             }
         }
+        if(ketqua.size() < 3) return {};
         vector<pair<char, int>>temp = ketqua;
         for(int i = 0; i < ketqua.size(); i++){
             for(int j = ketqua[i].second; j > 0 ; j--){
@@ -484,6 +445,7 @@ public:
         }
         return freq;
     }
+
     int height(Node *node)
     {
         if (node == NULL)
@@ -571,8 +533,8 @@ public:
     {
         vector<Node*> build;
         for(int i = 0; i < freq.size(); i++){
+            
             build.emplace_back(new Node(freq[i].second,freq[i].first));
-            COUNTDELETE--;
         }
 
         while(build.size() > 1)
@@ -583,7 +545,7 @@ public:
             Node*nhoII = build.back();
             build.pop_back();
             Node*newNode = new Node(nhoI->weight + nhoII->weight,'\0',nhoI,nhoII);
-            COUNTDELETE--;
+              
 //        Node* newNode = nullptr;
             newNode = balanceTree(newNode,count);
             count = 0;
@@ -614,21 +576,21 @@ public:
 
         return build[0];
     }
-    void encodingHuffman_rec(vector<string>& encoding, Node* node, string s = "")
+    void mahoa_rec(vector<string>& encoding, Node* node, string s = "")
     {
         if (node == NULL) return;
         if (node -> left == NULL && node -> right == NULL) {
             encoding[node -> c] = s;
         }
-        encodingHuffman_rec(encoding,node -> left, s + '0');
-        encodingHuffman_rec(encoding,node -> right, s + '1');
+        mahoa_rec(encoding,node -> left, s + '0');
+        mahoa_rec(encoding,node -> right, s + '1');
     }
-    int encodingHuffman(Node * root,string nameCaesar)
+    int mahoa(Node * root,string nameCaesar)
     {
         if(root->left == nullptr && root->right == nullptr) return 0;
 
         vector<string> encoding(256, "");
-        encodingHuffman_rec(encoding, root);
+        mahoa_rec(encoding, root);
 
         string binary = "";
         for(int i = nameCaesar.length() - 1; i >= 0; i--){
@@ -649,48 +611,24 @@ public:
         return result;
     }
 
-
     int encode(string name){
-        if(name.length() < 3) return -1;
-
-        vector<pair<char, int>> freq  = this->string_Processing(name);
-        solution << "freq     : {";
-
-        for (int i = 0; i <freq.size();i++){
-            if(i == freq.size() - 1)  solution << "{" <<"'"<< freq[i].first <<"'" << "," << freq[i].second << "}";
-            else  solution << "{" <<"'"<< freq[i].first <<"'" << "," << freq[i].second << "},";
-        }
-        solution << "}"<<endl;
-
-        this->clear(root);
-        root = this->buildHuff(freq);
-
-        if(root->left == nullptr && root->right == nullptr) return 0;
-
-        int result = this->encodingHuffman(root ,name);
-
-        return result;
+        vector<pair<char, int>> freq  = this->xulychuoi(name);
+        if(freq.size() == 0) return -1;
+        this->clear(vaodaukhuvuc);
+        vaodaukhuvuc = this->buildHuff(freq);
+        if(vaodaukhuvuc->left == nullptr && vaodaukhuvuc->right == nullptr) return 0;
+        return this->mahoa(vaodaukhuvuc ,name);
     }
 
-    void rec_print(const Node* tree) {
-        if (tree == nullptr) {
-            return;
-        }
-        if(tree->c) solution << "[" << tree->weight << "," << tree->c << "]";
-        else solution << "[" << tree->weight << "]";
-
-        if (tree->left != nullptr || tree->right != nullptr) {
-            solution << "(";
-            rec_print(tree->left);
-            solution << ",";
-            rec_print(tree->right);
-            solution << ")";
-        }
+    void print_recursive(Node* node){
+        if(node == nullptr) return;
+        print_recursive(node->left);
+        if(node->c == '\0') solution << node->weight << "\n";
+        else solution << node->c << "\n";
+        print_recursive(node->right);
     }
-
-    void print()
-    {
-        solution << "root : ";rec_print(root);solution << '\n';
+    void print_HAND(){
+        print_recursive(vaodaukhuvuc);
     }
 
 private:
@@ -700,7 +638,7 @@ private:
         char c;
         Node* left;
         Node* right;
-        friend class HuffTree;
+        friend class HuffTree_AVL;
     public:
         Node(int weight, char c = '\0',Node* left = nullptr, Node* right = nullptr ):  weight(weight), c(c), left(left), right(right) {}
     };
@@ -708,10 +646,10 @@ private:
 
 
 
-class JJK_RESTAURANT_OPERATIONS
+class thucthi
 {
 private:
-    HuffTree New_customers_arrive;
+    HuffTree_AVL khachhangmoi;
     nhahangGojo hash;
     nhahangSukuna heap;
 
@@ -719,116 +657,93 @@ public:
 
     void LAPSE(string name)
     {
-        //^ test case thôi nộp bài thì xóa đi nha --------------------------------------------------------------------
-        if(name[0] >= '0' && name[0] <= '9')
+
+        if(name[0] >= '0' && name[0] <= '9') //! BỎ lúc nộp
         {
             int result = stoi(name);
-            solution << "result = " << result << endl;
             if(result % 2 == 1) hash.tinhID(result);
             else heap.tinhID(result);
             return;
         }
-        //^ ----------------------------------------------------------------------------------------------------------
 
-        //* mã hóa HuffTree kết quả là 10 kí tự nhị phân cuối chuyển sang thập phân
-        int result = New_customers_arrive.encode(name);
+        int result = khachhangmoi.encode(name);
         if(result == -1) return;
 
-        //^ test case thôi nộp bài thì xóa đi nha --------------------------------------------------------------------
-        solution << "result = " << result << endl;
-        New_customers_arrive.print();
-        //^ ----------------------------------------------------------------------------------------------------------
-
-        //* phân chia nhà hàng 
         if(result % 2 == 1) hash.tinhID(result);
         else heap.tinhID(result);
     }
 
-    //* xử lí nhà hàng gojo
-    void KOKUSEN(){hash.KOKUSEN();}
-    void LIMITLESS(int num){hash.print_LIMITLESS(num);}
+    //của nhà hàng gojo
+    void KOKUSEN(){
+        hash.KOKUSEN();
+    }
+    void LIMITLESS(int num){
+        hash.print_LIMITLESS(num);
+    }
 
-    //* xử lí nhà hàng Sukuna
-    void KEITEIKEN(int num){heap.remove_KEITEIKEN(num);}
-    void CLEAVE(int num){heap.print_LIMITLESS(num);}
+    //của nhà hàng sukuna
+    void KEITEIKEN(int num){
+        heap.remove_KEITEIKEN(num);
+    }
+    void CLEAVE(int num){
+        heap.print_LIMITLESS(num);
+    }
 
-    //* in ra HuffTree
-    void HAND(){New_customers_arrive.print();}
+    //in cây huff
+    void HAND(){
+        khachhangmoi.print_HAND();
+    }
 };
 
 
 
 void simulate(string filename)
 {
-    solution.flush();
-    //* nhập file
     ifstream ss(filename);
-    if (ss.fail())
-    {
-        cout << "ERROR: " << filename << endl;
-        return;
-    }
-
-
     string str, name;
     int num;
-    ss >> str; ss >> MAXSIZE; //* nhập maxsize đầu tiên
-    JJK_RESTAURANT_OPERATIONS* NOT_LIKE_CODE = new JJK_RESTAURANT_OPERATIONS();
-    COUNTDELETE--;
-    // //* xử lí file
-    int line = 0;
-    solution << "MAXSIZE : " << MAXSIZE << "\n";
+
+    ss >> str; ss >> MAXSIZE;
+
+    thucthi* divaoham = new thucthi();
+
     while (ss >> str)
     {
-        //^ test case thôi nộp bài thì xóa đi nha --------------------------------------------------------------------
-        line ++;
-        if(str == "LAPSE") solution << "LAPSE : LINE " << line << "\n";
-        else if(str == "KEITEIKEN") solution << "KEITEIKEN : LINE " << line << "\n";
-        else if(str == "HAND") solution << "HAND : LINE " << line << "\n";
-        else if(str == "LIMITLESS") {
-            if (line == 9){
-                cout<<"";
-            }
-            solution << "LIMITLESS : LINE " << line << "\n";
-        }
-        else if(str == "CLEAVE") solution << "CLEAVE : LINE " << line << "\n";
-        else if(str == "KOKUSEN") {
-            if (line == 344){
-                cout<<"";
-            }
-            solution << "KOKUSEN : LINE " << line << "\n";
-        }
-        //^ ----------------------------------------------------------------------------------------------------------
-
-        if (str == "LAPSE") // LAPSE <NAME>
+        // LAPSE <NAME>
+        if (str == "LAPSE")
         {
             ss >> name;
-            NOT_LIKE_CODE->LAPSE(name);
+            divaoham->LAPSE(name);
         }
-        else if (str == "KOKUSEN") // KOKUSEN
+        // KOKUSEN
+        else if (str == "KOKUSEN")
         {
-            NOT_LIKE_CODE->KOKUSEN();
+            divaoham->KOKUSEN();
         }
-        else if (str == "KEITEIKEN") // KEITEIKEN <NUM>
-        {
-            ss >> num;
-            NOT_LIKE_CODE->KEITEIKEN(num);
-        }
-        else if (str == "HAND") // HAND
-        {
-            NOT_LIKE_CODE->HAND();
-        }
-        else if (str == "LIMITLESS") // LIMITLESS <NUM>
+        // KEITEIKEN <NUM>
+        else if (str == "KEITEIKEN")
         {
             ss >> num;
-            NOT_LIKE_CODE->LIMITLESS(num);
+            divaoham->KEITEIKEN(num);
         }
-        else if (str == "CLEAVE") // CLEAVE <NUM>
+         // HAND
+        else if (str == "HAND")
+        {
+            divaoham->HAND();
+        }
+        // LIMITLESS <NUM>
+        else if (str == "LIMITLESS")
         {
             ss >> num;
-            NOT_LIKE_CODE->CLEAVE(num);
+            divaoham->LIMITLESS(num);
+        }
+        // CLEAVE <NUM>
+        else if (str == "CLEAVE")
+        {
+            ss >> num;
+            divaoham->CLEAVE(num);
         }
     }
-    delete NOT_LIKE_CODE;
-    COUNTDELETE++;
+    
+    delete divaoham;
 }

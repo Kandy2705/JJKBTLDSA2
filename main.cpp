@@ -9,8 +9,8 @@ TODO Võ Tiến ..............
 #include "main.h"
 #include "restaurant.cpp"
 
-    const int startProgam = 1501;
-    const int endProgam = 1501;
+const int startProgam = 500;
+const int endProgam = 3000;
 
 void copyFile(const std::string& sourcePath, const std::string& destinationPath) {
     std::ifstream sourceFile(sourcePath, std::ios::binary);
@@ -179,15 +179,14 @@ int main(int argc, char *argv[])
     }
 
 
-    if (COUNTDELETE == 0)
-    {
-        cout << "\nOK: NO leak mermory \n"
-             << endl;
-    }
-    else if (COUNTDELETE)
-    {
-        cout << "\nOK: leak mermory Please fix the bug\n";
-        cout << COUNTDELETE
-             << endl;
-    }
+     if (COUNTDELETE == 0)
+     {
+     	cout << "\nOK: NO leak mermory \n"
+     		 << endl;
+     }
+     else if (COUNTDELETE)
+     {
+     	cout << "\nOK: leak mermory Please fix the bug\n"
+     		 << endl;
+     }
 }
